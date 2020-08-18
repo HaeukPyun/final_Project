@@ -2,43 +2,31 @@
 <%@ page session="false"%>
 <html>
 <style>
-* {
-	text-align: center;
-}
+	* {
+		text-align: center;
+	}
 
-#navi-bar, #title, #sing {
-	float: left;
-}
+	#nav,
+	#title {
+		float: left;
+	}
 </style>
 
 <head>
-<title>capmper</title>
+	<title>capmper</title>
 </head>
 
-<section id=welcome_Header>
-	<header>
-		<div>
-			<h1>Hello world!</h1>
-			<ul>
-				<li id="title">web title</li>
-				<li id="navi-bar">navigation bar</li>
-				<li id="sing">Sing in</li>
-			</ul>
-		</div>
-	</header>
-	<div>
-		<body>
+<section>
 
-			<div>소개(배경)-대표 이미지</div>
-			<div>소개-홈페이지</div>
-			<div>소개-이미지</div>
-			<div>안내-인사글</div>
-			<div>안내-이미지</div>
-			<div>안내-Q&A</div>
-			<div>안내-위치</div>
+	<body>
+		<h1>Hello world!</h1>
 
-		</body>
-	</div>
+		<ul>
+			<li id="title">web title</li>
+			<nav id="navi-bar">navigation bar</nav>
+		</ul>
+
+	</body>
 </section>
 
 </html>
