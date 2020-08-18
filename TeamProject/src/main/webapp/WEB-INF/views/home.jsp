@@ -1,44 +1,45 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="false"%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
+	language="java"%>
 <html>
 <style>
-* {
+#t, #n, #s {
 	text-align: center;
 }
-
-#navi-bar, #title, #sing {
-	float: left;
+div{
+	display: inline-block;
+}
+footer, body>p {
+	text-align: center;
 }
 </style>
-
 <head>
-<title>capmper</title>
+<title>CAMPER</title>
+<body>
+<div id="tb">title banner</div>
+<div id="nb">navigation bar</div>
+<div id="si">sing in</div>
+	
+</body>
+
 </head>
 
-<section id=welcome_Header>
-	<header>
-		<div>
-			<h1>Hello world!</h1>
-			<ul>
-				<li id="title">web title</li>
-				<li id="navi-bar">navigation bar</li>
-				<li id="sing">Sing in</li>
-			</ul>
-		</div>
-	</header>
-	<div>
-		<body>
+<body>
+	<p>대표 이미지</p>
 
-			<div>소개(배경)-대표 이미지</div>
-			<div>소개-홈페이지</div>
-			<div>소개-이미지</div>
-			<div>안내-인사글</div>
-			<div>안내-이미지</div>
-			<div>안내-Q&A</div>
-			<div>안내-위치</div>
+	<p>소개>홈페이지</p>
 
-		</body>
-	</div>
-</section>
+	<p>소개>이미지</p>
 
+	<p>안내>인사말</p>
+
+	<p>안내>이미지</p>
+
+	<p>안내>QnA</p>
+</body>
+<footer>
+	<p>안내-위치</p>
+</footer>
+</body>
 </html>
