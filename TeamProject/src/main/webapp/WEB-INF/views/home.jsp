@@ -2,18 +2,17 @@
 <%@ page session="false"%>
 <html>
 <style>
-	* {
-		text-align: center;
-	}
+* {
+	text-align: center;
+}
 
-	#nav,
-	#title {
-		float: left;
-	}
+#nav, #title {
+	float: left;
+}
 </style>
 
 <head>
-	<title>capmper</title>
+<title>capmper</title>
 </head>
 
 <section>
