@@ -13,7 +13,7 @@
 </style>
 
 <head>
-	<title>capmper</title>
+	<title>CAMPER</title>
 </head>
 
 <section>
