@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Info.page2</title>
 <style>
 #t1 {
 	width: 700px;
