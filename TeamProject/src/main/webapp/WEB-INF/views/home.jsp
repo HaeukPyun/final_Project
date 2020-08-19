@@ -12,7 +12,7 @@
 </style>
 
 <head>
-<title>capmper</title>
+<title>camper</title>
 </head>
 
 <section>

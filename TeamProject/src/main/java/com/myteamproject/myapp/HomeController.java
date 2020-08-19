@@ -4,6 +4,8 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.security.auth.message.callback.PrivateKeyCallback.Request;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -34,6 +36,36 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate);
 
 		return "home";
+	}
+	
+	@RequestMapping(value = "/page7", method = RequestMethod.GET)
+	public String page7(Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+
+		String formattedDate = dateFormat.format(date);
+
+		model.addAttribute("serverTime", formattedDate);
+
+		return "page7";
+	}
+	
+	@RequestMapping(value = "/view", method = RequestMethod.POST)
+	public String view(Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+
+		
+		
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+
+		String formattedDate = dateFormat.format(date);
+
+		model.addAttribute("serverTime", formattedDate);
+
+		return "page7";
 	}
 
 }
