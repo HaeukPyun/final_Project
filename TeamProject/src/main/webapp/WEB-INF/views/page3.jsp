@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,16 +20,16 @@ b {
 </style>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script>
-    	$(function() {
-			$('header>nav').load("nav.html");
-		})
-    </script>
+	$(function() {
+		$('header>nav').load("nav.html");
+	})
+</script>
 </head>
 <body>
 	<div id=page3>
 		<header>
 			<h1 align="center">Camper</h1>
-				<nav></nav>
+			<nav></nav>
 		</header>
 		<section>
 			<article id="campinfo">
