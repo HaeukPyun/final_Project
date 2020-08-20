@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>page4</title>
+<title>page 4</title>
 <style>
   ul.topmenu {
             border-top: 1px solid  ghostwhite;
@@ -71,9 +71,12 @@
      
        
 </style>
+<body>
  <section id=welcome_Header>
+ 
         <header>
-            <div id="page4">
+            <div id="page4"> 
+            
                 <h1>캠핑장 예약 및 대여</h1>
                 <ul class="topmenu">
                     <li id="title"><a>web title</a></li>
@@ -93,7 +96,7 @@
 		
 	</ul>
 
-<body>
+
 
 </body>
 </html>
