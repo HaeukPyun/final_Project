@@ -19,22 +19,8 @@
     <link rel="stylesheet" href="${path }/resources/css/owl.carousel.min.css">
     <link rel="stylesheet" href="${path }/resources/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="${path }/resources/css/magnific-popup.css">
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <html>
-<style>
-* {
-	text-align: center;
-}
-
-li {
-	float: left;
-	margin-left: 50px;
-}
-#sing{
-	margin-left: 150px;
-}
-</style>
-
 <head>
 <title>CAMPER</title>
 </head>
