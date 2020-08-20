@@ -77,7 +77,7 @@
         <header>
             <div id="page4"> 
             
-                <h1>캠핑장 예약 및 대여</h1>
+                <h1>캠핑장 예약 및 대여 사항</h1>
                 <ul class="topmenu">
                     <li id="title"><a>web title</a></li>
                     <li id="navi-bar"><a>navigation bar</a></li>
