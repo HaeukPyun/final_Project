@@ -6,7 +6,7 @@
 <html lang="en">
 
   <head>
-    <title>Home CAMPER에 오신걸 환영합니다.</title>
+    <title>CAMPER</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
      
@@ -28,7 +28,7 @@
     <div class="container pt-5">
 			<div class="row justify-content-between">
 				<div class="col">
-					<a class="navbar-brand" href="index.html">Home<span>builder.</span></a>
+					<a class="navbar-brand" href="index.html">캠핑에 관한 모든 것, 이곳은 <span>CAMPER </span>입니다</a>
 				</div>
 				<div class="col d-flex justify-content-end">
 					<div class="social-media">
@@ -56,12 +56,12 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="index.html" class="nav-link">캠핑장</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">소개</a></li>
+	        	<li class="nav-item"><a href="team.html" class="nav-link">둘러보기</a></li>
+	        	<li class="nav-item"><a href="project.html" class="nav-link">이용안내</a></li>
+	        	<li class="nav-item"><a href="blog.html" class="nav-link">예약 및 대여</a></li>
+	          	<li class="nav-item"><a href="contact.html" class="nav-link">커뮤니티</a></li>	          	
 	        </ul>
 	      </div>
 	    </div>
