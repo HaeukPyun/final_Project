@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
+<title>camper.page3</title>
 <style>
 span {
 	color: blue
@@ -18,12 +19,6 @@ b {
 	color: red
 }
 </style>
-<script src="http://code.jquery.com/jquery.js"></script>
-<script>
-	$(function() {
-		$('header>nav').load("nav.html");
-	})
-</script>
 </head>
 <body>
 	<div id=page3>

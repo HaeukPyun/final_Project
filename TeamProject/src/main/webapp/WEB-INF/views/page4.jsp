@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>page 4</title>
+<title>camper.page4</title>
 <style>
   ul.topmenu {
             border-top: 1px solid  ghostwhite;
