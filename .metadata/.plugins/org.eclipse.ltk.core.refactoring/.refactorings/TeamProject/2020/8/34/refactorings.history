@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;4tent.PNG, 6tent.PNG, camp.PNG, market1.PNG, market2.PNG, mytent.PNG&apos; to &apos;images&apos;" description="Move 6 resources to &apos;images&apos;" destination="src/main/webapp/resources/images" element1="src/main/webapp/WEB-INF/img/4tent.PNG" element2="src/main/webapp/WEB-INF/img/6tent.PNG" element3="src/main/webapp/WEB-INF/img/camp.PNG" element4="src/main/webapp/WEB-INF/img/market1.PNG" element5="src/main/webapp/WEB-INF/img/market2.PNG" element6="src/main/webapp/WEB-INF/img/mytent.PNG" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="6" stamp="1597992715692" updateReferences="true"/>
+</session>
