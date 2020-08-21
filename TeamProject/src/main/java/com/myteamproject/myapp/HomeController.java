@@ -2,6 +2,7 @@ package com.myteamproject.myapp;
 
 import java.util.Locale;
 
+import org.apache.tomcat.jni.Local;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -20,10 +21,40 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
+
 	@RequestMapping(value = "/*", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
-
 		return "home";
+	}
+	@RequestMapping(value = "/page2")
+	public String page2(Local locale, Model model){
+		logger.info("This is page2... The client locale is {}.", locale);
+		return "page2";
+	}
+	@RequestMapping(value = "/page3")
+	public String page3(Local locale, Model model){
+		logger.info("This is page3... The client locale is {}.", locale);
+		return "page3";
+	}
+	@RequestMapping(value = "/page4")
+	public String page4(Local locale, Model model){
+		logger.info("This is page4... The client locale is {}.", locale);
+		return "page4";
+	}
+	@RequestMapping(value = "/page5")
+	public String page5(Local locale, Model model){
+		logger.info("This is page5... The client locale is {}.", locale);
+		return "page5";
+	}
+	@RequestMapping(value = "/page6")
+	public String page6(Local locale, Model model){
+		logger.info("This is page6... The client locale is {}.", locale);
+		return "page6";
+	}
+	@RequestMapping(value = "/page7")
+	public String page7(Local locale, Model model){
+		logger.info("This is page7... The client locale is {}.", locale);
+		return "page7";
 	}
 }
