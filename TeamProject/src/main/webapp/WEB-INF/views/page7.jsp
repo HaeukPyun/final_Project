@@ -31,7 +31,7 @@
     <div class="container pt-5">
 			<div class="row justify-content-between">
 				<div class="col">
-					<a class="navbar-brand" href="index.html">Home<span>builder.</span></a>
+					<a class="navbar-brand" href="home">Home<span>builder.</span></a>
 				</div>
 				<div class="col d-flex justify-content-end">
 					<div class="social-media">
@@ -59,12 +59,14 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="home" class="nav-link">캠핑장</a></li>
+	        	<li class="nav-item"><a href="page2" class="nav-link">소개</a></li>
+	        	<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
+	        	<li class="nav-item"><a href="page4" class="nav-link">이용안내</a></li>
+	        	<li class="nav-item"><a href="page5" class="nav-link">예약 및 대여</a></li>
+	          	<li class="nav-item"><a href="page6" class="nav-link">커뮤니티.1</a></li>	          	
+	          	<li class="nav-item active"><a href="page7" class="nav-link">커뮤니티.2</a></li>	
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>

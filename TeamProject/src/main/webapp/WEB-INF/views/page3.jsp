@@ -4,7 +4,7 @@
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
 <link rel="icon" type="image/png" href="http://example.com/myicon.png">
-<title>Camper</title>
+<title>camper.page3</title>
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
