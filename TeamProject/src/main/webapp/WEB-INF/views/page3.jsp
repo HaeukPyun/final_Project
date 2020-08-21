@@ -6,26 +6,16 @@
 <link rel="icon" type="image/png" href="http://example.com/myicon.png">
 <title>camper.page3</title>
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link
-	href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
-	rel="stylesheet">
-
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="/myapp/resources/css/animate.css">
-
-<link rel="stylesheet"
-	href="/myapp/resources/css/owl.carousel.min.css">
-<link rel="stylesheet"
-	href="/myapp/resources/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/myapp/resources/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/myapp/resources/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="/myapp/resources/css/magnific-popup.css">
-
 <link rel="stylesheet" href="/myapp/resources/css/ionicons.min.css">
-
 <link rel="stylesheet" href="/myapp/resources/css/flaticon.css">
 <link rel="stylesheet" href="/myapp/resources/css/icomoon.css">
 <link rel="stylesheet" href="/myapp/resources/css/style.css">
@@ -42,24 +32,45 @@
 
         b {
             color: red
-        } */
+        } 
+*/
 h1 {
 	color: #FFBF00
 }
-.header { width: 100%; height: 15%; 
-		}
-.nav { width: 20%; height: 70%; float: left; 
- color: white;
-		}
-.section { width: 60%; height: 70%; float: left; 
-		}
-.aside { width: 20%; height: 70%; float: right; 
-color: white;
-		}
-.footer { width: 100%; height: 15%; clear: both; 
-		}
+
+.header {
+	width: 100%;
+	height: 15%;
+}
+
+.nav {
+	width: 20%;
+	height: 70%;
+	float: left;
+	color: white;
+}
+
+.section {
+	width: 60%;
+	height: 70%;
+	float: left;
+}
+
+.aside {
+	width: 20%;
+	height: 70%;
+	float: right;
+	color: white;
+}
+
+.footer {
+	width: 100%;
+	height: 15%;
+	clear: both;
+}
+
 hr {
-width: 50%;
+	width: 50%;
 }
 </style>
 </head>
@@ -69,12 +80,11 @@ width: 50%;
 		<div class="row justify-content-between">
 			<div class="col">
 				<a class="navbar-brand" href="index.html">
-				<table>
-				<tr>
-					<td><section
-							style="width:200px; height:116px; background-image: url('/myapp/resources/images/head.jpg');"></td>
-				</tr>
-			</table>
+					<table>
+						<tr>
+							<td><section style="width: 200px; height: 116px; background-image: url('/myapp/resources/images/head.jpg');"></td>
+						</tr>
+					</table>
 				</a>
 			</div>
 			<div class="col d-flex justify-content-end">
@@ -114,15 +124,13 @@ width: 50%;
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">메인</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">캠핑장
-							둘러보기</a></li>
-					<li class="nav-item active"><a href="team.html"
-						class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="project.html" class="nav-link">예약
-							및 대여</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">회원게시판</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">이웃캠핑장</a></li>
+					<li class="nav-item active"><a href="home" class="nav-link">캠핑장</a></li>
+	        	<li class="nav-item"><a href="page2" class="nav-link">소개</a></li>
+	        	<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
+	        	<li class="nav-item"><a href="page4" class="nav-link">이용안내</a></li>
+	        	<li class="nav-item"><a href="page5" class="nav-link">예약 및 대여</a></li>
+	          	<li class="nav-item"><a href="page6" class="nav-link">게시판</a></li>	          	
+	          	<li class="nav-item"><a href="page7" class="nav-link">이웃캠핑장</a></li>
 				</ul>
 			</div>
 		</div>
@@ -146,9 +154,9 @@ width: 50%;
 			</div>
 		</div>
 	</section>
-<br>
-<nav class="nav">nav</nav>
-<aside class="aside">aside</aside>
+	<br>
+	<nav class="nav">nav</nav>
+	<aside class="aside">aside</aside>
 	<section class="section">
 		<article id="campinfo">
 			<h1>캠핑장 이용안내</h1>
@@ -179,7 +187,7 @@ width: 50%;
 				<tr>
 					<!-- <img width=600 height=400 src="/resources/css/images/camp.PNG"> -->
 					<td><section
-							style="width:600px; height:400px; background-image: url('/myapp/resources/images/camp.PNG');"></td>
+							style="width: 600px; height: 400px; background-image: url('/myapp/resources/images/camp.PNG');"></td>
 				</tr>
 				<tr align="center">
 					<td>구역 위치도</td>
@@ -205,8 +213,8 @@ width: 50%;
 				<li><b>미성년자 텐트 입장시 숙지사항</b> <legend>
 						<ol type="i">
 							<li>텐트 입장시 <b>숙박하는 모든 미성년자들의 보호자 자필동의서 </b>혹은<b><br>
-							 부모님의 대면확인</b>이 필요합니다.<br> 
-							(동의서 미 제출 시 <strong>오후 10시 이전 강제퇴영조치</strong> 됩니다.)
+									부모님의 대면확인</b>이 필요합니다.<br> (동의서 미 제출 시 <strong>오후 10시
+									이전 강제퇴영조치</strong> 됩니다.)
 							</li>
 							<li>법적 보호자를 동반하지 않은 <b>미성년자 혼숙은 절대불가</b> 합니다.
 							</li>
@@ -217,11 +225,11 @@ width: 50%;
 			<table border=1>
 				<tr>
 					<td><section
-							style="width:200px; height:170px; background-image: url('/myapp/resources/images/4tent.PNG');"></td>
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/4tent.PNG');"></td>
 					<td><section
-							style="width:200px; height:170px; background-image: url('/myapp/resources/images/6tent.PNG');"></td>
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/6tent.PNG');"></td>
 					<td><section
-							style="width:200px; height:170px; background-image: url('/myapp/resources/images/mytent.PNG');"></td>
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/mytent.PNG');"></td>
 				</tr>
 				<tr align="center">
 					<td>4인용 텐트</td>
@@ -262,9 +270,9 @@ width: 50%;
 			<table border=1>
 				<tr>
 					<td><section
-							style="width:200px; height:170px; background-image: url('/myapp/resources/images/market1.PNG');"></td>
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/market1.PNG');"></td>
 					<td><section
-							style="width:200px; height:170px; background-image: url('/myapp/resources/images/market2.PNG');"></td>
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/market2.PNG');"></td>
 				</tr>
 				<tr align="center">
 					<td colspan="2">캠핑장 내 마켓</td>
@@ -550,7 +558,9 @@ width: 50%;
 							<p class="copyright">
 								Link back to Colorlib can't be removed. Template is licensed
 								under CC BY 3.0. Copyright &copy;
-								<script>document.write(new Date().getFullYear());</script>
+								<script>
+									document.write(new Date().getFullYear());
+								</script>
 								All rights reserved | This template is made with <i
 									class="ion-ios-heart" aria-hidden="true"></i> by <a
 									href="https://colorlib.com" target="_blank">Colorlib.com</a>
