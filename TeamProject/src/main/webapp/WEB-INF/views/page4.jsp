@@ -1,13 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+   
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>page 4</title>
+<title>Page4test</title>
 <style>
- .page4{
+ 
+         .page4{
         position: fixed; 
        } 
         body{
@@ -46,6 +47,11 @@
      
      }
        
+       #r0,#r00 {   padding: 8px 16px;
+             background-color: #FE9A2E;
+             font-size:20px;
+             border:0px solid blue;
+       }
 </style>  
 
 
@@ -64,21 +70,37 @@
     
            <div class="nextblock"  >
             <ul class="nextMenu">
-              
-                <li id="r1"><a class="res1"  href=#page4">예약 및 대여 공지사항</a></li>
-                <li id="r1"><a class="res2" href=#page4">안내 및 예약 대여</a></li>
-                <li id="r1"><a class="res3" href=#page4">검색(캠프장?예약된 or 예약하기전)</a></li>
-                <li id="r1"><a class="res4"href=#page4" >현황(예약 및 대여)</a></li>
+              <li id="r0"> <strong id="r00">예약 방법 안내 및 공지사항</strong> </li>
+                <li id="r1"><a class="res1"  href=#page4-1">예약 방법 안내 및 공지사항</a></li>
+                <li id="r1"><a class="res2" href=#page4-2"> 예약  및 대여</a></li>
+                <li id="r1"><a class="res3" href=#page4-3">검색(캠프장?예약된 or 예약하기전)</a></li>
+                <li id="r1"><a class="res4"href=#page4-4" >현황(예약 및 대여)</a></li>
+                  <li id="r1"><a class="res4"href=#page4-5" >예약 취소 및 환불(안내)</a></li>
 		
-	</ul> 
+	</ul>
 
 
            </div>
-             
-             
+          
     <div style="margin-left:25%;padding:1px 16px;height:1000px;" id="m1">
-        <h2>예약 및 대여 방법 안내 및 공지사항</h2>
-        <h3> 예약 안내</h3>
+      	
+       <h2>예약  방법 안내</h2>   
+          <table>
+           <tbody>
+            <tr>
+             <td><img src="imagePjh/date1.png"  width="100px" height="100px"> <p>원하는 날짜에 <br>예약이<br> 가능한 지 확인</p></td>
+             <td><img src="imagePjh/arrow.png"  width="50px" height="50px"></td>
+             <td><img src="imagePjh/location1.png"  width="100px" height="100px"> <p>원하는 시설<br> 및 테크 선택</p></td>
+             <td><img src="imagePjh/arrow.png"  width="50px" height="50px"> </td>
+             <td><img src="imagePjh/pay2.png"  width="100px" height="100px"> <p>예약정보 입력 </p></td>
+             <td><img src="imagePjh/arrow.png"  width="50px" height="50px"> </td>
+             <td><img src="imagePjh/reservation2.png"  width="100px" height="100px"> <p>예약 신청<br> 및 결재 확인</p></td>
+                
+            </tr>
+           </tbody>
+          </table>
+  
+       <h3> 예약 안내</h3>
        <ul>
            <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
            <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
@@ -105,6 +127,7 @@
                    <li> 1일 이용시간은 당일 14:00 ~ 익일 12:00까지 기준이며 퇴실(퇴영)시간을 반드시 지켜주시기 바랍니다.</li>
                </ul>
         </div>
+
 
 
 </body>
