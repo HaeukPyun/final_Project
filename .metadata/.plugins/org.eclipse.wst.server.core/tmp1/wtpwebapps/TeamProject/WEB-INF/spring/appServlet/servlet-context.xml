@@ -22,7 +22,7 @@
 		<beans:property name="contentType" value="text/html; charset=UTF-8"/>
 	</beans:bean>
 	
-	<context:component-scan base-package="com.myteamproject.myapp" />
+	<context:component-scan base-package="com.myteamproject" />
 	
 	
 	
