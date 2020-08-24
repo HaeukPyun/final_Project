@@ -40,7 +40,7 @@ h1 {
 	width: 20%;
 	height: 70%;
 	float: left;
-	color:white;
+	color: white;
 }
 
 .section {
@@ -135,7 +135,6 @@ b {
 		}
 	});
 </script>
-</script>
 <body>
 	<div class="container pt-5">
 		<div class="row justify-content-between">
@@ -144,9 +143,7 @@ b {
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
-					<p class="mb-0 d-flex">Login
-						
-					</p>
+					<p class="mb-0 d-flex">Login</p>
 				</div>
 			</div>
 		</div>
