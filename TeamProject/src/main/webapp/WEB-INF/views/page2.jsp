@@ -91,6 +91,35 @@ hr {
 b {
 	color: green;
 }
+
+.nextMenu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+	position: relative;
+	overflow: auto;
+}
+
+#r1 {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: #FFBF00;
+	color: #000;
+}
+
+#r0 {
+	padding: 8px 16px;
+	background-color: #0b0b61;
+	font-size: 20px;
+	color: white;
+}
 </style>
 
 <body>
@@ -101,17 +130,7 @@ b {
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
-					<p class="mb-0 d-flex">
-						<a href="#"
-							class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a> <a
-							href="#" class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a> <a
-							href="#" class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a> <a
-							href="#" class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-					</p>
+					<p class="mb-0 d-flex">Login</p>
 				</div>
 			</div>
 		</div>
@@ -136,14 +155,12 @@ b {
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a href="home" class="nav-link">캠핑장</a></li>
-					<li class="nav-item"><a href="page2" class="nav-link">소개</a></li>
+					<li class="nav-item active"><a href="home" class="nav-link">공지사항</a></li>
+					<li class="nav-item"><a href="page2" class="nav-link">이용안내</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
-					<li class="nav-item"><a href="page4" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page5" class="nav-link">예약 및
-							대여</a></li>
-					<li class="nav-item"><a href="page6" class="nav-link">게시판</a></li>
-					<li class="nav-item"><a href="page7" class="nav-link">이웃캠핑장</a></li>
+					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
+					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
+					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
 			</div>
 		</div>
@@ -169,7 +186,16 @@ b {
 	</section>
 	<br>
 
-	<nav class="nav">nav</nav>
+	<nav class="nav">
+		<div class="nextblock">
+			<ul class="nextMenu">
+				<li id="r0">캠핑장 둘러보기</li>
+				<li id="r1">캠핑장 소개</li>
+				<li id="r1">캠핑장 전경</li>
+				<li id="r1">주변관광지</li>
+			</ul>
+		</div>
+	</nav>
 
 	<section class="section">
 		<h1>캠핑장 둘러보기</h1>
