@@ -65,27 +65,27 @@ hr {
 
 #t1 {
 	width: 100%;
-  height: 800px;
+	height: 800px;
 }
 
 #t2 {
 	width: 100%;
-  height: 600px;
+	height: 600px;
 }
 
 #t3 {
 	width: 100%;
-  height: 400px;
+	height: 400px;
 }
 
 #photo_1, #photo_3 {
 	width: 100%;
-  height: 200px;
+	height: 200px;
 }
 
 #photo_2 {
 	width: 100%;
-  height: 100px;
+	height: 100px;
 }
 
 b {
@@ -159,7 +159,7 @@ b {
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs mb-2">
 						<span class="mr-2"><a href="index.html">메인 <i
-								class="ion-ios-arrow-forward"></i></a></span> <span>이용안내 <i
+								class="ion-ios-arrow-forward"></i></a></span> <span>소개 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
 					<h1 class="mb-0 bread">소개</h1>
