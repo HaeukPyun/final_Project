@@ -91,6 +91,35 @@ hr {
 b {
 	color: green;
 }
+
+.nextMenu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+	position: relative;
+	overflow: auto;
+}
+
+#r1 {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: #FFBF00;
+	color: #000;
+}
+
+#r0 {
+	padding: 8px 16px;
+	background-color: #0b0b61;
+	font-size: 20px;
+	color: white;
+}
 </style>
 
 <body>
@@ -169,7 +198,16 @@ b {
 	</section>
 	<br>
 
-	<nav class="nav">nav</nav>
+	<nav class="nav">
+		<div class="nextblock">
+			<ul class="nextMenu">
+				<li id="r0">캠핑장 둘러보기</li>
+				<li id="r1">캠핑장 소개</li>
+				<li id="r1">캠핑장 전경</li>
+				<li id="r1">주변관광지</li>
+			</ul>
+		</div>
+	</nav>
 
 	<section class="section">
 		<h1>캠핑장 둘러보기</h1>
