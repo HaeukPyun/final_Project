@@ -176,9 +176,7 @@ $("#floatMenu").stop().animate({
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
-					<p class="mb-0 d-flex">Login
-						
-					</p>
+					<p class="mb-0 d-flex">Login</p>
 				</div>
 			</div>
 		</div>
