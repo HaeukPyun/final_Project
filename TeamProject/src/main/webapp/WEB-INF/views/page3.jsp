@@ -101,10 +101,10 @@ hr {
 				</div>
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav mr-auto">				
 					<li class="nav-item active"><a href="home" class="nav-link">공지사항</a></li>
-					<li class="nav-item"><a href="page2" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
+					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
+					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
 					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
