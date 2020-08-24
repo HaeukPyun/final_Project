@@ -4,6 +4,7 @@
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
 <title>camper.page2</title>
+<script src="http://code.jquery.com/jquery.js"></script>
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,6 +40,7 @@ h1 {
 	width: 20%;
 	height: 70%;
 	float: left;
+	color:white;
 }
 
 .section {
@@ -65,63 +67,75 @@ hr {
 
 #t1 {
 	width: 100%;
-	height: 800px;
+	height: 40%;
 }
 
 #t2 {
 	width: 100%;
-	height: 600px;
+	height: 20%;
 }
 
 #t3 {
 	width: 100%;
-	height: 400px;
+	height: 20%;
 }
 
 #photo_1, #photo_3 {
 	width: 100%;
-	height: 200px;
+	height: 50%;
 }
 
 #photo_2 {
 	width: 100%;
-	height: 100px;
+	height: 50%;
 }
 
 b {
 	color: green;
 }
 
-.nextMenu {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	background-color: #f1f1f1;
-	position: relative;
-	overflow: auto;
-}
-
-#r1 {
-	display: block;
-	color: #000;
-	padding: 8px 16px;
-	text-decoration: none;
-}
-
-li:hover {
-	background-color: #FFBF00;
-	color: #000;
-}
-
-#r0 {
-	padding: 8px 16px;
-	background-color: #0b0b61;
-	font-size: 20px;
-	color: white;
+#floatMenu {
+	position: absolute;
+	position: absolute;
+	left: 80%;
+	top: 75%;
 }
 </style>
+<script>
+	$(document).ready(function() {
 
+		// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
+		var floatPosition = parseInt($("#floatMenu").css('top'));
+		// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
+
+		$(window).scroll(function() {
+			// 현재 스크롤 위치를 가져온다.
+			var scrollTop = $(window).scrollTop();
+			var newPosition = scrollTop + floatPosition + "px";
+
+			/* 애니메이션 없이 바로 따라감
+			 $("#floatMenu").css('top', newPosition);
+			 */
+
+			$("#floatMenu").stop().animate({
+				"top" : newPosition
+			}, 500);
+
+		}).scroll();
+
+	});
+
+	$("#floatMenu").stop().animate({
+		"top" : newPosition
+	}, {
+		'duration' : 500,
+		'easing' : 'easeInOutCubic',
+		'complete' : function() {
+			console.log('이동 완료하였습니다.');
+		}
+	});
+</script>
+</script>
 <body>
 	<div class="container pt-5">
 		<div class="row justify-content-between">
@@ -130,7 +144,9 @@ li:hover {
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
-					<p class="mb-0 d-flex">Login</p>
+					<p class="mb-0 d-flex">Login
+						
+					</p>
 				</div>
 			</div>
 		</div>
@@ -186,33 +202,24 @@ li:hover {
 	</section>
 	<br>
 
-	<nav class="nav">
-		<div class="nextblock">
-			<ul class="nextMenu">
-				<li id="r0">캠핑장 둘러보기</li>
-				<li id="r1">캠핑장 소개</li>
-				<li id="r1">캠핑장 전경</li>
-				<li id="r1">주변관광지</li>
-			</ul>
-		</div>
-	</nav>
+	<nav class="nav">nav</nav>
 
 	<section class="section">
 		<h1>캠핑장 둘러보기</h1>
-		<h3>캠핑장 소개</h3>
+		<h3 id="info">캠핑장 소개</h3>
 		<p>
 			밀양댐 오토캠핑장은 40여동의 텐트를 동시에 설치할 수 있으며 콘도형 민박이 2동 준비되어 있습니다.<br> 캠핑장
-			바로 앞에 펄쳐진 단장천에는 1급수에만 산다는 꺽지, 버들치, 어름치 등이 살고 수중보가 설치되어 있어 남녀노소 누구나
-			안전하게 물놀이를 할 수 있으며 덤으로 낚시까지 가능한 곳입니다.
+			바로 앞에 펄쳐진 단장천에는 1급수에만 산다는 꺽지, 버들치, 어름치 등이 살고 수중보가 설치되어<br> 있어
+			남녀노소 누구나 안전하게 물놀이를 할 수 있으며 덤으로 낚시까지 가능한 곳입니다.
 		</p>
 		<hr>
 
-		<h3>캠핑장 배치도</h3>
+		<h3 id="campinfo">캠핑장 배치도</h3>
 		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500"
 			height="400">
 		<hr>
 
-		<h3>캠핑장 전경</h3>
+		<h3 id="pikinfo">캠핑장 전경</h3>
 		<table id="t1">
 			<tr>
 				<td width="350"><img id="photo_1"
@@ -235,7 +242,7 @@ li:hover {
 		</table>
 		<hr>
 
-		<h3>주변관광지</h3>
+		<h3 id="timeNpay">주변관광지</h3>
 		<table id="t2">
 			<tr>
 				<td width="170px" height="150px"><img id="photo_2"
@@ -265,7 +272,7 @@ li:hover {
 		</table>
 		<hr>
 
-		<h3>부대시설</h3>
+		<h3 id="tip">부대시설</h3>
 		<table id="t3">
 			<tr>
 				<td><img id="photo_3"
@@ -281,7 +288,21 @@ li:hover {
 			</tr>
 		</table>
 	</section>
-	<aside class="aside">aside</aside>
+
+
+	<ul id="floatMenu">
+		<li><a href="#info"><div
+					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+		<li><a href="#campinfo"><div
+					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+		<li><a href="#pikinfo"><div
+					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+		<li><a href="#timeNpay"><div
+					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+		<li><a href="#tip"><div
+					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+	</ul>
+
 
 	<footer class="footer">
 		<div class="container-fluid px-lg-5">

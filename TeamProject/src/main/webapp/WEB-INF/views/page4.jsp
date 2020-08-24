@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="/myapp/resources/css/ionicons.min.css">
 <link rel="stylesheet" href="/myapp/resources/css/flaticon.css">
 <link rel="stylesheet" href="/myapp/resources/css/icomoon.css">
-<link rel="stylesheet" href="/myapp/resources/css/style.css">
+<link rel="stylesheet" href="/myapp/resources/css/style.css">  
 
 
 <style>
@@ -247,7 +247,7 @@ $("#floatMenu").stop().animate({
            <div class="nextblock"  >
             <ul class="nextMenu">
               <li id="r0"> 예약  및 공지사항 </li>
-                <li id="r1"><a class="res1"  href=#page4-1">예약 방법 주의사항 안내</a></li>
+                <li id="r1"><a class="res1"  href=#page4-1">예약 방법  및 주의사항 안내</a></li>
                 <li id="r1"><a class="res2" href=#page4-2">예약  및 대여</a></li>
                 <li id="r1"><a class="res3" href=#page4-3">검색</a></li>
                 <li id="r1"><a class="res4" href="#page4-4">현황(예약 및 대여)</a></li>
