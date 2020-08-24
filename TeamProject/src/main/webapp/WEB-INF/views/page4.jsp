@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-   
+    pageEncoding="UTF-8"%>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,7 +60,7 @@
         <header>
             <div id="page4" > 
             
-                <h1>캠핑장 예약 및 대여 사항</h1>
+                <h1>캠핑장 예약 및 공지 사항</h1>
            
             </div>
         </header>

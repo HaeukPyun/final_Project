@@ -1,259 +1,391 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" type="image/png" href="http://example.com/myicon.png">
+<title>camper.page3</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="/myapp/resources/css/animate.css">
+<link rel="stylesheet" href="/myapp/resources/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/myapp/resources/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/myapp/resources/css/magnific-popup.css">
+<link rel="stylesheet" href="/myapp/resources/css/ionicons.min.css">
+<link rel="stylesheet" href="/myapp/resources/css/flaticon.css">
+<link rel="stylesheet" href="/myapp/resources/css/icomoon.css">
+<link rel="stylesheet" href="/myapp/resources/css/style.css">
+
+
 <style>
-span {
-	color: blue
+/*  span {
+            color: blue
+        }
+
+        strong {
+            color: green
+        }
+
+        b {
+            color: red
+        } 
+*/
+h1 {
+	color: #FFBF00
 }
 
-strong {
-	color: green
+.header {
+	width: 100%;
+	height: 15%;
 }
 
-b {
-	color: red
+.nav {
+	width: 20%;
+	height: 70%;
+	float: left;
+	color: white;
+}
+
+.section {
+	width: 60%;
+	height: 70%;
+	float: left;
+}
+
+.aside {
+	width: 20%;
+	height: 70%;
+	float: right;
+	color: white;
+}
+
+.footer {
+	width: 100%;
+	height: 15%;
+	clear: both;
+}
+
+hr {
+	width: 50%;
 }
 </style>
-<script src="http://code.jquery.com/jquery.js"></script>
-<script>
-	$(function() {
-		$('header>nav').load("nav.html");
-	})
-</script>
 </head>
 <body>
-	<div id=page3>
-		<header>
-			<h1 align="center">Camper</h1>
-			<nav></nav>
-		</header>
-		<section>
-			<article id="campinfo">
-				<h1>캠핑장 이용안내</h1>
-				<hr>
-				<h2>캠핑장을 이용하려면...</h2>
-				<pre>캠핑장은 캠핑장 이용객을 "피크닉 이용객" 과 "숙영자" 로 구분하여 운영하고 있습니다.
+
+	<div class="container pt-5">
+		<div class="row justify-content-between">
+			<div class="col">
+				<a class="navbar-brand" href="index.html">
+					<table>
+						<tr>
+							<td><section style="width: 200px; height: 116px; background-image: url('/myapp/resources/images/head.jpg');"></td>
+						</tr>
+					</table>
+				</a>
+			</div>
+			<div class="col d-flex justify-content-end">
+				<div class="social-media">
+					<p class="mb-0 d-flex">
+						<a href="#"
+							class="d-flex align-items-center justify-content-center"><span
+							class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a> <a
+							href="#" class="d-flex align-items-center justify-content-center"><span
+							class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a> <a
+							href="#" class="d-flex align-items-center justify-content-center"><span
+							class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a> <a
+							href="#" class="d-flex align-items-center justify-content-center"><span
+							class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav
+		class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+		id="ftco-navbar">
+		<div class="container">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			</button>
+			<form action="#" class="searchform order-lg-last">
+				<div class="form-group d-flex">
+					<input type="text" class="form-control pl-3" placeholder="검색">
+					<button type="submit" placeholder="" class="form-control search">
+						<span class="fa fa-search"></span>
+					</button>
+				</div>
+			</form>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a href="home" class="nav-link">캠핑장</a></li>
+	        	<li class="nav-item"><a href="page2" class="nav-link">소개</a></li>
+	        	<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
+	        	<li class="nav-item"><a href="page4" class="nav-link">이용안내</a></li>
+	        	<li class="nav-item"><a href="page5" class="nav-link">예약 및 대여</a></li>
+	          	<li class="nav-item"><a href="page6" class="nav-link">게시판</a></li>	          	
+	          	<li class="nav-item"><a href="page7" class="nav-link">이웃캠핑장</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<section class="hero-wrap hero-wrap-2"
+		style="background-image: url('/myapp/resources/images/campmain.PNG');"
+		data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end">
+				<div class="col-md-9 ftco-animate pb-5">
+					<p class="breadcrumbs mb-2">
+						<span class="mr-2"><a href="index.html">메인 <i
+								class="ion-ios-arrow-forward"></i></a></span> <span>이용안내 <i
+							class="ion-ios-arrow-forward"></i></span>
+					</p>
+					<h1 class="mb-0 bread">이용안내</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<nav class="nav">nav</nav>
+	<aside class="aside">aside</aside>
+	<section class="section">
+		<article id="campinfo">
+			<h1>캠핑장 이용안내</h1>
+			<hr align="left">
+			<h2>캠핑장을 이용하려면...</h2>
+			<pre>Camper 캠핑장은 캠핑장 이용객을 "피크닉 이용객" 과 "숙영자" 로 구분하여 운영하고 있습니다.
 텐트를 이용하지 않고 점심 혹은 저녁식사 등의 간단한 취사 및 바베큐 파티를 하는 경우와(피크닉 이용자)가
-텐트를치시거나 임대 텐트를 예약하여 숙영을 하는 이용객을 (숙영자)구분하기 위함 입니다.
+텐트를치시거나 임대 텐트를 예약하여 숙영을 하는 이용객(숙영자)을 구분하기 위함 입니다.
 <span>이용시간 및 이용방법에는 차이가 없으며 숙영자의 경우 <strong><ins>예약</ins></strong>을 먼저 하셔야 합니다.</span>
 				</pre>
-				<h2>캠핑 이용객</h2>
-				캠핑장이용(숙영지 및 텐트이용)을 원하시는 분들은<strong><ins>"사전예약"</ins></strong>을 통해서
-				이용하시면 편리하게 이용하실 수 있습니다.
-				<ul>
-					<li>캠핑장은 이용 편의를 위해 입장료와 텐트 대여료가 함께 계산됩니다.</li>
-					<li>캠핑장은 가족텐트(<mark>B구역</mark>)지역과 개인텐트(<mark>C,D구역</mark>)지역으로
-						나뉘어 집니다.
-					</li>
-					<li>캠핑장의 텐트 위치 가이드
-						<ul>
-							<li>임대 텐트지역 : B,C,D 구역 이용</li>
-							<li><strong>B,C,D(텐트)지역</strong> 모두 <b>사전예약 만 가능</b>합니다.</li>
-						</ul>
-					</li>
-				</ul>
-				<br>
-				<table border=1>
-					<tr>
-						<td><img width=500 height=350 src="images/camp.PNG">
-						<td>
-					</tr>
-					<tr align="center">
-						<td>구역 위치도</td>
-					</tr>
-				</table>
-				<br>
-				<h2>주의하실 점</h2>
-				<ol type="1">
-					<li>이용시 편의를 위해 캠핑장 <strong>출입팔찌</strong>를 드리며 캠핑장 이용이 마무리
-						되실때까지 착용하고<br> 계시면 캠핑장 안,밖 출입이 가능합니다. 다만 <strong>분실,미착용
-							시 입장권을 재구매</strong> 하셔야 하오<br> 니 주의해 주시기를 당부드립니다.
-					</li>
-					<li>캠핑을 이용하신 경우 별도의 체크아웃 절차 없이 <b>익일 오전 09시 30분 까지 퇴영</b>하시면
-						됩니다.<br> 퇴장하시기 전 필히 <strong>대여용품 반납과 쓰레기 정리</strong>를 해주셔야
-						합니다.
+			<h2>캠핑 이용객</h2>
+			캠핑장이용(숙영지 및 텐트이용)을 원하시는 분들은<strong><ins>"사전예약"</ins></strong>을 통해서
+			이용하시면 편리하게 이용하실 수 있습니다.
+			<ul>
+				<li>캠핑장은 이용 편의를 위해 입장료와 텐트 대여료가 함께 계산됩니다.</li>
+				<li>캠핑장은 가족텐트(<mark>B구역</mark>)지역과 개인텐트(<mark>C,D구역</mark>)지역으로
+					나뉘어 집니다.
+				</li>
+				<li>캠핑장의 텐트 위치 가이드
+					<ul>
+						<li>임대 텐트지역 : B,C,D 구역 이용</li>
+						<li><strong>B,C,D(텐트)지역</strong> 모두 <b>사전예약 만 가능</b>합니다.</li>
+					</ul>
+				</li>
+			</ul>
+			<br>
+			<table border=1>
+				<tr>
+					<!-- <img width=600 height=400 src="/resources/css/images/camp.PNG"> -->
+					<td><section
+							style="width: 600px; height: 400px; background-image: url('/myapp/resources/images/camp.PNG');"></td>
+				</tr>
+				<tr align="center">
+					<td>구역 위치도</td>
+				</tr>
+			</table>
+			<br>
+			<h2>주의하실 점</h2>
+			<ol type="1">
+				<li>이용시 편의를 위해 캠핑장 <strong>출입팔찌</strong>를 드리며 캠핑장 이용이 마무리 되실때까지
+					착용하고<br> 계시면 캠핑장 안,밖 출입이 가능합니다. 다만 <strong>분실,미착용 시
+						입장권을 재구매</strong> 하셔야 하오<br> 니 주의해 주시기를 당부드립니다.
+				</li>
+				<li>캠핑을 이용하신 경우 별도의 체크아웃 절차 없이 <b>익일 오전 09시 30분 까지 퇴영</b>하시면
+					됩니다.<br> 퇴장하시기 전 필히 <strong>대여용품 반납과 쓰레기 정리</strong>를 해주셔야
+					합니다.
+					<ol type="i">
+						<li>쓰레기는 "한강규격봉투(매표소 및 편의점 판매)"를 사용하셔야 합니다.</li>
+						<li><string>음식물 쓰레기는 피크닉/캠핑 구역 중간 식수대에 비치된 바구니</string>에
+							버려주시면 됩니다.</li>
+						<li>대여 물품 반납 후 신분증을 찾아가시면 됩니다.</li>
+					</ol>
+				</li>
+				<li><b>미성년자 텐트 입장시 숙지사항</b> <legend>
 						<ol type="i">
-							<li>쓰레기는 "한강규격봉투(매표소 및 편의점 판매)"를 사용하셔야 합니다.</li>
-							<li><string>음식물 쓰레기는 피크닉/캠핑 구역 중간 식수대에 비치된 바구니</string>에
-								버려주시면 됩니다.</li>
-							<li>대여 물품 반납 후 신분증을 찾아가시면 됩니다.</li>
+							<li>텐트 입장시 <b>숙박하는 모든 미성년자들의 보호자 자필동의서 </b>혹은<b><br>
+									부모님의 대면확인</b>이 필요합니다.<br> (동의서 미 제출 시 <strong>오후 10시
+									이전 강제퇴영조치</strong> 됩니다.)
+							</li>
+							<li>법적 보호자를 동반하지 않은 <b>미성년자 혼숙은 절대불가</b> 합니다.
+							</li>
 						</ol>
-					</li>
-					<li><b>미성년자 텐트 입장시 숙지사항</b> <legend>
-							<ol type="i">
-								<li>텐트 입장시 <b>숙박하는 모든 미성년자들의 보호자 자필동의서</b>혹은<b>부모님의 대면
-										확인</b>이 필요합니다.<br> (동의서 미 제출 시 <strong>오후 10시 이전 강제
-										퇴영조치</strong> 됩니다.)
-								</li>
-								<li>법적 보호자를 동반하지 않은 <b>미성년자 혼숙은 절대불가</b> 합니다.
-								</li>
-							</ol>
-						</legend></li>
-				</ol>
-				<br>
-				<table border=1>
-					<tr>
-						<td><img src="images/4tent.PNG" width="150" height="120"></td>
-						<td><img src="images/6tent.PNG" width="150" height="120"></td>
-						<td><img src="images/mytent.PNG" width="150" height="120"></td>
-					</tr>
-					<tr align="center">
-						<td>4인용 텐트</td>
-						<td>6인용 텐트</td>
-						<td>개인용 텐트</td>
-					</tr>
-				</table>
-				<ul>
-					<li>숙영지인 텐트 지역은 <strong>전기사용(8000원) 가능</strong></li>
-					<li>대여텐트는 <strong>4인용과 6인용을 구분</strong>
-						<ol>
-							<li>안전 및 편안한 숙영을 위해 텐트내 숙영 인원을 구분, 4인용, 6인용 으로 나누어져 있습니다.</li>
-						</ol>
-					</li>
-					<li>텐트 대여 및 상세가격 안내는 <strong>이용시간 및 요금 안내를 참조</strong>하시기
-						바랍니다.
-					</li>
-					<li></li>
-				</ul>
-			</article>
-			<article id="pikinfo">
-				<h1>피크닉 이용안내</h1>
-				<hr>
-				<h2>피크닉 이용객</h2>
-				<pre>
+					</legend></li>
+			</ol>
+			<br>
+			<table border=1>
+				<tr>
+					<td><section
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/4tent.PNG');"></td>
+					<td><section
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/6tent.PNG');"></td>
+					<td><section
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/mytent.PNG');"></td>
+				</tr>
+				<tr align="center">
+					<td>4인용 텐트</td>
+					<td>6인용 텐트</td>
+					<td>개인용 텐트</td>
+				</tr>
+			</table>
+			<ul>
+				<li>숙영지인 텐트 지역은 <strong>전기사용(8000원) 가능</strong></li>
+				<li>대여텐트는 <strong>4인용과 6인용을 구분</strong>
+					<ol>
+						<li>안전 및 편안한 숙영을 위해 텐트내 숙영 인원을 구분, 4인용, 6인용 으로 나누어져 있습니다.</li>
+					</ol>
+				</li>
+				<li>텐트 대여 및 상세가격 안내는 <strong>이용시간 및 요금 안내를 참조</strong>하시기 바랍니다.
+				</li>
+			</ul>
+		</article>
+		<article id="pikinfo">
+			<h1>피크닉 이용안내</h1>
+			<hr align="left">
+			<h2>피크닉 이용객</h2>
+			<pre>
 텐트를 설치하지 않고 <strong>자유 이용공간(피크닉존)에서 점심, 저녁 등의 간단한 취사 및 바베큐 파티를
 원하시는 경우 예약없이 당일 이용이 가능</strong> 합니다.
 </pre>
-				<br>
-				<pre>
+			<br>
+			<pre>
 예약없이 당일 방문통해 이용하실 수 있으며 당일 입장권 구매 후 <strong>텐트설치없이 캠핑장내 자유 이용
 공간(피크닉지역)을 이용</strong>하시면 됩니다.
 </pre>
-				<br>
-				<pre>
+			<br>
+			<pre>
 피크닉을 위한 캠핑장은 <b>오전 10시 30분 부터 익일오전 09시 30분 까지</b> 이용하실 수 있으며 캠핑장내 피크닉
 장소의 비어있는 공간을 이용하시면 됩니다.
 </pre>
-				<br>
-				<table border=1>
-					<tr>
-						<td><img src="images/market1.PNG" width="150" height="120"></td>
-						<td><img src="images/market2.PNG" width="150" height="120"></td>
-					</tr>
-					<tr align="center">
-						<td colspan="2">캠핑장 내 마켓</td>
-					</tr>
-				</table>
-				<br>
-				<pre>
+			<br>
+			<table border=1>
+				<tr>
+					<td><section
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/market1.PNG');"></td>
+					<td><section
+							style="width: 200px; height: 170px; background-image: url('/myapp/resources/images/market2.PNG');"></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">캠핑장 내 마켓</td>
+				</tr>
+			</table>
+			<br>
+			<pre>
 캠핑장내 마켓이 마련되어있어 언제든 숯, 석쇠, 각종 육류 및 채소, 음료 및 기타식품 등 편의 용품을 편리하게 이용하실 수 있습니다.
 피크닉 지역의 테이블은 90개가 준비되어 있으며 무료 입니다.
 <b>주의</b>: <strong>무료 목재 테이블 1세트 당 그늘막 1동씩만 대여 설치</strong>(그늘막 대여 유료) 하실 수 있습니다. 참조 부탁드립니다.
     - 추가로 그늘막이나 테이블, 의자가 필요하신 분들은 준비된 물품을 유료로 대여하고 있습니다.
 <strong>대여용품:</strong>이동식 그늘막, 테이블, 의자, 휴대용 가스레인지, 랜턴, 그릴 등
 </pre>
-				<table border=1>
-					<caption>
-						<h2>캠프 단체 세팅 메뉴</h2>
-					</caption>
-					<thead align="center">
-						<tr>
-							<th>식 단</th>
-							<th>내 용</th>
-							<th>기 타</th>
-						</tr>
-					</thead>
-					<tfoot align="center">
-						<tr>
-							<th>김치찜</th>
-							<th colspan="2">1인분(공기밥포함)</th>
-						</tr>
-					</tfoot>
-					<tbody align="center">
-						<tr>
-							<td>돼지고기</td>
-							<td>250g</td>
-							<td>(녹돈목살)</td>
-						</tr>
-						<tr>
-							<td>대 하</td>
-							<td>수입산</td>
-							<td rowspan="5">숯불구이</td>
-						</tr>
-						<tr>
-							<td>소시지</td>
-							<td>국내산</td>
-						</tr>
-						<tr>
-							<td>가래떡</td>
-							<td rowspan="3">인당1개</td>
-						</tr>
-						<tr>
-							<td>감 자</td>
-						</tr>
-						<tr>
-							<td>고구마</td>
-						</tr>
-						<tr>
-							<td>각종야채</td>
-							<td colspan="2">쌈채소,마늘,오이,고추 등</td>
-						</tr>
-					</tbody>
-				</table>
-				<span>인당 1만원 추가시 소고기(등심) 250g 으로 변경 가능</span> <br> <br>
-				<table border="1">
-					<thead align="center">
-						<tr>
-							<td>장 비</td>
-							<td>내 용</td>
-							<td>기 타</td>
-						</tr>
-					</thead>
-					<tbody align="center">
-						<tr>
-							<td>그릴(대)</td>
-							<td>10인1개</td>
-							<td rowspan="3">번개탄, 숯, 철망, 집게, 가위, 장갑</td>
-						</tr>
-						<tr>
-							<td>테이블</td>
-							<td>10인4테이블</td>
-						</tr>
-						<tr>
-							<td>의 자</td>
-							<td>의자*인원수</td>
-					</tbody>
-				</table>
-				<span>입장료와 그늘막은 별도 입니다.</span> <br> <br>
-				<h2>주의하실 점</h2>
-				<pre>
+
+			<caption>
+				<h2>캠프 세팅 메뉴</h2>
+			</caption>
+			<table border=1>
+
+				<thead align="center">
+					<tr>
+						<th>식 단</th>
+						<th>내 용</th>
+						<th>기 타</th>
+					</tr>
+				</thead>
+				<tfoot align="center">
+					<tr>
+						<th>김치찜</th>
+						<th colspan="2">1인분(공기밥포함)</th>
+					</tr>
+				</tfoot>
+				<tbody align="center">
+					<tr>
+						<td>돼지고기</td>
+						<td>250g</td>
+						<td>(녹돈목살)</td>
+					</tr>
+					<tr>
+						<td>대 하</td>
+						<td>수입산</td>
+						<td rowspan="5">숯불구이</td>
+					</tr>
+					<tr>
+						<td>소시지</td>
+						<td>국내산</td>
+					</tr>
+					<tr>
+						<td>가래떡</td>
+						<td rowspan="3">인당1개</td>
+					</tr>
+					<tr>
+						<td>감 자</td>
+					</tr>
+					<tr>
+						<td>고구마</td>
+					</tr>
+					<tr>
+						<td>각종야채</td>
+						<td colspan="2">쌈채소,마늘,오이,고추 등</td>
+					</tr>
+				</tbody>
+			</table>
+			<span>인당 1만원 추가시 소고기(등심) 250g 으로 변경 가능</span> <br> <br>
+			<table border="1">
+				<thead align="center">
+					<tr>
+						<td>장 비</td>
+						<td>내 용</td>
+						<td>기 타</td>
+					</tr>
+				</thead>
+				<tbody align="center">
+					<tr>
+						<td>그릴(대)</td>
+						<td>10인1개</td>
+						<td rowspan="3">번개탄, 숯, 철망, 집게, 가위, 장갑</td>
+					</tr>
+					<tr>
+						<td>테이블</td>
+						<td>10인4테이블</td>
+					</tr>
+					<tr>
+						<td>의 자</td>
+						<td>의자*인원수</td>
+				</tbody>
+			</table>
+			<span>입장료와 그늘막은 별도 입니다.</span> <br> <br>
+			<h2>주의하실 점</h2>
+			<pre>
 이용시 편의를 위해 캠핑장 <strong>출입팔찌</strong>를 드리며 캠핑장 이용이 마무리 되실때까지 착용하고 계시면 캠핑장
 안,밖 출입이 가능합니다. 다만 <b>분실, 미착용 시 입장권을 재 구매</b> 하셔야 하오니 주의해 주시기를 당부드립니다.
 </pre>
 
-				<pre>
+			<pre>
 피크닉을 이용하신 경우 별도의 체크아웃 절차없이 익일 <b>오전 09시 30분 까지 퇴영</b>하시면 되며 퇴장 하시기 전
 필히 <strong>대여용품 반납과 쓰레기 정리</strong>를 해주셔야 합니다. <b>시간을 확인 부탁드립니다.</b>
 </pre>
 
-				쓰레기는
-				<ins>"규격봉투 (매표소 및 편의점 판매)"</ins>
-				를 사용하셔야 합니다.
-				<ul>
-					<li><strong>음식물 쓰레기는 피크닉/캠핑 구역 중간 식수대에 비치된 바구니</strong>에 버려주시면
-						됩니다.</il>
-					<li>대여물품 반납 후 <b>보증금</b> 혹은 <b>신분증</b>을 찾아 가시면 됩니다.</il>
-				</ul>
-			</article>
-			<article id="timeNpay">
-				<h1>이용시간 및 요금안내</h1>
-				<hr>
-				<h2>난지캠핑장 이용시간 및 요금안내</h2>
-				<pre>
+			쓰레기는
+			<ins>"규격봉투 (매표소 및 편의점 판매)"</ins>
+			를 사용하셔야 합니다.
+			<ul>
+				<li><strong>음식물 쓰레기는 피크닉/캠핑 구역 중간 식수대에 비치된 바구니</strong>에 버려주시면
+					됩니다.</il>
+				<li>대여물품 반납 후 <b>보증금</b> 혹은 <b>신분증</b>을 찾아 가시면 됩니다.</il>
+			</ul>
+		</article>
+		<article id="timeNpay">
+			<h1>이용시간 및 요금안내</h1>
+			<hr align="left">
+			<h2>난지캠핑장 이용시간 및 요금안내</h2>
+			<pre>
 이용자분들의 편리한 이용을 위해 아래와 같이 <b>체크인/체크아웃</b> 시간이 정해져 있습니다.
 <br>
 캠핑 또는 피크닉 하시는 분들은 별도의 체크아웃 절차 없이 <b>익일 오전9시30분 퇴영</b> 하시면 됩니다 .
@@ -262,105 +394,235 @@ b {
 쓰레기는 <ins>"규격봉투 (매표소 및 편의점 판매)"</ins> 에 담아 캠핑장 용품 대여소 옆 분리수거 장에 버려주시고
 음식물 쓰레기는 각 피크닉/캠핑 구역 중앙에 위치한 식수대에 비치된 바구니에 버려주시면 됩니다.
 </pre>
-				<h2>이용시간 안내</h2>
-				<table border=1>
-					<tr>
-						<td><span>피크닉 </span>이용자 : <b>오전 10시 30분 부터 체크인</b> / <b>익일
-								오전 09시 30분 체크아웃</b>
-							<ul>
-								<li>현장 결제 후 출입증(팔찌교부)</li>
-								<li>피크닉 장소는 지정자리가 아니며 <b>오전 10시 30분 부터</b> 입장 가능합니다.<br>
-									(청소 관계로 20분 정도 지연될 수 있습니다. 참조 부탁드립니다.)
-								</li>
-							</ul> <span>캠핑 </span>이용자 : <b>오전 10시 30분 부터 체크인</b> / <b>익일 오전
-								09시 30분 체크아웃</b>
-							<ul>
-								<li>예약 확인증을 제출 후 출입증(팔찌교부), 지정자리 사용</li>
-							</ul></td>
-					</tr>
-				</table>
-				<h2>이용요금 안내</h2>
-				1인 기준 입장료는 <b>4000원 </b>입니다. 초등학생 이상은 성인 요금이 부과되며 <b>6~7세 2000원,
-					5세 이하는 무료</b>입니다. <br> <br>
-				<table border=1>
-					<tr>
-						<td><span>입장료 할인대상 및 감면 대상</span></td>
-					</tr>
-				</table>
-				<pre>
+			<h2>이용시간 안내</h2>
+			<table border=1>
+				<tr>
+					<td><span>피크닉 </span>이용자 : <b>오전 10시 30분 부터 체크인</b> / <b>익일
+							오전 09시 30분 체크아웃</b>
+						<ul>
+							<li>현장 결제 후 출입증(팔찌교부)</li>
+							<li>피크닉 장소는 지정자리가 아니며 <b>오전 10시 30분 부터</b> 입장 가능합니다.<br>
+								(청소 관계로 20분 정도 지연될 수 있습니다. 참조 부탁드립니다.)
+							</li>
+						</ul> <span>캠핑 </span>이용자 : <b>오전 10시 30분 부터 체크인</b> / <b>익일 오전 09시
+							30분 체크아웃</b>
+						<ul>
+							<li>예약 확인증을 제출 후 출입증(팔찌교부), 지정자리 사용</li>
+						</ul></td>
+				</tr>
+			</table>
+			<h2>이용요금 안내</h2>
+			1인 기준 입장료는 <b>4000원 </b>입니다. 초등학생 이상은 성인 요금이 부과되며 <b>6~7세 2000원,
+				5세 이하는 무료</b>입니다. <br> <br>
+			<table border=1>
+				<tr>
+					<td><span>입장료 할인대상 및 감면 대상</span></td>
+				</tr>
+			</table>
+			<pre>
 장애인 등록증 소지자 1~3급은 동반 1인까지 50%할인, 4~6급은 본인만 50%,
 65세 이상이신 분들은 50% 할인 (신분증 확인).
 다둥이 행복카드 소지자는 카드에 등재된 가족에 한해서 50% 할인(<strong>서울지역 해당</strong>).
 국가 유공자 증서 소지하신 분은 본인에 한해 50% 할인.
 </pre>
-				<ol type="I">
-					<li><span>중학생이하</span> 단체할인 (30명 이상)</li>
-					<li>캠핑을 위한 캠핑장은 "<mark>B구역과 D구역</mark>" 으로 나누어 집니다.<br> (<span>이용안내의
-							텐트 숙영지 위치를 참조</span>하시고 해당 지역을 <span>예약</span> 하시면 됩니다.)
-					</li>
-				</ol>
-				<table border=1>
-					<tr>
-						<td><span>이용요금 안내 가이드</span></td>
-					</tr>
-				</table>
-				<ol type="I">
-					<li>자가텐트 23000원 [입장료 4인 + 전기] 포함</li>
-					<li>4인용 가족텐트 33000원 [입장료 4인 + 매트] 포함</li>
-					<li>6인용 캐빈텐트 45000원 [입장료 6인 + 매트] 포함</li>
-					<li><span>냉.난방 설치된 텐트는 18000원 추가</span></li>
-					<li>주차요금
-						<ol>
-							<li>시간당 최초 30분에 1000원, 10분에 200원씩 입니다.<br> 이용객은 출차 시
-								무인카드 정산기에 주차 할인권(매표소에 비치)을 넣으시면 50% 할인 가능합니다.<br> <strong>주차장은
-									한강공원 공영 주차장이며 캠핑장과는 별도로 운영 됩니다.</strong>
-							</li>
-						</ol>
-					</li>
-				</ol>
-			</article>
-			<article id="tip">
-				<h1>준수사항 및 팁</h1>
-				<hr>
-				<h2>캠핑장이용 준수사항 & 팁 안내</h2>
-				<p>난지 캠핑장은 편리하고 쾌적한 이용을 위해 다음의 몇가지 준수 사항을 제시하고 있습니다.</p>
-				<ol type="1">
-					<li><span>캠핑장 이용시간 안내</span><br> 난지 캠핑장의 이용시간은 다음과 같습니다.
-						<ul>
-							<li>피크닉(오전 10시 30분)</li>
-							<li>캠핑(오전 10시 30분) 부터 익일 오전 09시 30분 까지 입니다.
-						</ul></li>
-					<br>
-					<li><span>입장권 팔찌안내</span><br> 캠핑장 출입 시 매표소에서 받으신 입장권 팔찌를
-						꼭 착용하여 주시기 바랍니다.<br> <strong>팔찌 미 착용 시 출입이 제한</strong> 되오며
-						입장권을 재 구매 하셔야 합니다.</li>
-					<br>
-					<li><span>금지행위 안내</span><br> 인라인 스케이트, 보드, 자전거 등 탈것의 운행금지<br>
-						축구, 야구 등 타인에게 피해가 되는 운동 금지<br> 텐트의 실내 탁자 등에 화기 사용 금지<br>
-						음주가무 등으로 인한 소란행위 금지 / 캠프파이어, 폭죽놀이 금지</li>
-					<br>
-					<li><span>애완동물 동반안내</span><br> 캠핑장 내 애완동물 의 출입은 엄격히 <strong>금지</strong>되고
-						있습니다.</li>
-					<br>
-					<li><span>식수대 사용안내</span><br> 식수대는 취사를 위해 마련된 장소 입니다. <strong>세면,
-							세족 등은 캠프장내 샤워장</strong>을 반드시 이용<br> 해 주시길 바랍니다.</li>
-					<br>
-					<li><span>LPG가스용기 반입금지 안내</span><br> <strong>LPG가스
-							및 프로판가스</strong>반입과 사용이 금지되고 있습니다. (휴대용 부탄가스는 가능)</li>
-					<br>
-					<li><span>사용금지 전기용품 안내</span><br> <strong>전기포트,
-							라디에이터, 전기밥솥, 냉장 및 냉동장치</strong> 등 "전기 사용량이 큰 제품" 은 사용이 금지되고 있습니다.</br> (전기사용량
-						최대 500w까지 이용가능, <b>추가 이용시 전기 차단</b>됩니다.)</li>
-					<br>
-					<li><span>캠핑장 내 영업행위금지 안내</span><br> 캠핑장 내 영업행위가 금지되어
-						있습니다. (외부 출장뷔페 및 생맥주 기계반입 금지)</li>
-					<br>
-					<li><span>타프설치 불가 안내</span><br> 모든 텐트지역 및 피크닉 지역에는 개인 텐트
-						및 타프 설치가 불가능 합니다.</li>
-				</ol>
-			</article>
-		</section>
-		<footer>footer</footer>
+			<ol type="I">
+				<li><span>중학생이하</span> 단체할인 (30명 이상)</li>
+				<li>캠핑을 위한 캠핑장은 "<mark>B구역과 D구역</mark>" 으로 나누어 집니다.<br> (<span>이용안내의
+						텐트 숙영지 위치를 참조</span>하시고 해당 지역을 <span>예약</span> 하시면 됩니다.)
+				</li>
+			</ol>
+			<table border=1>
+				<tr>
+					<td><span>이용요금 안내 가이드</span></td>
+				</tr>
+			</table>
+			<ol type="I">
+				<li>자가텐트 23000원 [입장료 4인 + 전기] 포함</li>
+				<li>4인용 가족텐트 33000원 [입장료 4인 + 매트] 포함</li>
+				<li>6인용 캐빈텐트 45000원 [입장료 6인 + 매트] 포함</li>
+				<li><span>냉.난방 설치된 텐트는 18000원 추가</span></li>
+				<li>주차요금
+					<ol>
+						<li>시간당 최초 30분에 1000원, 10분에 200원씩 입니다.<br> 이용객은 출차 시
+							무인카드 정산기에 주차 할인권(매표소에 비치)을 넣으시면 50% 할인 가능합니다.<br> <strong>주차장은
+								한강공원 공영 주차장이며 캠핑장과는 별도로 운영 됩니다.</strong>
+						</li>
+					</ol>
+				</li>
+			</ol>
+		</article>
+		<article id="tip">
+			<h1>준수사항 및 팁</h1>
+			<hr align="left">
+			<h2>캠핑장이용 준수사항 & 팁 안내</h2>
+			<p>난지 캠핑장은 편리하고 쾌적한 이용을 위해 다음의 몇가지 준수 사항을 제시하고 있습니다.</p>
+			<ol type="1">
+				<li><span>캠핑장 이용시간 안내</span><br> 난지 캠핑장의 이용시간은 다음과 같습니다.
+					<ul>
+						<li>피크닉(오전 10시 30분)</li>
+						<li>캠핑(오전 10시 30분) 부터 익일 오전 09시 30분 까지 입니다.
+					</ul></li>
+				<br>
+				<li><span>입장권 팔찌안내</span><br> 캠핑장 출입 시 매표소에서 받으신 입장권 팔찌를 꼭
+					착용하여 주시기 바랍니다.<br> <strong>팔찌 미 착용 시 출입이 제한</strong> 되오며 입장권을
+					재 구매 하셔야 합니다.</li>
+				<br>
+				<li><span>금지행위 안내</span><br> 인라인 스케이트, 보드, 자전거 등 탈것의 운행금지<br>
+					축구, 야구 등 타인에게 피해가 되는 운동 금지<br> 텐트의 실내 탁자 등에 화기 사용 금지<br>
+					음주가무 등으로 인한 소란행위 금지 / 캠프파이어, 폭죽놀이 금지</li>
+				<br>
+				<li><span>애완동물 동반안내</span><br> 캠핑장 내 애완동물 의 출입은 엄격히 <strong>금지</strong>되고
+					있습니다.</li>
+				<br>
+				<li><span>식수대 사용안내</span><br> 식수대는 취사를 위해 마련된 장소 입니다. <strong>세면,
+						세족 등은 캠프장내 샤워장</strong>을 반드시 이용<br> 해 주시길 바랍니다.</li>
+				<br>
+				<li><span>LPG가스용기 반입금지 안내</span><br> <strong>LPG가스
+						및 프로판가스</strong>반입과 사용이 금지되고 있습니다. (휴대용 부탄가스는 가능)</li>
+				<br>
+				<li><span>사용금지 전기용품 안내</span><br> <strong>전기포트,
+						라디에이터, 전기밥솥, 냉장 및 냉동장치</strong> 등 "전기 사용량이 큰 제품" 은 사용이 금지되고 있습니다.</br> (전기사용량 최대
+					500w까지 이용가능, <b>추가 이용시 전기 차단</b>됩니다.)</li>
+				<br>
+				<li><span>캠핑장 내 영업행위금지 안내</span><br> 캠핑장 내 영업행위가 금지되어
+					있습니다. (외부 출장뷔페 및 생맥주 기계반입 금지)</li>
+				<br>
+				<li><span>타프설치 불가 안내</span><br> 모든 텐트지역 및 피크닉 지역에는 개인 텐트 및
+					타프 설치가 불가능 합니다.</li>
+			</ol>
+		</article>
+	</section>
+
+
+	<footer class="footer">
+		<div class="container-fluid px-lg-5">
+			<div class="row">
+				<div class="col-md-9 py-5">
+					<div class="row">
+						<div class="col-md-4 mb-md-0 mb-4">
+							<h2 class="footer-heading">About us</h2>
+							<p>A small river named Duden flows by their place and
+								supplies it with the necessary regelialia.</p>
+							<ul class="ftco-footer-social p-0">
+								<li class="ftco-animate"><a href="#" data-toggle="tooltip"
+									data-placement="top" title="Twitter"><span
+										class="ion-logo-twitter"></span></a></li>
+								<li class="ftco-animate"><a href="#" data-toggle="tooltip"
+									data-placement="top" title="Facebook"><span
+										class="ion-logo-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="#" data-toggle="tooltip"
+									data-placement="top" title="Instagram"><span
+										class="ion-logo-instagram"></span></a></li>
+							</ul>
+						</div>
+						<div class="col-md-8">
+							<div class="row justify-content-center">
+								<div class="col-md-12 col-lg-10">
+									<div class="row">
+										<div class="col-md-4 mb-md-0 mb-4">
+											<h2 class="footer-heading">Services</h2>
+											<ul class="list-unstyled">
+												<li><a href="#" class="py-1 d-block">Construction</a></li>
+												<li><a href="#" class="py-1 d-block">House
+														Renovation</a></li>
+												<li><a href="#" class="py-1 d-block">Painting</a></li>
+												<li><a href="#" class="py-1 d-block">Arhictecture
+														Design</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4 mb-md-0 mb-4">
+											<h2 class="footer-heading">About</h2>
+											<ul class="list-unstyled">
+												<li><a href="#" class="py-1 d-block">Staff</a></li>
+												<li><a href="#" class="py-1 d-block">Team</a></li>
+												<li><a href="#" class="py-1 d-block">Careers</a></li>
+												<li><a href="#" class="py-1 d-block">Blog</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4 mb-md-0 mb-4">
+											<h2 class="footer-heading">Resources</h2>
+											<ul class="list-unstyled">
+												<li><a href="#" class="py-1 d-block">Security</a></li>
+												<li><a href="#" class="py-1 d-block">Global</a></li>
+												<li><a href="#" class="py-1 d-block">Charts</a></li>
+												<li><a href="#" class="py-1 d-block">Privacy</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-md-5">
+						<div class="col-md-12">
+							<p class="copyright">
+								Link back to Colorlib can't be removed. Template is licensed
+								under CC BY 3.0. Copyright &copy;
+								<script>
+									document.write(new Date().getFullYear());
+								</script>
+								All rights reserved | This template is made with <i
+									class="ion-ios-heart" aria-hidden="true"></i> by <a
+									href="https://colorlib.com" target="_blank">Colorlib.com</a>
+								Link back to Colorlib can't be removed. Template is licensed
+								under CC BY 3.0.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
+					<h2 class="footer-heading">Request A Quote</h2>
+					<form action="#" class="contact-form">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Your Email">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Subject">
+						</div>
+						<div class="form-group">
+							<textarea name="" id="" cols="30" rows="3" class="form-control"
+								placeholder="Message"></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="form-control submit px-3">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none"
+				stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none"
+				stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg>
 	</div>
+
+	<script src="/myapp/resources/js/jquery.min.js"></script>
+	<script src="/myapp/resources/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="/myapp/resources/js/popper.min.js"></script>
+	<script src="/myapp/resources/js/bootstrap.min.js"></script>
+	<script src="/myapp/resources/js/jquery.easing.1.3.js"></script>
+	<script src="/myapp/resources/js/jquery.waypoints.min.js"></script>
+	<script src="/myapp/resources/js/jquery.stellar.min.js"></script>
+	<script src="/myapp/resources/js/jquery.animateNumber.min.js"></script>
+	<script src="/myapp/resources/js/owl.carousel.min.js"></script>
+	<script src="/myapp/resources/js/jquery.magnific-popup.min.js"></script>
+	<script src="/myapp/resources/js/scrollax.min.js"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
+
+	<script type="text/javascript"
+		src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2f5541db0e580532285e4af1bdf6e020&libraries=services"></script>
+	<script src="/myapp/resources/js/daum-map.js"></script>
+	<script src="/myapp/resources/js/main.js"></script>
+
 </body>
 </html>

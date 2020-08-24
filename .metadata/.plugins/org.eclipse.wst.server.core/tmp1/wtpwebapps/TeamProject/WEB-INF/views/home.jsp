@@ -6,21 +6,19 @@
 <html lang="en">
 
   <head>
-    <title>Home Builder - Free Bootstrap 4 Template by Colorlib</title>
+    <title>CAMPER</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+     
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- 
-    <link rel="stylesheet" href="${path }/resources/css/animate.css">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="${path }/resources/css/animate.css">    
     <link rel="stylesheet" href="${path }/resources/css/owl.carousel.min.css">
     <link rel="stylesheet" href="${path }/resources/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="${path }/resources/css/magnific-popup.css">
-    <link rel="stylesheet" href="${path }/resources/css/ionicons.min.css">
-    
+
+<html>
+    <link rel="stylesheet" href="${path }/resources/css/ionicons.min.css">    
     <link rel="stylesheet" href="${path }/resources/css/flaticon.css">
     <link rel="stylesheet" href="${path }/resources/css/icomoon.css">
     <link rel="stylesheet" href="${path }/resources/css/style.css">
@@ -30,7 +28,7 @@
     <div class="container pt-5">
 			<div class="row justify-content-between">
 				<div class="col">
-					<a class="navbar-brand" href="index.html">Home<span>builder.</span></a>
+					<a class="navbar-brand" href="home">캠핑에 관한 모든 것, 이곳은 <span>CAMPER </span>입니다</a>
 				</div>
 				<div class="col d-flex justify-content-end">
 					<div class="social-media">
@@ -58,12 +56,13 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="home" class="nav-link">캠핑장</a></li>
+	        	<li class="nav-item"><a href="page2" class="nav-link">소개</a></li>
+	        	<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
+	        	<li class="nav-item"><a href="page4" class="nav-link">이용안내</a></li>
+	        	<li class="nav-item"><a href="page5" class="nav-link">예약 및 대여</a></li>
+	          	<li class="nav-item"><a href="page6" class="nav-link">커뮤니티.1</a></li>	          	
+	          	<li class="nav-item"><a href="page7" class="nav-link">커뮤니티.2</a></li>	          	
 	        </ul>
 	      </div>
 	    </div>

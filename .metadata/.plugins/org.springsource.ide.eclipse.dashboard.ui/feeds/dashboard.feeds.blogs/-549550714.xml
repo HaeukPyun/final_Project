@@ -5,7 +5,20 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-08-19T00:48:46Z</updated>
+  <updated>2020-08-21T04:07:18Z</updated>
+  <entry>
+    <title>Bootiful Podcast: Google Cloud's Elena Felder on Spring Cloud GCP, Reactor, and More</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/21/bootiful-podcast-google-cloud-s-elena-felder-on-spring-cloud-gcp-reactor-and-more" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-08-21:4176</id>
+    <updated>2020-08-21T04:07:18Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode, &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to Google Cloud&amp;rsquo;s &lt;a href="http://twitter.com/hellata"&gt;Elena Felder (@hellata)&lt;/a&gt; about building Reactor/Spring-based integrations for Google Cloud technologies like Google Cloud Spanner.&lt;/p&gt;
+&lt;iframe title="Google Cloud's Elena Felder on Google Cloud, Spanner, and Reactor-based integrations" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/phdqq-e80955?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - August 18th, 2020</title>
     <link rel="alternate" href="https://spring.io/blog/2020/08/19/this-week-in-spring-august-18th-2020" />
@@ -1823,19 +1836,6 @@ The local Data Flow installation is fine for local development and exploration, 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: JFrog's Baruch Sadogursky on continuous delivery, DevOps, Java artifact management and more</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/08/07/a-bootiful-podcast-jfrog-s-baruch-sadogursky-on-continuous-delivery-devops-java-artifact-management-and-more" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-08-07:4153</id>
-    <updated>2020-08-07T02:52:12Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks about ten years on the Spring team, reactive support, and RSocket support in Spring Integration, his upcoming appearances at SpringOne and his &lt;a href="https://www.eventbrite.com.au/e/yow-workshop-2020-cloud-native-java-aug-14-18-2020-tickets-114222161560?aff=social"&gt;upcoming YOW! workshop on &lt;em&gt;Cloud Native Java&lt;/em&gt;&lt;/a&gt;, and then talks to JFrog&amp;rsquo;s &lt;a href="http://twitter.com/jbaruch"&gt;Baruch Sadogursky (@jbaruch)&lt;/a&gt; about continuous delivery, DevOps, Java artifact management Artifactory, and more.&lt;/p&gt;
-&lt;iframe title="10 Years on the Spring team and JFrog's Baruch Sag" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/4me2u-e5f7b3?from=pb6admin&amp;amp;download=1&amp;amp;version=1&amp;amp;auto=0&amp;amp;share=1&amp;amp;download=1&amp;amp;rtl=0&amp;amp;fonts=Helvetica&amp;amp;skin=1&amp;amp;pfauth=&amp;amp;btn-skin=107"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

@@ -1,45 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>page 4</title>
+<title>camper.page4</title>
 <style>
-  ul.topmenu {
-            border-top: 1px solid  ghostwhite;
-            border-bottom: 1px solid ghostwhite;
-            padding: 0;
-            overflow: hidden;
-            width: 2000px;
-              background-color: #555;
-        }
-        .topmenu > li {
-            border: 0px solid blue;
-            width : 200px;
-            height: 40px;
-            text-align: center;
-            line-height: 40px;
-            list-style: none;
-            float: left;
-            box-sizing: border-box;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 0px 0px;
-            text-decoration: none;
-            
-           }
-        
-        .topmenu > li:hover {
-            background-color: green;
-            border-bottom: 2px solid red;
-        }
-      #title,#navi-bar,#sub-navi{
-            font-style: italic;
-        
-        }
-        
+ .page4{
+        position: fixed; 
+       } 
         body{
         margin:0;
         }
@@ -67,35 +37,74 @@
               color: white;
   color: white;
         }
+          #check1{
+            border: 1px solid black;
+        }
            
+    div #m1 { 
+      positon:fixed;
      
+     }
        
-</style>
+</style>  
+
+
 <body>
  <section id=welcome_Header>
  
         <header>
-            <div id="page4"> 
+            <div id="page4" > 
             
-                <h1>캠핑장 예약 및 대여</h1>
-                <ul class="topmenu">
-                    <li id="title"><a>web title</a></li>
-                    <li id="navi-bar"><a>navigation bar</a></li>
-                    <li id="sub-navi"><a>Sub navigation bar</a></li>
-                </ul>
+                <h1>캠핑장 예약 및 대여 사항</h1>
+           
             </div>
         </header>
         
-        </section>
+        </section>    
     
-             <ul class="nextMenu">
-        <li id="r1"><a class="res1" href="#sres1">예약 및 대여 공지사항</a></li>
-        <li id="r1"><a class="res2" href="#sres2">안내 및 예약 대여</a></li>
-        <li id="r1"><a class="res3" href="#sres3">검색</a></li>
-        <li id="r1"><a class="res4" href="#sres4">현황(예약 및 대여)</a></li>
+           <div class="nextblock"  >
+            <ul class="nextMenu">
+              
+                <li id="r1"><a class="res1"  href=#page4">예약 및 대여 공지사항</a></li>
+                <li id="r1"><a class="res2" href=#page4">안내 및 예약 대여</a></li>
+                <li id="r1"><a class="res3" href=#page4">검색(캠프장?예약된 or 예약하기전)</a></li>
+                <li id="r1"><a class="res4"href=#page4" >현황(예약 및 대여)</a></li>
 		
-	</ul>
+	</ul> 
 
+
+           </div>
+             
+             
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;" id="m1">
+        <h2>예약 및 대여 방법 안내 및 공지사항</h2>
+        <h3> 예약 안내</h3>
+       <ul>
+           <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
+           <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
+            많은 사람들이 사용하는만큼 신중히 신청하셔서 다른 사용자들에게 피해를 주는 일이 없도록 해주세요.</li><br>
+            <li> 예약자와 입실자가 동일 하여야 하며 입실자가 다른 경우는 사전에 연락하여 주시기 바랍니다.</li><br>
+           <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
+       </ul>
+            <h3> 결재안내</h3>
+            <ul>
+                <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.
+                    </li>
+                    <p> (단, 사용일이 3일 이내인 경우 예약당일 자정까지 사용료를 결제해야 합니다.)</p>
+              <div id="check1">
+                <ul> <strong>무통장 입금 계좌 번호</strong>
+                    <li>농협 :211-111-11-111111</li>
+                    <li>예금주:2조 캠핑장 사이트</li>
+                </ul>
+              </div>
+            </ul>
+               <h3> 기타 주의사항</h3>
+               <ul>
+                   <li>예약후 방문시에는 예약자 확인을 위해 반드시 신분증을 지참해 주세요. 본인확인이 안 될 경우 입실이 불가능합니다.</li><br>
+                   <li> 추암오토캠핑장 관리사무소(033-539-3737)에서 자세한 안내를 받으실 수 있습니다.</li><br>
+                   <li> 1일 이용시간은 당일 14:00 ~ 익일 12:00까지 기준이며 퇴실(퇴영)시간을 반드시 지켜주시기 바랍니다.</li>
+               </ul>
+        </div>
 
 
 </body>
