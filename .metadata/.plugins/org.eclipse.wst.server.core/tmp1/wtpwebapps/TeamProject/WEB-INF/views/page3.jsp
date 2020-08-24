@@ -7,7 +7,7 @@
 <title>camper.page3</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+<script src="http://code.jquery.com/jquery.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -60,11 +60,50 @@ h1 {
 hr {
 	width: 50%;
 }
+#floatMenu {
+position: absolute;
+	left: 1500px;
+	top: 700px;
+}
 </style>
+<script type="text/javascript"> 
+
+$(document).ready(function() {
+
+	// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
+	var floatPosition = parseInt($("#floatMenu").css('top'));
+	// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
+
+	$(window).scroll(function() {
+		// 현재 스크롤 위치를 가져온다.
+		var scrollTop = $(window).scrollTop();
+		var newPosition = scrollTop + floatPosition + "px";
+
+		/* 애니메이션 없이 바로 따라감
+		 $("#floatMenu").css('top', newPosition);
+		 */
+
+		$("#floatMenu").stop().animate({
+			"top" : newPosition
+		}, 500);
+
+	}).scroll();
+
+});
+
+$("#floatMenu").stop().animate({
+	"top" : newPosition
+}, {
+	'duration' : 500,
+	'easing' : 'easeInOutCubic',
+	'complete' : function() {
+		console.log('이동 완료하였습니다.');
+	}
+});
+   </script> 
 </head>
 <body>
-
-	<div class="container pt-5">
+	<div class="container pt-5" id="upper">
 		<div class="row justify-content-between">
 			<div class="col">
 				<a class="navbar-brand" href="index.html">
@@ -101,10 +140,10 @@ hr {
 				</div>
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav mr-auto">				
+				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a href="home" class="nav-link">공지사항</a></li>
-					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
-					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
+					<li class="nav-item"><a href="page2" class="nav-link">이용안내</a></li>
+					<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
@@ -133,7 +172,15 @@ hr {
 	</section>
 	<br>
 	<nav class="nav">nav</nav>
-	<aside class="aside">aside</aside>
+	<aside class="aside">aside	
+	<ul id="floatMenu">
+			<li><a href="#upper"><div style="color:black; text-align:center; width:186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>이용안내</strong></div></a></li>
+            <li><a href="#campinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핑장 이용안내</strong></div></a></li>
+            <li><a href="#pikinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>피크닉 이용안내</strong></div></a></li>
+            <li><a href="#timeNpay"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>이용시간 및 요금안내</strong></div></a></li>
+            <li><a href="#tip"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>준수사항 및 팁</strong></div></a></li>
+        </ul>
+        </aside>
 	<section class="section">
 		<article id="campinfo">
 			<h1>캠핑장 이용안내</h1>
