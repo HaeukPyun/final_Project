@@ -41,14 +41,14 @@
 <body>
 	<div>
 		<ul id="floatMenu">
-			<li><a href="#upper"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용안내</div></a></li>
-			<li><a href="#campinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">캠핑장
+			<li><a href="#upper"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav-186x40.png')">이용안내</div></a></li>
+			<li><a href="#campinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">캠핑장
 						이용안내</div></a></li>
-			<li><a href="#pikinfo"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">피크닉
+			<li><a href="#pikinfo"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">피크닉
 						이용안내</div></a></li>
-			<li><a href="#timeNpay"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용시간
+			<li><a href="#timeNpay"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">이용시간
 						및 요금안내</div></a></li>
-			<li><a href="#tip"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">준수사항
+			<li><a href="#tip"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">준수사항
 						및 팁</div></a></li>
 		</ul>
 	</div>
@@ -97,6 +97,8 @@
 		</div>
 	</nav>
 	<!-- END nav -->
+	
+<!-- 	bgImg slide Info -->
 	<div class="hero-wrap">
 		<div class="home-slider owl-carousel">
 			<div class="slider-item"
@@ -148,6 +150,7 @@
 			</div>
 		</div>
 	</div>
+<!-- 	// bgImg slide Info -->
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container">
