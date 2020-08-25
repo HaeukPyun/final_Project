@@ -132,6 +132,7 @@ $("#floatMenu").stop().animate({
 
 
 
+
    </script>
 
 
@@ -232,7 +233,7 @@ $("#floatMenu").stop().animate({
 	
 	</aside>
 	<section>
-	 <div style="margin-left:25%;padding:1px 16px;height:1500px;" id="m1">
+	 <div style="margin-left:25%;padding:1px 16px;height:100%;" id="m1">
       	
        <h1 id="campinfo" ><a href="page4.jsp" >이용방법 안내 </a></h1> 
 	
@@ -411,7 +412,7 @@ $("#floatMenu").stop().animate({
 				stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none"
 				stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg>
-	</div>
+	</div>  
 	<script src="/myapp/resources/js/jquery.min.js"></script>
 	<script src="/myapp/resources/js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="/myapp/resources/js/popper.min.js"></script>
