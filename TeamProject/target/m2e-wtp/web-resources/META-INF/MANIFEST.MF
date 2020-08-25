@@ -1,9 +1,5 @@
 Manifest-Version: 1.0
-<<<<<<< Updated upstream
-Built-By: Kosmo_20
-=======
 Built-By: kosmo_26
->>>>>>> Stashed changes
 Build-Jdk: 1.8.0_251
 Created-By: Maven Integration for Eclipse
 

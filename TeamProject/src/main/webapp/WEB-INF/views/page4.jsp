@@ -66,7 +66,7 @@ position: absolute;
 	top: 700px;
 }
 #k1{
- font-style:inherit;
+ font-style:inherit;   
 }
 #k2{
 list-style: none;
