@@ -33,6 +33,15 @@
 	left: 1500px;
 	top: 700px;
 }
+#middle-box1-cmaper{
+	color: crimson;
+}
+#middle-box2-cmaper{
+	color: forestgreen;
+}
+#middle-box3-cmaper{
+	color: orange;
+}
 </style>
 </head>
 
@@ -42,14 +51,10 @@
 	<div>
 		<ul id="floatMenu">
 			<li><a href="#upper"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav-186x40.png')">이용안내</div></a></li>
-			<li><a href="#campinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">캠핑장
-						이용안내</div></a></li>
-			<li><a href="#pikinfo"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">피크닉
-						이용안내</div></a></li>
-			<li><a href="#timeNpay"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">이용시간
-						및 요금안내</div></a></li>
-			<li><a href="#tip"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">준수사항
-						및 팁</div></a></li>
+			<li><a href="#campinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">캠핑장 이용안내</div></a></li>
+			<li><a href="#pikinfo"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">피크닉 이용안내</div></a></li>
+			<li><a href="#timeNpay"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">이용시간 및 요금안내</div></a></li>
+			<li><a href="#tip"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">준수사항 및 팁</div></a></li>
 		</ul>
 	</div>
 	<div class="container pt-5" id="upper">
@@ -110,7 +115,7 @@
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
 								<h2>We're here to help you</h2>
-								<h1 class="mb-3">Home Builder</h1>
+								<h1 class="mb-3">집안처럼 편안한 캠핑!</h1>
 							</div>
 						</div>
 					</div>
@@ -125,8 +130,8 @@
 						class="row no-gutters slider-text align-items-center justify-content-center">
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
-								<h2>Best Builder in the World</h2>
-								<h1 class="mb-3">We Build Home</h1>
+								<h2>Best Select in the Camping World</h2>
+								<h1 class="mb-3">마음에 드는 캠핑장을 선택해 보세요</h1>
 							</div>
 						</div>
 					</div>
@@ -141,8 +146,8 @@
 						class="row no-gutters slider-text align-items-center justify-content-center">
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
-								<h2>We Build Your Home</h2>
-								<h1 class="mb-3">Professional Builder</h1>
+								<h2>We Build Your Comfortable Camping</h2>
+								<h1 class="mb-3">전문적인 캠핑 시설을 누려보세요</h1>
 							</div>
 						</div>
 					</div>
@@ -162,9 +167,8 @@
 							<span class="flaticon-hook"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Construction</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">둘러보기</h3>
+							<p>이곳에선 여러분이 원하는 모든 캠핑에 관한 정보들 접할 수 있습니다</p>
 						</div>
 					</div>
 				</div>
@@ -175,9 +179,8 @@
 							<span class="flaticon-skyline"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">House Renovation</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">예약 시스템</h3>
+							<p>원하는 날짜에, 원하는 시간에, 원하는 장소를 알려주세요</p>
 						</div>
 					</div>
 				</div>
@@ -188,9 +191,8 @@
 							<span class="flaticon-stairs"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Painting</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">피크닉</h3>
+							<p>자연과 어우러지는 방법은 캠핑만 있는 것은 아니죠!</p>
 						</div>
 					</div>
 				</div>
@@ -201,13 +203,61 @@
 							<span class="flaticon-home"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Architecture Design</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">리뷰 시스템</h3>
+							<p>경험한 자만이 진실을 말할 수 있다! 솔직 담백한 후기를 통해 즐거움을 배로!</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">아나바다</h3>
+							<p>유용한 장비들의 마켓시스템을 누려보세요</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">Q&AMP;A</h3>
+							<p>궁금한건 바로바로 알아야 하는 당신, 이곳에 문의하세요!</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">전국 캠피장</h3>
+							<p>세상은 넓고 캠핑할 곳은 많죠!</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">이벤트</h3>
+							<p>놓치지 않을꺼에요, 이벤트들!</p>
 						</div>
 					</div>
 				</div>
 			</div>
+	<!-- 중간 박스 -->
 			<div class="row no-gutters">
 				<div
 					class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
@@ -217,8 +267,7 @@
 						</div>
 						<div class="text">
 							<h3>Expert &amp; Professional</h3>
-							<p class="mb-0">Separated they live in. A small river named
-								Duden flows</p>
+							<p class="mb-0"><span id="middle-box1-cmaper">CAMPER</span>와 함께라면 어렵지 않습니다</p>
 						</div>
 					</div>
 				</div>
@@ -230,8 +279,7 @@
 						</div>
 						<div class="text">
 							<h3>High Quality Work</h3>
-							<p class="mb-0">Separated they live in. A small river named
-								Duden flows</p>
+							<p class="mb-0"><span id="middle-box2-cmaper">CAMPER</span>에서 제공하는 모든 것을 누려보세요</p>
 						</div>
 					</div>
 				</div>
@@ -243,29 +291,18 @@
 						</div>
 						<div class="text">
 							<h3>24/7 Help Support</h3>
-							<p class="mb-0">Separated they live in. A small river named
-								Duden flows</p>
+							<p class="mb-0">연중무휴! <span id="middle-box3-cmaper">CAMPER</span>는 언제나 캠퍼 여러분들을 기다리고 있습니다</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+<!-- //중간 박스 -->
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container">
 			<div class="row d-flex no-gutters">
-				<div class="col-md-6 d-flex">
-					<div
-						class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end"
-						style="background-image: url(images/about.jpg);">
-						<a href="https://vimeo.com/45830194"
-							class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-							<span class="icon-play"></span>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-6 pl-md-5">
 					<div class="row justify-content-start py-5">
 						<div
 							class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
@@ -315,7 +352,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 
 	<section class="ftco-counter" id="section-counter">
