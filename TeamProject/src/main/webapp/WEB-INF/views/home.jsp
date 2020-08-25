@@ -41,27 +41,21 @@
 <body>
 	<div>
 		<ul id="floatMenu">
-			<li><a href="#upper"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용안내</div></a></li>
-			<li><a href="#campinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">캠핑장
+			<li><a href="#upper"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용안내</div></a></li>
+			<li><a href="#campinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">캠핑장
 						이용안내</div></a></li>
-			<li><a href="#pikinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">피크닉
+			<li><a href="#pikinfo"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">피크닉
 						이용안내</div></a></li>
-			<li><a href="#timeNpay"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용시간
+			<li><a href="#timeNpay"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용시간
 						및 요금안내</div></a></li>
-			<li><a href="#tip"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">준수사항
+			<li><a href="#tip"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">준수사항
 						및 팁</div></a></li>
 		</ul>
 	</div>
 	<div class="container pt-5" id="upper">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, 이곳은 <span>CAMPER</span>입니다
-				</a>
+				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, 이곳은 <span>CAMPER</span>입니다</a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
@@ -91,7 +85,8 @@
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a href="home" class="nav-link">공지사항</a></li>
+					<li class="nav-item active"><a href="home" class="nav-link">CAMPER</a></li>
+					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
 					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
 					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>

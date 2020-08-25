@@ -119,7 +119,7 @@ position: absolute;
 }
 
 </style>
-<script src="http://code.jquery.com/jquery.js"></script> 먼저 추가
+<script src="http://code.jquery.com/jquery.js"></script>
 
 <script type="text/javascript"> 
 
@@ -284,7 +284,7 @@ $("#floatMenu").stop().animate({
        <ul>
             <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
             <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
-                                 많은 사람들이 사용하는만큼 신중히 신청하셔서 다른 사용자들에게 피해를 주는 일이 없도록 해주세요.</li><br>
+                                 많은 사람들이 사용하는만큼<br>신중히 신청하셔서 다른 사용자들에게 피해를 주는 일이 없도록 해주세요.</li><br>
             <li> 예약자와 입실자가 동일 하여야 하며 입실자가 다른 경우는 사전에 연락하여 주시기 바랍니다.</li><br>
             <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
        </ul>
