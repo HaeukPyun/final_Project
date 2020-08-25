@@ -27,6 +27,11 @@ public class HomeController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		return "home";
 	}
+	@RequestMapping(value = "/page1")
+	public String page1(Local locale, Model model){
+		logger.info("This is page1... The client locale is {}.", locale);
+		return "page1";
+	}
 	@RequestMapping(value = "/page2")
 	public String page2(Local locale, Model model){
 		logger.info("This is page2... The client locale is {}.", locale);
@@ -43,18 +48,13 @@ public class HomeController {
 		return "page4";
 	}
 	@RequestMapping(value = "/page5")
-	public String page5(Local locale, Model model){
+	public String page7(Local locale, Model model){
 		logger.info("This is page5... The client locale is {}.", locale);
 		return "page5";
 	}
-	@RequestMapping(value = "/page6")
-	public String page6(Local locale, Model model){
-		logger.info("This is page6... The client locale is {}.", locale);
-		return "page6";
-	}
-	@RequestMapping(value = "/page7")
-	public String page7(Local locale, Model model){
-		logger.info("This is page7... The client locale is {}.", locale);
-		return "page7";
+	@RequestMapping(value = "/page99")
+	public String page99(Local locale, Model model){
+		logger.info("This is page5... The client locale is {}.", locale);
+		return "page99";
 	}
 }

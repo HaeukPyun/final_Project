@@ -18,22 +18,10 @@
 <link rel="stylesheet" href="/myapp/resources/css/ionicons.min.css">
 <link rel="stylesheet" href="/myapp/resources/css/flaticon.css">
 <link rel="stylesheet" href="/myapp/resources/css/icomoon.css">
-<link rel="stylesheet" href="/myapp/resources/css/style.css">
+<link rel="stylesheet" href="/myapp/resources/css/style.css">  
 
 
 <style>
-/*  span {
-            color: blue
-        }
-
-        strong {
-            color: green
-        }
-
-        b {
-            color: red
-        } 
-*/
 h1 {
 	color: #FFBF00
 }
@@ -69,49 +57,87 @@ h1 {
 	clear: both;
 }
 
-
- .nextMenu{
-            list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 300px;
-  background-color: #f1f1f1;
-  position: relative;
-  height: 900px;
-  overflow: auto;
-        }
-        #r1 a{
-
-            display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-
-        }
- 
-        li a:hover {
-              background-color: #FFBF00 ;
-              color: black;
-              
-        }
-          #check1{
-            border: 1px solid black;
-        }
-  
-
-
 hr {
 	width: 50%;
 }
+#floatMenu {
+position: absolute;
+	left: 1500px; 
+	top: 700px;
+}
 
-       #r0 {   padding: 8px 16px;
-             background-color:#0B0B61;
-               font-size:20px;
-             border:0px solid blue;
-       }
 
+#k1{
+ font-style:inherit;   
+}
+#k2{
+list-style: none;
+}
+#q1{
+width:100px;
+height:100px;
+}
+.circle1 {
+background-color:#FACC2E;
+width:150px;
+height:150px;
+border-radius:75px;
+text-align:center;
+margin:0 auto;
+font-size:32px;
+vertical-align:middle;
+line-height:150px;
+color:ghostwhite;
+font-style: italic;
+}
 
+.res1{
+color:#FF0040;
+font-size:30px;
+
+}
+
+      
 </style>
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<script type="text/javascript"> 
+  $(document).ready(function() {
+	// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
+	var floatPosition = parseInt($("#floatMenu").css('top'));
+	// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
+	$(window).scroll(function() {
+		// 현재 스크롤 위치를 가져온다.
+		var scrollTop = $(window).scrollTop();
+		var newPosition = scrollTop + floatPosition + "px";
+		/* 애니메이션 없이 바로 따라감
+		 $("#floatMenu").css('top', newPosition);
+		 */
+		$("#floatMenu").stop().animate({
+			"top" : newPosition
+		}, 500);
+	}).scroll();
+});
+$("#floatMenu").stop().animate({
+	"top" : newPosition
+}, {
+	'duration' : 500,
+	'easing' : 'easeInOutCubic',
+	'complete' : function() {
+		console.log('이동 완료하였습니다.');
+	}
+});
+
+
+
+
+
+
+   </script>
+
+
+
+
 </head>
 <body>
 
@@ -128,17 +154,7 @@ hr {
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
-					<p class="mb-0 d-flex">
-						<a href="#"
-							class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a> <a
-							href="#" class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a> <a
-							href="#" class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a> <a
-							href="#" class="d-flex align-items-center justify-content-center"><span
-							class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-					</p>
+					<p class="mb-0 d-flex">Login</p>
 				</div>
 			</div>
 		</div>
@@ -164,14 +180,14 @@ hr {
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a href="home" class="nav-link">공지사항</a></li>
-					<li class="nav-item"><a href="page2" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page3" class="nav-link">둘러보기</a></li>
+					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
+					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
 					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
 			</div>
-		</div>
+		</div>     
 	</nav>
 	<!-- END nav -->
 
@@ -187,35 +203,40 @@ hr {
 								class="ion-ios-arrow-forward"></i></a></span> <span>이용안내 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
-					<h1 class="mb-0 bread">이용안내</h1>
+					<h1 class="mb-0 bread">예약 및 대여</h1>
 				</div>
 			</div>
 		</div>
 	</section>
 	<br>
 	<nav class="nav"> 
+<a href="page4reservation.jsp" target="_blank" >
+    <div class="circle1" >
+             예약하기
+        </div>
 
-    
-           <div class="nextblock"  >
-            <ul class="nextMenu">
-              <li id="r0"> 예약  및 공지사항 </li>
-                <li id="r1"><a class="res1"  href=#page4-1">예약 방법 주의사항 안내</a></li>
-                <li id="r1"><a class="res2" href=#page4-2"> 예약  및 대여</a></li>
-                <li id="r1"><a class="res3" href=#page4-3">검색(캠프장?예약된 or 예약하기전)</a></li>
-                <li id="r1"><a class="res4" href="#page4-4" >현황(예약 및 대여)</a></li>
-                  <li id="r1"><a class="res4"href=#page4-5" >예약 취소 및 환불</a></li>
-		
-	</ul>
-
-
-           </div>
+</a>
 	
 	
 	</nav>
-	<aside class="aside">aside</aside>
-	 <div style="margin-left:25%;padding:1px 16px;height:1000px;" id="m1">
+	<!-- aside -->
+	<aside class="aside">aside
+     	<ul id="floatMenu">
+     	       
+            <li><a href="#campinfo"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')">예약방법안내 </div></a></li>
+            <li><a href="#pikinfo"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')"> 예약 및 안내</div></a></li>
+            <li><a href="#timeNpay"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')"> 결재안내</div></a></li>
+            <li><a href="#tip"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')"> 기타주의사항</div></a></li>
+            <li><a href="#powerCancel"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')"> 취소방법안내</div></a></li>
+        </ul>
+	
+	
+	</aside>
+	<section>
+	 <div style="margin-left:25%;padding:1px 16px;height:100%;" id="m1">
       	
-       <h2>예약  방법 안내</h2>   
+       <h1 id="campinfo" ><a href="page4.jsp" >이용방법 안내 </a></h1> 
+	
           <table>
            <tbody> 
             <tr>
@@ -225,42 +246,65 @@ hr {
              <td><img src=/myapp/resources/images/arrow.png  width="50px" height="50px"> </td>
              <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p>예약정보 입력 </p></td>
              <td><img src=/myapp/resources/images/arrow.png width="50px" height="50px"> </td>
+             
              <td><img src="/myapp/resources/images/reservation2.png"  width="100px" height="100px"> <p>예약 신청<br> 및 결재 확인</p></td>
-                
+           
             </tr>
            </tbody>
           </table>
   
-       <h3> 예약 안내</h3>
+       <h1  id="pikinfo" > <a href="page4reservation.jsp"  target="_blank"> 예약   <span class="res1" font-size="12px" color=pink>(▷예약하러가기)</span> </a></h1>
        <ul>
-           <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
-           <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
-            많은 사람들이 사용하는만큼 신중히 신청하셔서 다른 사용자들에게 피해를 주는 일이 없도록 해주세요.</li><br>
+            <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
+            <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
+                                 많은 사람들이 사용하는만큼<br>신중히 신청하셔서 다른 사용자들에게 피해를 주는 일이 없도록 해주세요.</li><br>
             <li> 예약자와 입실자가 동일 하여야 하며 입실자가 다른 경우는 사전에 연락하여 주시기 바랍니다.</li><br>
-           <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
+            <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
        </ul>
-            <h3> 결재안내</h3>
-            <ul>
-                <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.
-                    </li>
+            <h1 id="timeNpay" > <a href="page4pay.jsp">  결재 안내</a></h1>
+            
+            
+            <ul >
+                <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
+               
                     <p> (단, 사용일이 3일 이내인 경우 예약당일 자정까지 사용료를 결제해야 합니다.)</p>
-              <div id="check1">
-                <ul> <strong>무통장 입금 계좌 번호</strong>
+              <div >
+                <ul id="k2"> <strong>무통장 입금 계좌 번호</strong>
+                
                     <li>농협 :211-111-11-111111</li>
                     <li>예금주:2조 캠핑장 사이트</li>
+                    
                 </ul>
               </div>
             </ul>
-               <h3> 기타 주의사항</h3>
+            
+            
+            
+               <h1 id="tip" > <a >기타주의사항</a></h1>
                <ul>
                    <li>예약후 방문시에는 예약자 확인을 위해 반드시 신분증을 지참해 주세요. 본인확인이 안 될 경우 입실이 불가능합니다.</li><br>
-                   <li> 추암오토캠핑장 관리사무소(033-539-3737)에서 자세한 안내를 받으실 수 있습니다.</li><br>
-                   <li> 1일 이용시간은 당일 14:00 ~ 익일 12:00까지 기준이며 퇴실(퇴영)시간을 반드시 지켜주시기 바랍니다.</li>
+                   <li> 1일 이용시간은 당일 14:00 ~ 익일 12:00까지 기준이며 퇴실(퇴영)시간을 반드시 지켜주시기 바랍니다.</li></br>
+                       <li> 이용시에는 시설물들에 파손에 이용자에게 책임이 있을때 이용자에게 부담이 되니 유의하여 주시길 바랍니다. </li></br>
+                 
+                     <li> 추암오토캠핑장 관리사무소(033-111-1111)에서 자세한 안내를 받으실 수 있습니다.</li>
+                     
                </ul>
+               
+               
+               
+                  <h1 id="powerCancel"> <a >취소방법안내</a></h1>
+               <ul>
+                   <li>취소시에는 당일 선택한 날짜에서 1주전까지만 온전한 취소와 환불이 가능합니다.</li><br>
+                   <li> 당일 선책한 날짜에서 (7일 ~4일)이내에  취소시 70%환불,(3일~1일) 이내에 취소시 50%환불가능</li><br>
+                   <li> 선택한 날짜당일에는 취소가 불가능 합니다.</li><br>
+                   <li> 추암오토캠핑장 관리사무소(033-111-1111)에서 자세한 안내를 받으실 수 있습니다.</li>
+                  
+               </ul>
+            
         </div>
-
-
-
+        
+        
+        </section>
 	<footer class="footer">
 		<div class="container-fluid px-lg-5">
 			<div class="row">
@@ -361,9 +405,6 @@ hr {
 			</div>
 		</div>
 	</footer>
-
-
-
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen">
 		<svg class="circular" width="48px" height="48px">
@@ -371,8 +412,7 @@ hr {
 				stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none"
 				stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg>
-	</div>
-
+	</div>  
 	<script src="/myapp/resources/js/jquery.min.js"></script>
 	<script src="/myapp/resources/js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="/myapp/resources/js/popper.min.js"></script>
@@ -385,11 +425,9 @@ hr {
 	<script src="/myapp/resources/js/jquery.magnific-popup.min.js"></script>
 	<script src="/myapp/resources/js/scrollax.min.js"></script>
 	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
-
 	<script type="text/javascript"
 		src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2f5541db0e580532285e4af1bdf6e020&libraries=services"></script>
 	<script src="/myapp/resources/js/daum-map.js"></script>
 	<script src="/myapp/resources/js/main.js"></script>
-
 </body>
 </html>
