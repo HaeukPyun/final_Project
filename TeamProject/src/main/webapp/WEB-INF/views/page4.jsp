@@ -197,7 +197,7 @@ $("#floatMenu").stop().animate({
 	
 	</aside>
 	<section>
-	 <div style="margin-left:25%;padding:1px 16px;height:100%;" id="m1">
+	 <div style="margin-left:25%;padding:1px 16px;height:100%;"  id="m1">
       	
        <h1 id="campinfo" ><a href="page4-1.jsp" > 이용방법 안내 </a>    </h1>   
           <table>
@@ -224,12 +224,13 @@ $("#floatMenu").stop().animate({
             <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
        </ul>
             <h1 id="timeNpay" > <a href="page4-3.jsp">  결재 안내</a></h1>
+           
             <ul >
-                <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
+                <li> 예약일을 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
                
                     <p> (단, 사용일이 3일 이내인 경우 예약당일 자정까지 사용료를 결제해야 합니다.)</p>
               <div >
-                <ul id="k2"> <strong>무통장 입금 계좌 번호</strong>
+                    <ul id="k2"> <strong>무통장 입금 계좌 번호</strong>
                 
                     <li>농협 :211-111-11-111111</li>
                     <li>예금주:2조 캠핑장 사이트</li>
