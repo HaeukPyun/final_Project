@@ -53,6 +53,7 @@ h1 {
 	width: 20%;
 	height: 70%;
 	float: left;
+	color: white;
 }
 
 .footer {
@@ -95,7 +96,6 @@ b {
 }
 
 #floatMenu {
-	position: absolute;
 	position: absolute;
 	left: 80%;
 	top: 75%;
@@ -286,20 +286,20 @@ b {
 		</table>
 	</section>
 
-
+	<aside class="aside">
 	<ul id="floatMenu">
 		<li><a href="#info"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핑장 소개</strong></div></a></li>
 		<li><a href="#campinfo"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핑장 배치도</strong></div></a></li>
 		<li><a href="#pikinfo"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핀장 전경</strong></div></a></li>
 		<li><a href="#timeNpay"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>주변관광지</strong></div></a></li>
 		<li><a href="#tip"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
+					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>부대시설</strong></div></a></li>
 	</ul>
-
+	</aside>
 
 	<footer class="footer">
 		<div class="container-fluid px-lg-5">
