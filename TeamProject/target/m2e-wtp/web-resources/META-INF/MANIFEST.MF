@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Kosmo_19
+=======
+Built-By: Kosmo_20
+>>>>>>> b8d154b733dfd0203e13a239fd97af5592a8fd14
 Build-Jdk: 1.8.0_251
 Created-By: Maven Integration for Eclipse
 

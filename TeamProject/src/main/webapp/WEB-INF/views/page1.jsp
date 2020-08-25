@@ -42,25 +42,25 @@
 	<div>
 		<ul id="floatMenu">
 			<li><a href="#upper"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용안내</div></a></li>
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">#</div></a></li>
 			<li><a href="#campinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">캠핑장
-						이용안내</div></a></li>
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">#
+					</div></a></li>
 			<li><a href="#pikinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">피크닉
-						이용안내</div></a></li>
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">#
+					</div></a></li>
 			<li><a href="#timeNpay"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">이용시간
-						및 요금안내</div></a></li>
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">#
+					</div></a></li>
 			<li><a href="#tip"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">준수사항
-						및 팁</div></a></li>
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">#
+					</div></a></li>
 		</ul>
 	</div>
 	<div class="container pt-5" id="upper">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, CAMPER <span>공지사항</span>입니다
+				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, 이곳은 <span>CAMPER</span>입니다
 				</a>
 			</div>
 			<div class="col d-flex justify-content-end">
