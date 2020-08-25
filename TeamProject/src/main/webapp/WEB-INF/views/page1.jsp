@@ -60,8 +60,7 @@
 	<div class="container pt-5" id="upper">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, 이곳은 <span>CAMPER</span>입니다
-				</a>
+				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, CAMPER <span>공지사항</span>입니다</a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
