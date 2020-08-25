@@ -62,14 +62,39 @@ hr {
 }
 #floatMenu {
 position: absolute;
-	left: 1500px;
+	left: 1500px; 
 	top: 700px;
 }
+
+
 #k1{
- font-style:inherit;
+ font-style:inherit;   
 }
 #k2{
 list-style: none;
+}
+#q1{
+width:100px;
+height:100px;
+}
+.circle1 {
+background-color:#FACC2E;
+width:150px;
+height:150px;
+border-radius:75px;
+text-align:center;
+margin:0 auto;
+font-size:32px;
+vertical-align:middle;
+line-height:150px;
+color:ghostwhite;
+font-style: italic;
+}
+
+.res1{
+color:#FF0040;
+font-size:30px;
+
 }
 
       
@@ -102,6 +127,11 @@ $("#floatMenu").stop().animate({
 		console.log('이동 완료하였습니다.');
 	}
 });
+
+
+
+
+
    </script>
 
 
@@ -179,14 +209,19 @@ $("#floatMenu").stop().animate({
 	</section>
 	<br>
 	<nav class="nav"> 
+<a href="page4reservation.jsp" target="_blank" >
+    <div class="circle1" >
+             예약하기
+        </div>
 
-
+</a>
 	
 	
 	</nav>
 	<!-- aside -->
 	<aside class="aside">aside
      	<ul id="floatMenu">
+     	       
             <li><a href="#campinfo"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')">예약방법안내 </div></a></li>
             <li><a href="#pikinfo"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')"> 예약 및 안내</div></a></li>
             <li><a href="#timeNpay"> <div id="k1" style="width: 186px; height: 43px; color:black; background-image: url('/myapp/resources/images/sidebutton.gif')"> 결재안내</div></a></li>
@@ -199,7 +234,8 @@ $("#floatMenu").stop().animate({
 	<section>
 	 <div style="margin-left:25%;padding:1px 16px;height:1500px;" id="m1">
       	
-       <h1 id="campinfo" ><a href="page4-1.jsp" > 이용방법 안내 </a>    </h1>   
+       <h1 id="campinfo" ><a href="page4.jsp" >이용방법 안내 </a></h1> 
+	
           <table>
            <tbody> 
             <tr>
@@ -209,13 +245,14 @@ $("#floatMenu").stop().animate({
              <td><img src=/myapp/resources/images/arrow.png  width="50px" height="50px"> </td>
              <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p>예약정보 입력 </p></td>
              <td><img src=/myapp/resources/images/arrow.png width="50px" height="50px"> </td>
+             
              <td><img src="/myapp/resources/images/reservation2.png"  width="100px" height="100px"> <p>예약 신청<br> 및 결재 확인</p></td>
-                
+           
             </tr>
            </tbody>
           </table>
   
-       <h1  id="pikinfo" > <a href="page4-2.jsp" > 예약 및 안내 </a> </h1>
+       <h1  id="pikinfo" > <a href="page4reservation.jsp"  target="_blank"> 예약   <span class="res1" font-size="12px" color=pink>(▷예약하러가기)</span> </a></h1>
        <ul>
             <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
             <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
@@ -223,7 +260,9 @@ $("#floatMenu").stop().animate({
             <li> 예약자와 입실자가 동일 하여야 하며 입실자가 다른 경우는 사전에 연락하여 주시기 바랍니다.</li><br>
             <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
        </ul>
-            <h1 id="timeNpay" > <a href="page4-3.jsp">  결재 안내</a></h1>
+            <h1 id="timeNpay" > <a href="page4pay.jsp">  결재 안내</a></h1>
+            
+            
             <ul >
                 <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
                
@@ -240,7 +279,7 @@ $("#floatMenu").stop().animate({
             
             
             
-               <h1 id="tip" > <a href="page4-4.jsp">기타주의사항</a></h1>
+               <h1 id="tip" > <a >기타주의사항</a></h1>
                <ul>
                    <li>예약후 방문시에는 예약자 확인을 위해 반드시 신분증을 지참해 주세요. 본인확인이 안 될 경우 입실이 불가능합니다.</li><br>
                    <li> 1일 이용시간은 당일 14:00 ~ 익일 12:00까지 기준이며 퇴실(퇴영)시간을 반드시 지켜주시기 바랍니다.</li></br>
@@ -252,7 +291,7 @@ $("#floatMenu").stop().animate({
                
                
                
-                  <h1 id="powerCancel"> <a href="page4-5.jsp">취소방법안내</a></h1>
+                  <h1 id="powerCancel"> <a >취소방법안내</a></h1>
                <ul>
                    <li>취소시에는 당일 선택한 날짜에서 1주전까지만 온전한 취소와 환불이 가능합니다.</li><br>
                    <li> 당일 선책한 날짜에서 (7일 ~4일)이내에  취소시 70%환불,(3일~1일) 이내에 취소시 50%환불가능</li><br>
