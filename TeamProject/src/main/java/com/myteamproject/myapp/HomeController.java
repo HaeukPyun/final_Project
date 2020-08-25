@@ -27,6 +27,11 @@ public class HomeController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		return "home";
 	}
+	@RequestMapping(value = "/page1")
+	public String page1(Local locale, Model model){
+		logger.info("This is page1... The client locale is {}.", locale);
+		return "page1";
+	}
 	@RequestMapping(value = "/page2")
 	public String page2(Local locale, Model model){
 		logger.info("This is page2... The client locale is {}.", locale);
