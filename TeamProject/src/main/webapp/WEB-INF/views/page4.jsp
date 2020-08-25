@@ -119,7 +119,7 @@ position: absolute;
 }
 
 </style>
-<script src="http://code.jquery.com/jquery.js"></script> 먼저 추가
+<script src="http://code.jquery.com/jquery.js"></script>
 
 <script type="text/javascript"> 
 
@@ -225,7 +225,7 @@ $("#floatMenu").stop().animate({
 								class="ion-ios-arrow-forward"></i></a></span> <span>이용안내 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
-					<h1 class="mb-0 bread">이용안내</h1>
+					<h1 class="mb-0 bread">예약 및 대여</h1>
 				</div>
 			</div>
 		</div>
