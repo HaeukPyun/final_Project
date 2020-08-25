@@ -133,7 +133,6 @@ $(document).ready(function () {
 });
 
 
-
    </script>
 
 
@@ -234,7 +233,7 @@ $(document).ready(function () {
 	
 	</aside>
 	<section>
-	 <div style="margin-left:25%;padding:1px 16px;height:100%;" id="m1">
+	 <div style="margin-left:25%;padding:1px 16px;height:1500px;" id="m1">
       	
        <h1 id="campinfo" ><a href="page4.jsp" >이용방법 안내 </a></h1> 
 	
