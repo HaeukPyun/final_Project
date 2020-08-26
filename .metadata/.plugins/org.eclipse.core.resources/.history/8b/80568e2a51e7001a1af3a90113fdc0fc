@@ -91,7 +91,7 @@
 						<span class="fa fa-search"></span>
 					</button>
 				</div>
-			</form>			
+			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a href="home" class="nav-link">CAMPER</a></li>

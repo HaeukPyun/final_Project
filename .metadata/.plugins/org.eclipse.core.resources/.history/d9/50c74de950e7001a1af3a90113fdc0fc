@@ -91,7 +91,7 @@
 						<span class="fa fa-search"></span>
 					</button>
 				</div>
-			</form>			
+			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a href="home" class="nav-link">CAMPER</a></li>
@@ -910,7 +910,8 @@
 	<script src="${path }/resources/js/owl.carousel.min.js"></script>
 	<script src="${path }/resources/js/jquery.magnific-popup.min.js"></script>
 	<script src="${path }/resources/js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="${path }/resources/js/google-map.js"></script>
 	<script src="${path }/resources/js/main.js"></script>
 
