@@ -133,6 +133,7 @@ $(document).ready(function () {
 });
 
 
+
    </script>
 
 
@@ -233,7 +234,7 @@ $(document).ready(function () {
 	
 	</aside>
 	<section>
-	 <div style="margin-left:25%;padding:1px 16px;height:1500px;" id="m1">
+	 <div style="margin-left:25%;padding:1px 16px;height:100%;" id="m1">
       	
        <h1 id="campinfo" ><a href="page4.jsp" >이용방법 안내 </a></h1> 
 	
@@ -265,6 +266,8 @@ $(document).ready(function () {
             
             
             <ul >
+                
+      
                  <li>결재수단으로는 신용카드 및 가상계좌 결재가 가능합니다.</li><br>
                 <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
                
