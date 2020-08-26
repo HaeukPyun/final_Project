@@ -27,81 +27,47 @@ public class HomeController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		return "home";
 	}
-	
-	
-	
 	@RequestMapping(value = "/page1")
 	public String page1(Local locale, Model model){
 		logger.info("This is page1... The client locale is {}.", locale);
 		return "page1";
 	}
-	
-	
-	
 	@RequestMapping(value = "/page2")
 	public String page2(Local locale, Model model){
 		logger.info("This is page2... The client locale is {}.", locale);
 		return "page2";
 	}
-	
-	
-	
 	@RequestMapping(value = "/page3")
 	public String page3(Local locale, Model model){
 		logger.info("This is page3... The client locale is {}.", locale);
 		return "page3";
 	}
-	
-	
-	
-	
 	@RequestMapping(value = "/page4")
 	public String page4(Local locale, Model model){
 		logger.info("This is page4... The client locale is {}.", locale);
 		return "page4";
-	}	
+	}
 	@RequestMapping(value = "/page4reservation.jsp")
 	public String page4reservation(Local locale, Model model){
 		logger.info("This is page4...reservation The client locale is {}.", locale);
 		return "page4reservation.jsp";
 	}
 	
-	
-	
-	
 	@RequestMapping(value = "/page5")
 	public String page5(Local locale, Model model){
 		logger.info("This is page5... The client locale is {}.", locale);
 		return "page5";
 	}
-	
-	
-	
-	@RequestMapping(value = "/page6")
-	public String page6(Local locale, Model model){
-		logger.info("This is page6...MANAGER The client locale is {}.", locale);
-		return "page6";
-	}
-	
-	
-	
-	
-	
-	@RequestMapping(value = "/page7")
+	@RequestMapping(value = "/page5")
 	public String page7(Local locale, Model model){
 		logger.info("This is page5... The client locale is {}.", locale);
-		return "page7";
+		return "page5";
 	}
-	@RequestMapping(value = "/page7_2")
-	public String page7_2(Local locale, Model model){
+	@RequestMapping(value = "/page5")
+	public String page7(Local locale, Model model){
 		logger.info("This is page5... The client locale is {}.", locale);
-		return "page7_2";
+		return "page5";
 	}
-	
-	
-	
-	
-	
 	@RequestMapping(value = "/page99")
 	public String page99(Local locale, Model model){
 		logger.info("This is page99... The client locale is {}.", locale);
