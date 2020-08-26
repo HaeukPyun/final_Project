@@ -29,30 +29,42 @@
 <style type="text/css">
 #floatMenu {
 	position: absolute;
-position: absolute;
+	position: absolute;
 	left: 1500px;
 	top: 700px;
 }
+#middle-box1-cmaper{
+	color: crimson;
+}
+#middle-box2-cmaper{
+	color: darkgreen;
+}
+#middle-box3-cmaper{
+	color: orange;
+}
+#subheading-camper, #tab-pane-home2{
+	color: teal;
+}
+
 </style>
 </head>
 
 
-   
+
 <body>
-<div>
-	<ul id="floatMenu">
- 			<li><a href="#upper"><div style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-            <li><a href="#campinfo"><div style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-            <li><a href="#pikinfo"><div style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-            <li><a href="#timeNpay"><div style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-            <li><a href="#tip"><div style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-        </ul>
-        </div>
+	<div>
+		<ul id="floatMenu">
+			<li><a href="#upper"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav-186x40.png')">이용안내</div></a></li>
+			<li><a href="#campinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">캠핑장 이용안내</div></a></li>
+			<li><a href="#pikinfo"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">피크닉 이용안내</div></a></li>
+			<li><a href="#timeNpay"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">이용시간 및 요금안내</div></a></li>
+			<li><a href="#tip"><div	style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">준수사항 및 팁</div></a></li>
+		</ul>
+	</div>
 	<div class="container pt-5" id="upper">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, 이곳은 <span>CAMPER</span>입니다
-				</a>
+				<a class="navbar-brand" href="home">캠핑에 관한 모든 것, 이곳은 <span>CAMPER</span>입니다</a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
@@ -81,8 +93,9 @@ position: absolute;
 				</div>
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav mr-auto">				
-					<li class="nav-item active"><a href="home" class="nav-link">공지사항</a></li>
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a href="home" class="nav-link">CAMPER</a></li>
+					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
 					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
 					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
@@ -93,6 +106,8 @@ position: absolute;
 		</div>
 	</nav>
 	<!-- END nav -->
+	
+<!-- 	bgImg slide Info -->
 	<div class="hero-wrap">
 		<div class="home-slider owl-carousel">
 			<div class="slider-item"
@@ -104,7 +119,7 @@ position: absolute;
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
 								<h2>We're here to help you</h2>
-								<h1 class="mb-3">Home Builder</h1>
+								<h1 class="mb-3">집안처럼 편안한 캠핑!</h1>
 							</div>
 						</div>
 					</div>
@@ -119,8 +134,8 @@ position: absolute;
 						class="row no-gutters slider-text align-items-center justify-content-center">
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
-								<h2>Best Builder in the World</h2>
-								<h1 class="mb-3">We Build Home</h1>
+								<h2>Best Select in the Camping World</h2>
+								<h1 class="mb-3">마음에 드는 캠핑장을 선택해 보세요</h1>
 							</div>
 						</div>
 					</div>
@@ -135,8 +150,8 @@ position: absolute;
 						class="row no-gutters slider-text align-items-center justify-content-center">
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
-								<h2>We Build Your Home</h2>
-								<h1 class="mb-3">Professional Builder</h1>
+								<h2>We Build Your Comfortable Camping</h2>
+								<h1 class="mb-3">전문적인 캠핑 시설을 누려보세요</h1>
 							</div>
 						</div>
 					</div>
@@ -144,6 +159,7 @@ position: absolute;
 			</div>
 		</div>
 	</div>
+<!-- 	// bgImg slide Info -->
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container">
@@ -155,9 +171,8 @@ position: absolute;
 							<span class="flaticon-hook"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Construction</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">둘러보기</h3>
+							<p>이곳에선 여러분이 원하는 모든 캠핑에 관한 정보들 접할 수 있습니다</p>
 						</div>
 					</div>
 				</div>
@@ -168,9 +183,8 @@ position: absolute;
 							<span class="flaticon-skyline"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">House Renovation</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">예약 시스템</h3>
+							<p>원하는 날짜에, 원하는 시간에, 원하는 장소를 알려주세요</p>
 						</div>
 					</div>
 				</div>
@@ -181,9 +195,8 @@ position: absolute;
 							<span class="flaticon-stairs"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Painting</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">피크닉</h3>
+							<p>자연과 어우러지는 방법은 캠핑만 있는 것은 아니죠!</p>
 						</div>
 					</div>
 				</div>
@@ -194,13 +207,61 @@ position: absolute;
 							<span class="flaticon-home"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">Architecture Design</h3>
-							<p>Even the all-powerful Pointing has no control about the
-								blind texts it is an almost unorthographic.</p>
+							<h3 class="heading">글램핑</h3>
+							<p>처음 접하는 캠핑이 낯설다면 글램핑으로 시작해 보세요</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">아나바다</h3>
+							<p>유용한 장비들의 마켓시스템을 누려보세요</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">Q&AMP;A</h3>
+							<p>궁금한건 바로바로 알아야 하는 당신, 이곳에 문의하세요!</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">전국 캠핑장</h3>
+							<p>세상은 넓고 캠핑할 곳은 많죠!</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">리뷰 시스템</h3>
+							<p>경험한 자만이 진실을 말할 수 있다! 솔직 담백한 후기를 통해 즐거움을 배로!</p>
 						</div>
 					</div>
 				</div>
 			</div>
+	<!-- 중간 박스 -->
 			<div class="row no-gutters">
 				<div
 					class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
@@ -210,8 +271,7 @@ position: absolute;
 						</div>
 						<div class="text">
 							<h3>Expert &amp; Professional</h3>
-							<p class="mb-0">Separated they live in. A small river named
-								Duden flows</p>
+							<p class="mb-0"><span id="middle-box1-cmaper">CAMPER</span>와 함께라면 어렵지 않습니다</p>
 						</div>
 					</div>
 				</div>
@@ -223,8 +283,7 @@ position: absolute;
 						</div>
 						<div class="text">
 							<h3>High Quality Work</h3>
-							<p class="mb-0">Separated they live in. A small river named
-								Duden flows</p>
+							<p class="mb-0"><span id="middle-box2-cmaper">CAMPER</span>에서 제공하는 모든 것을 누려보세요</p>
 						</div>
 					</div>
 				</div>
@@ -236,71 +295,46 @@ position: absolute;
 						</div>
 						<div class="text">
 							<h3>24/7 Help Support</h3>
-							<p class="mb-0">Separated they live in. A small river named
-								Duden flows</p>
+							<p class="mb-0">연중무휴! <span id="middle-box3-cmaper">CAMPER</span>는 언제나 캠퍼 여러분들을 기다리고 있습니다</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+<!-- //중간 박스 -->
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container">
 			<div class="row d-flex no-gutters">
-				<div class="col-md-6 d-flex">
-					<div
-						class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end"
-						style="background-image: url(images/about.jpg);">
-						<a href="https://vimeo.com/45830194"
-							class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-							<span class="icon-play"></span>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-6 pl-md-5">
 					<div class="row justify-content-start py-5">
 						<div
 							class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
-							<span class="subheading">Welcome to Home Builder</span>
-							<h2 class="mb-4">We create and turn into reality</h2>
-							<p>Far far away, behind the word mountains, far from the
-								countries Vokalia and Consonantia</p>
+							<span class="subheading">Welcome to Home <span id="subheading-camper">CAMPER</span></span>
+							<h2 class="mb-4">CAMPER는 최상의 캠핑 활동을 제공합니다</h2>
+							<p>캠핑의 출발을 이곳에서 시작하십시오</p>
 							<div class="tabulation-2 mt-4">
 								<ul class="nav nav-pills nav-fill d-md-flex d-block">
 									<li class="nav-item mb-md-0 mb-2"><a
 										class="nav-link active py-2" data-toggle="tab" href="#home1">Our
 											Mission</a></li>
-									<li class="nav-item px-lg-2 mb-md-0 mb-2"><a
-										class="nav-link py-2" data-toggle="tab" href="#home2">Our
+									<li class="nav-item px-lg-2 mb-md-0 mb-2"><a class="nav-link py-2" data-toggle="tab" href="#home2">Our
 											Vision</a></li>
 									<li class="nav-item"><a class="nav-link py-2 mb-md-0 mb-2"
 										data-toggle="tab" href="#home3">Our Value</a></li>
 								</ul>
 								<div class="tab-content bg-light rounded mt-2">
 									<div class="tab-pane container p-0 active" id="home1">
-										<p>Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind
-											texts. Separated they live in Bookmarksgrove right at the
-											coast of the Semantics, a large language ocean. Separated
-											they live in Bookmarksgrove right at the coast of the
-											Semantics, a large language ocean.</p>
+										<p>1878년 세계 최초 자전거 동호회인 "바이사이크리그"를 설립한 "토마스 하이램 홀딩".</br>무한한 자유와 드넒은 자연을 만끽할 수 있어서 호텔 보다 캠핑이 좋다 ! 를 외치던 영국캠퍼. 그의 정신을 이어 보다 가까이서 자연을 느낄 수 있고 즐길 수 있는 캠핑 문화를 만들고자 합니다.</p>
 									</div>
 									<div class="tab-pane container p-0 fade" id="home2">
-										<p>Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind
-											texts. Separated they live in Bookmarksgrove right at the
-											coast of the Semantics, a large language ocean. Separated
-											they live in Bookmarksgrove right at the coast of the
-											Semantics, a large language ocean.</p>
+										<p><span id="tab-pane-home2">CAMPER</span> 는 다양한 연령대와 캠퍼들의 성향을 기반으로, 초급자 부터 상급자 까지 모두 즐길 수 있도록 여러 가지 방식으로 캠프장을 제공 합니다</br> 많은 캠프장에는 화로, 바비큐 그릴, 유틸리티, 공용 욕실 및 세탁실과 같은 시설이 있으며 인근 레크리에이션 시설을 제공 합니다. 야영지 테마는 흙 바닥 부터 전기가있는 무난하게 즐길 수 있는 글램핑까지 다양함을 제공합니다.
+										<span id="tab-pane-home2">CAMPER</span>에서 제공하는 그리고 운영하는 이동수단 및 교통수단으로는 대형 레저용 차량 부터 바이크, 투어링 자전거, 보트, 카누, 짐을 싣는 동물 , 심지어 수풀 비행기등이 있습니다. 캠핑뿐만 아니라 글랭핑, 피크닉, 주변 레저활동, 관광 등과 같은 다양한 형태로 자연속에서 즐길 수 있는 모든 것들을 누릴 수 있습니다.
+										<span id="tab-pane-home2">CAMPER</span>에서 이 모든 것을 경험할 수 있습니다.
+										</p>
 									</div>
 									<div class="tab-pane container p-0 fade" id="home3">
-										<p>Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind
-											texts. Separated they live in Bookmarksgrove right at the
-											coast of the Semantics, a large language ocean. Separated
-											they live in Bookmarksgrove right at the coast of the
-											Semantics, a large language ocean.</p>
+										<p>일상에서 벗어나 여행을 떠난다는것. 혹은 자연이 주는 생동감을 체험하며 해방감을 누린다는 것. 단순히 숙소를 잡아 머무는 전형적인 여행과는 또 다른 매력을 느낄 수 있습니다. </p>
 									</div>
 								</div>
 							</div>
@@ -308,7 +342,6 @@ position: absolute;
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 
 	<section class="ftco-counter" id="section-counter">
@@ -321,7 +354,7 @@ position: absolute;
 							<strong class="number" data-number="50">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Years of <br>Experienced
+							<span>오랜 경험과<br>문화가 함께한 시간
 							</span>
 						</div>
 					</div>
@@ -333,7 +366,7 @@ position: absolute;
 							<strong class="number" data-number="8500">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Project <br>Done
+							<span>CAMPER<br>를 체험한 사람들
 							</span>
 						</div>
 					</div>
@@ -342,10 +375,10 @@ position: absolute;
 					class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18 d-flex">
 						<div class="text d-flex align-items-center">
-							<strong class="number" data-number="378">0</strong>
+							<strong class="number" data-number="154">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Professional <br>Expert
+							<span>비교불가 <br>전문가들의 수
 							</span>
 						</div>
 					</div>
@@ -354,10 +387,10 @@ position: absolute;
 					class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18 d-flex">
 						<div class="text d-flex align-items-center">
-							<strong class="number" data-number="1200">0</strong>
+							<strong class="number" data-number="557">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Machineries <br>Equipments
+							<span>제공되는 <br>시설과 장비들
 							</span>
 						</div>
 					</div>
@@ -830,42 +863,41 @@ position: absolute;
 			<circle class="path" cx="24" cy="24" r="22" fill="none"
 				stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg>
 	</div>
-	
-<script type="text/javascript"> 
 
-$(document).ready(function() {
+	<script type="text/javascript">
+		$(document).ready(function() {
 
-	// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
-	var floatPosition = parseInt($("#floatMenu").css('top'));
-	// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
+			// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
+			var floatPosition = parseInt($("#floatMenu").css('top'));
+			// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
 
-	$(window).scroll(function() {
-		// 현재 스크롤 위치를 가져온다.
-		var scrollTop = $(window).scrollTop();
-		var newPosition = scrollTop + floatPosition + "px";
+			$(window).scroll(function() {
+				// 현재 스크롤 위치를 가져온다.
+				var scrollTop = $(window).scrollTop();
+				var newPosition = scrollTop + floatPosition + "px";
 
-		/* 애니메이션 없이 바로 따라감
-		 $("#floatMenu").css('top', newPosition);
-		 */
+				/* 애니메이션 없이 바로 따라감
+				 $("#floatMenu").css('top', newPosition);
+				 */
+
+				$("#floatMenu").stop().animate({
+					"top" : newPosition
+				}, 500);
+
+			}).scroll();
+
+		});
 
 		$("#floatMenu").stop().animate({
 			"top" : newPosition
-		}, 500);
-
-	}).scroll();
-
-});
-
-$("#floatMenu").stop().animate({
-	"top" : newPosition
-}, {
-	'duration' : 500,
-	'easing' : 'easeInOutCubic',
-	'complete' : function() {
-		console.log('이동 완료하였습니다.');
-	}
-});
-   </script> 
+		}, {
+			'duration' : 500,
+			'easing' : 'easeInOutCubic',
+			'complete' : function() {
+				console.log('이동 완료하였습니다.');
+			}
+		});
+	</script>
 
 	<script src="${path }/resources/js/jquery.min.js"></script>
 	<script src="${path }/resources/js/jquery-migrate-3.0.1.min.js"></script>

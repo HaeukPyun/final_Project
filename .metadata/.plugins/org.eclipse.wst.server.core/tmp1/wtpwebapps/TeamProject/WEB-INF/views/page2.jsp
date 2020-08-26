@@ -40,7 +40,7 @@ h1 {
 	width: 20%;
 	height: 70%;
 	float: left;
-	color:white;
+	color: white;
 }
 
 .section {
@@ -53,6 +53,7 @@ h1 {
 	width: 20%;
 	height: 70%;
 	float: left;
+	color: white;
 }
 
 .footer {
@@ -66,28 +67,28 @@ hr {
 }
 
 #t1 {
-	width: 100%;
-	height: 40%;
+	width: 700px;
+	height: 800px;
 }
 
 #t2 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 600px;
 }
 
 #t3 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 400px;
 }
 
 #photo_1, #photo_3 {
-	width: 100%;
-	height: 50%;
+	width: 350px;
+	height: 200px;
 }
 
 #photo_2 {
-	width: 100%;
-	height: 50%;
+	width: 170px;
+	height: 100px;
 }
 
 b {
@@ -96,9 +97,8 @@ b {
 
 #floatMenu {
 	position: absolute;
-	position: absolute;
-	left: 80%;
-	top: 75%;
+	left: 1500px;
+	top: 700px;
 }
 </style>
 <script>
@@ -135,7 +135,6 @@ b {
 		}
 	});
 </script>
-</script>
 <body>
 	<div class="container pt-5">
 		<div class="row justify-content-between">
@@ -144,9 +143,7 @@ b {
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
-					<p class="mb-0 d-flex">Login
-						
-					</p>
+					<p class="mb-0 d-flex">Login</p>
 				</div>
 			</div>
 		</div>
@@ -171,10 +168,12 @@ b {
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a href="home" class="nav-link">공지사항</a></li>
+					<li class="nav-item active"><a href="home" class="nav-link">CAMPER</a></li>
+					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
 					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
+					<li class="nav-item"><a href="page4" class="nav-link">예약 및
+							대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
@@ -289,20 +288,30 @@ b {
 		</table>
 	</section>
 
-
-	<ul id="floatMenu">
-		<li><a href="#info"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-		<li><a href="#campinfo"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-		<li><a href="#pikinfo"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-		<li><a href="#timeNpay"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-		<li><a href="#tip"><div
-					style="width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"></div></a></li>
-	</ul>
-
+	<aside class="aside">
+		<ul id="floatMenu">
+			<li><a href="#info"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핑장 소개</strong>
+					</div></a></li>
+			<li><a href="#campinfo"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핑장 배치도</strong>
+					</div></a></li>
+			<li><a href="#pikinfo"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핀장 전경</strong>
+					</div></a></li>
+			<li><a href="#timeNpay"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>주변관광지</strong>
+					</div></a></li>
+			<li><a href="#tip"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>부대시설</strong>
+					</div></a></li>
+		</ul>
+	</aside>
 
 	<footer class="footer">
 		<div class="container-fluid px-lg-5">
