@@ -139,7 +139,7 @@ b {
 	<div class="container pt-5">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="index.html">Home<span>builder.</span></a>
+				<a class="navbar-brand" href="index.html">Cam<span>per</span></a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
@@ -191,10 +191,10 @@ b {
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs mb-2">
 						<span class="mr-2"><a href="index.html">메인 <i
-								class="ion-ios-arrow-forward"></i></a></span> <span>소개 <i
+								class="ion-ios-arrow-forward"></i></a></span> <span>둘러보기 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
-					<h1 class="mb-0 bread">소개</h1>
+					<h1 class="mb-0 bread">둘러보기</h1>
 				</div>
 			</div>
 		</div>
