@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
-<title>camper.page4reser</title>
+<title>camper.page2</title>
 <script src="http://code.jquery.com/jquery.js"></script>
 <meta charset="utf-8">
 <meta name="viewport"
@@ -107,19 +107,23 @@ ul.topmenu {
  overflow: hidden;
   margin:0px;
 
- width: 97%;
+ width: 100%;
 }
 .topmenu > li {
 
  border: 0px solid blue;
- width : 220px;
- height: 45px;
+ width : 280px;
+ height: 80px;
  text-align: center;
- line-height: 45px;
+ line-height: 70px;
  list-style: none;
  float: left;
  margin:0px;
  padding:0px;
+ font-size:30px;
+
+ font-style:normal;
+ font-weight:bold;
  
  
  box-sizing: border-box;
@@ -131,97 +135,236 @@ ul.topmenu {
  border-bottom: 2px solid #FFBF00;
 }
 
+<!-- form style -->
+ html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, select, textarea, label, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    }
+     .form1{
+    position: absolute;
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    z-index: 2;
+    line-height: 83px;
+    }
+    textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    }
+    form .form2{
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 8px  #669999; 
+    }
+    .banner {
+    position: relative;
+    height: 300px;
+    width:1200px;      
+    background-image: url("/myapp/resources/images/banner1.png") ;  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .banner::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+    input, select, textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    }
+    input[type="date"] {
+    padding: 4px 5px;
+    }
+    textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    }
+    .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+    color:  #669999;
+    }
+    .item input:hover, .item select:hover, .item textarea:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 3px 0  #669999;
+    color: #669999;
+    }
+    .item {
+    position: relative;
+    margin: 10px 0;
+    }
+    .item span {
+    color: red;
+    }
+    .week {
+    display:flex;
+    justfiy-content:space-between;
+    }
+    .colums {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+    }
+    .colums div {
+    width:48%;
+    }
+    input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    }
+    .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    font-size: 20px;
+    color:  #a3c2c2;
+    }
+    .item i {
+    right: 1%;
+    top: 30px;
+    z-index: 1;
+    }
+    input[type=radio], input[type=checkbox]  {
+    display: none;
+    }
+    label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+    }
+    .question span {
+    margin-left: 30px;
+    }
+    .question-answer label {
+    display: block;
+    }
+    label.radio:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    }
+    input[type=radio]:checked + label:before, label.radio:hover:before {
+    border: 2px solid  #669999;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 8px;
+    height: 4px;
+    border: 3px solid  #669999;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+    .flax {
+    display:flex;
+    justify-content:space-around;
+    }
+    .btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+    button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background:  #669999;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    }
+    button:hover {
+    background:  #a3c2c2;
+    }
+    @media (min-width: 568px) {
+    .name-item, .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .name-item input, .name-item div {
+    width: calc(50% - 20px);
+    }
+    .name-item div input {
+    width:97%;
+    }
+    .name-item div label {
+    display:block;
+    padding-bottom:5px;
+    }
+    
+    <!--form button 정렬-->
+ .parent{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+.flex-container{
+display: flex;
 
+}
+.flex-container >div{
+margin: 20px;
+ padding:20px;
 
-
+}
 
 
 </style>
+<script="js/jquery.js"></script>
 <script type="text/javascript">
-	$(document).ready(function() {
-
-		// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
-		var floatPosition = parseInt($("#floatMenu").css('top'));
-		// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
-
-		$(window).scroll(function() {
-			// 현재 스크롤 위치를 가져온다.
-			var scrollTop = $(window).scrollTop();
-			var newPosition = scrollTop + floatPosition + "px";
-
-			/* 애니메이션 없이 바로 따라감
-			 $("#floatMenu").css('top', newPosition);
-			 */
-
-			$("#floatMenu").stop().animate({
-				"top" : newPosition
-			}, 500);
-
-		}).scroll();
-
+$(function () {
+	$(".sub").click(function () {
+		$(".form2").submit();
 	});
-
-	$("#floatMenu").stop().animate({
-		"top" : newPosition
-	}, {
-		'duration' : 500,
-		'easing' : 'easeInOutCubic',
-		'complete' : function() {
-			console.log('이동 완료하였습니다.');
-		}
-	});
+	$(".cp0").click(function () {
+		$(".form2").show();
+	})
 	
-	  
+	$(".cp1").click(function () {
+		$(".form2").remove();
+	})
+})
+	
 
-    var today = new Date();//오늘 날짜//내 컴퓨터 로컬을 기준으로 today에 Date 객체를 넣어줌
-    var date = new Date();
-    function prevCalendar() {
-        today = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate());
-        buildCalendar();
-    }
-
-    function nextCalendar() {
-        today = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
-        buildCalendar();
-    }
-    function buildCalendar() {//현재 달 달력 만들기
-        var doMonth = new Date(today.getFullYear(), today.getMonth(), 1);
-        var lastDate = new Date(today.getFullYear(), today.getMonth() + 1, 0);
-        var tbCalendar = document.getElementById("calendar");
-        var tbCalendarYM = document.getElementById("tbCalendarYM");
-        tbCalendarYM.innerHTML = today.getFullYear() + "년 " + (today.getMonth() + 1) + "월";
-        tbCalendarYM.innerHTML = today.getFullYear() + "년" + (today.getMonth() + 1) + "월";
-        /*while은 이번달이 끝나면 다음달로 넘겨주는 역할*/
-        while (tbCalendar.rows.length > 2) {
-            tbCalendar.deleteRow(tbCalendar.rows.length - 1);
-        }
-        var row = null;
-        row = tbCalendar.insertRow();
-        //테이블에 새로운 열 삽입//즉, 초기화
-        var cnt = 0;
-        // 1일이 시작되는 칸을 맞추어 줌
-        for (i = 0; i < doMonth.getDay(); i++) {
-            cell = row.insertCell();
-            cnt = cnt + 1;
-        }
-        for (i = 1; i <= lastDate.getDate(); i++) {
-            cell = row.insertCell();
-            cell.innerHTML = i;
-            cnt = cnt + 1;
-            if (cnt % 7 == 1) {/*일요일 계산*/
-            }
-            if (cnt % 7 == 0) {/* 1주일이 7일 이므로 토요일 구하기*/
-                row = calendar.insertRow();
-            }
-            if (today.getFullYear() == date.getFullYear()
-                && today.getMonth() == date.getMonth()
-                && i == date.getDate()) {
-                //달력에 있는 년,달과 내 컴퓨터의 로컬 년,달이 같고, 일이 오늘의 일과 같으면
-                cell.bgColor = "yellow";//셀의 배경색을 노랑으로 
-            }
-        }
-
-    }
+  
 	
 	
 	
@@ -265,8 +408,7 @@ ul.topmenu {
 					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
 					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page4" class="nav-link">예약 및
-							대여</a></li>
+					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
@@ -295,31 +437,8 @@ ul.topmenu {
 	<br>
 
 	<nav class="nav">
-	    <p></p>
-  
-    <table id="calendar" border="2" align="center" style="border-color: navy;">
-          <tr><td colspan="7"> 예약 및 신청</td> </tr> 
-        <tr>
-            <td> <label onclick="prevCalendar()" />이전달</td>
-            <td align="center" id="tbCalendarYM" colspan="5">yyyy년 m월</td>
-            <td> <label onclick="nextCalendar()" />다음달 </td>
-
-        </tr>
-        <tr>
-            <td id="sunday">일</td>
-            <td>월</td>
-            <td>화</td>
-            <td>수</td>
-            <td>목</td>
-            <td>금</td>
-            <td id="saturday">토</td>
-        </tr>
-    </table>
-    
-    <script type="text/javascript" language='text/javascript'>
-        buildCalendar();
-
-    </script>
+	    <p>nav</p>
+ 
 	
 	</nav>
 
@@ -327,44 +446,136 @@ ul.topmenu {
 		<h1>예약 페이지</h1>
 		
            <ul class="topmenu">
-           <li>예약</li>
-           <li>예약현황</li>
-           <li>리뷰</li>
-           <li>소식(게시판?)</li>
-           <li>기타(설정)</li>
+           <li class="cp0" >예약</li>
+           <li class="cp1">예약현황</li>
+           <li class="cp3">검색</li>
+           <li class="cp4">리뷰</li>
             </ul>
 		<hr>
 
 	
 
-		<h3 id="pikinfo">예약</h3>
-		<table id="t1" border="1px solid orange">
-			<tr>
-				<td width="350"><img ></td>
-				<td width="350"><img ></td>
-				<td width="350"><img ></td>
-			</tr>
-			<tr>
-				<td><img ></td>
-				<td><img ></td>
-					<td><img ></td>
-			</tr>
-			<tr>
-				<td><img ></td>
-				<td><img ></td>	
-					<td><img ></td>
-			</tr>
-			<tr>
-				<td><img ></td>
-				<td><img ></td>
-				<td><img ></td>
-			</tr>
-		</table>
+		<h3 id="reservation1">예약</h3>
+		<!-- form -->
+<div class="testbox">
+    <form action="/" class="form2">
+      <div class="banner">
+        <h1 class="form1">예약 정보 입력</h1>
+      </div>
+      <div class="colums">
+        <div class="item">
+          <label for="fname"> 이름(신청인)<span>*</span></label>
+          <input id="fname" type="text" name="name" required/>
+        </div>
+        <div class="item">
+          <label for="lname"> 전화번호(신청인)<span>*</span></label>
+          <input id="phone" type="text" name="phone" required/>
+        </div>
+        <div class="item">
+          <label for="address1">주소<span>*</span></label>
+          <input id="address" type="text"   name="address" required/>
+        </div>
+        <div class="item">
+          <label for="address2">이메일(신청인)<span>*</span></label>
+          <input id="eamil" type="email"   name="email" required/>
+        </div>
+          <div class="item">
+          <p> 시작일</p>
+          <input type="date"  />
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+          <div class="item">
+          <p>종료일</p>
+          <input type="date">
+            <i class="fas fa-calendar-alt"></i>
+        
+        </div>
+        <div class="item">
+          <label for="notes">SpecialRequests</label>
+            <textarea id="notes" name="notes" type="text" rows="2" maxlength="300"> </textarea>
+      
+        </div>
+        <div class="item">
+          
+        </div>
+        <div class="item">
+       
+        </div>
+        <div class="item">
+         
+        </div>
+        <div class="item">
+        
+        </div>
+      </div>
+         <div class="question">
+    
+        <div class="question-answer">
+             <label for="counts">인원수</label>
+        <select name="counts" id="counts">
+             <option value="1">1인</option>
+             <option value="2">2인 </option>
+             <option value="3">3인이상 </option>
+        </select>
+        </div>
+      </div>
+      
+      
+      <div class="question">
+        <label>맴버쉽 종류</label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_1" name="type"/>
+            <label for="radio_1" class="radio"><span>Standard</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_2" name="type"/>
+            <label for="radio_2" class="radio"><span>Premium</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_3" name="type"/>
+            <label for="radio_3" class="radio"><span>Ultimate</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <label>접근(Preferred way to contact) </label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_4" name="contact"/>
+            <label for="radio_4" class="radio"><span>Phone</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_5" name="contact"/>
+            <label for="radio_5" class="radio"><span>Email</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_6" name="contact"/>
+            <label for="radio_6" class="radio"><span>Any</span></label>
+          </div>
+        </div>
+      </div>
+      <h2>Terms and Conditions</h2>
+      <input type="checkbox" name="checkbox1">
+      <label>You consent to receive communications from us electronically. We will communicate with you by e-mail or phone. You agree that all agreements, notices, disclosures and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.</label>
+       <div class="flex-container">
+       <div class="btn-block">
+        <button type="button"  class="first" href="/page4.jsp">뒤로가기</button>
+      </div>
+      
+      <div class="btn-block">
+        <button type="submit" href="/" class="second">제출</button>
+      </div>
+        <div class="btn-block">
+        <button type="reset" class="third">다시쓰기</button>
+      </div>
+       </div>
+    </form>
+  </div>
+  <!-- form 종료 -->
 		<hr>
-          <h3>예약 현황</h3>
-	      <h3>리뷰</h3>
-          <h3>소식(게시판)</h3>
-          <h3>기타(설정)</h3>
+      
+    
 	
 	</section>
 
