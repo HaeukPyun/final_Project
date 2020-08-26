@@ -33,6 +33,22 @@
 	left: 1500px;
 	top: 700px;
 }
+<<<<<<< HEAD
+=======
+#middle-box1-cmaper{
+	color: crimson;
+}
+#middle-box2-cmaper{
+	color: darkgreen;
+}
+#middle-box3-cmaper{
+	color: orange;
+}
+#subheading-camper, #tab-pane-home2{
+	color: teal;
+}
+
+>>>>>>> 1671d90f71efe30e408be68a481a0f7059e03dcd
 </style>
 </head>
 
@@ -185,9 +201,13 @@
 							<span class="flaticon-stairs"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
+<<<<<<< HEAD
 							<h3 class="heading">Painting</h3>
 							<p>Even the all-powerful Pointing has no control about the
 								blind texts it is an almost unorthographic.</p>
+=======
+							<h3 class="heading">피크닉</h3>
+							<p>자연과 어우러지는 방법은 캠핑만 있는 것은 아니죠!</p>
 						</div>
 					</div>
 				</div>
@@ -198,9 +218,63 @@
 							<span class="flaticon-home"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
+							<h3 class="heading">글램핑</h3>
+							<p>처음 접하는 캠핑이 낯설다면 글램핑으로 시작해 보세요</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">아나바다</h3>
+							<p>유용한 장비들의 마켓시스템을 누려보세요</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">Q&AMP;A</h3>
+							<p>궁금한건 바로바로 알아야 하는 당신, 이곳에 문의하세요!</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+							<h3 class="heading">전국 캠핑장</h3>
+							<p>세상은 넓고 캠핑할 곳은 많죠!</p>
+>>>>>>> 1671d90f71efe30e408be68a481a0f7059e03dcd
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
+					<div class="media block-6 d-block text-center pt-md-4">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-home"></span>
+						</div>
+						<div class="media-body p-2 mt-3">
+<<<<<<< HEAD
 							<h3 class="heading">Architecture Design</h3>
 							<p>Even the all-powerful Pointing has no control about the
 								blind texts it is an almost unorthographic.</p>
+=======
+							<h3 class="heading">리뷰 시스템</h3>
+							<p>경험한 자만이 진실을 말할 수 있다! 솔직 담백한 후기를 통해 즐거움을 배로!</p>
+>>>>>>> 1671d90f71efe30e408be68a481a0f7059e03dcd
 						</div>
 					</div>
 				</div>
@@ -266,45 +340,32 @@
 					<div class="row justify-content-start py-5">
 						<div
 							class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
-							<span class="subheading">Welcome to Home Builder</span>
-							<h2 class="mb-4">We create and turn into reality</h2>
-							<p>Far far away, behind the word mountains, far from the
-								countries Vokalia and Consonantia</p>
+							<span class="subheading">Welcome to Home <span id="subheading-camper">CAMPER</span></span>
+							<h2 class="mb-4">CAMPER는 최상의 캠핑 활동을 제공합니다</h2>
+							<p>캠핑의 출발을 이곳에서 시작하십시오</p>
 							<div class="tabulation-2 mt-4">
 								<ul class="nav nav-pills nav-fill d-md-flex d-block">
 									<li class="nav-item mb-md-0 mb-2"><a
 										class="nav-link active py-2" data-toggle="tab" href="#home1">Our
 											Mission</a></li>
-									<li class="nav-item px-lg-2 mb-md-0 mb-2"><a
-										class="nav-link py-2" data-toggle="tab" href="#home2">Our
+									<li class="nav-item px-lg-2 mb-md-0 mb-2"><a class="nav-link py-2" data-toggle="tab" href="#home2">Our
 											Vision</a></li>
 									<li class="nav-item"><a class="nav-link py-2 mb-md-0 mb-2"
 										data-toggle="tab" href="#home3">Our Value</a></li>
 								</ul>
 								<div class="tab-content bg-light rounded mt-2">
 									<div class="tab-pane container p-0 active" id="home1">
-										<p>Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind
-											texts. Separated they live in Bookmarksgrove right at the
-											coast of the Semantics, a large language ocean. Separated
-											they live in Bookmarksgrove right at the coast of the
-											Semantics, a large language ocean.</p>
+										<p>1878년 세계 최초 자전거 동호회인 "바이사이크리그"를 설립한 "토마스 하이램 홀딩".</br>
+										무한한 자유와 드넒은 자연을 만끽할 수 있어서 호텔 보다 캠핑이 좋다 ! 를 외치던 영국캠퍼. 그의 정신을 이어 보다 가까이서 자연을 느낄 수 있고 즐길 수 있는 캠핑 문화를 만들고자 합니다.</p>
 									</div>
 									<div class="tab-pane container p-0 fade" id="home2">
-										<p>Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind
-											texts. Separated they live in Bookmarksgrove right at the
-											coast of the Semantics, a large language ocean. Separated
-											they live in Bookmarksgrove right at the coast of the
-											Semantics, a large language ocean.</p>
+										<p><span id="tab-pane-home2">CAMPER</span> 는 다양한 연령대와 캠퍼들의 성향을 기반으로, 초급자 부터 상급자 까지 모두 즐길 수 있도록 여러 가지 방식으로 캠프장을 제공 합니다</br> 많은 캠프장에는 화로, 바비큐 그릴, 유틸리티, 공용 욕실 및 세탁실과 같은 시설이 있으며 인근 레크리에이션 시설을 제공 합니다. 야영지 테마는 흙 바닥 부터 전기가있는 무난하게 즐길 수 있는 글램핑까지 다양함을 제공합니다.
+										<span id="tab-pane-home2">CAMPER</span>에서 제공하는 그리고 운영하는 이동수단 및 교통수단으로는 대형 레저용 차량 부터 바이크, 투어링 자전거, 보트, 카누, 짐을 싣는 동물 , 심지어 수풀 비행기등이 있습니다. 캠핑뿐만 아니라 글랭핑, 피크닉, 주변 레저활동, 관광 등과 같은 다양한 형태로 자연속에서 즐길 수 있는 모든 것들을 누릴 수 있습니다.
+										<span id="tab-pane-home2">CAMPER</span>에서 이 모든 것을 경험할 수 있습니다.
+										</p>
 									</div>
 									<div class="tab-pane container p-0 fade" id="home3">
-										<p>Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind
-											texts. Separated they live in Bookmarksgrove right at the
-											coast of the Semantics, a large language ocean. Separated
-											they live in Bookmarksgrove right at the coast of the
-											Semantics, a large language ocean.</p>
+										<p>일상에서 벗어나 여행을 떠난다는것. 혹은 자연이 주는 생동감을 체험하며 해방감을 누린다는 것. 단순히 숙소를 잡아 머무는 전형적인 여행과는 또 다른 매력을 느낄 수 있습니다. </p>
 									</div>
 								</div>
 							</div>
@@ -325,7 +386,7 @@
 							<strong class="number" data-number="50">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Years of <br>Experienced
+							<span>오랜 경험과<br>문화가 함께한 시간
 							</span>
 						</div>
 					</div>
@@ -337,7 +398,7 @@
 							<strong class="number" data-number="8500">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Project <br>Done
+							<span>CAMPER<br>를 체험한 사람들
 							</span>
 						</div>
 					</div>
@@ -346,10 +407,10 @@
 					class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18 d-flex">
 						<div class="text d-flex align-items-center">
-							<strong class="number" data-number="378">0</strong>
+							<strong class="number" data-number="154">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Professional <br>Expert
+							<span>비교불가 <br>전문가들의 수
 							</span>
 						</div>
 					</div>
@@ -358,10 +419,10 @@
 					class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18 d-flex">
 						<div class="text d-flex align-items-center">
-							<strong class="number" data-number="1200">0</strong>
+							<strong class="number" data-number="557">0</strong>
 						</div>
 						<div class="text-2">
-							<span>Machineries <br>Equipments
+							<span>제공되는 <br>시설과 장비들
 							</span>
 						</div>
 					</div>
