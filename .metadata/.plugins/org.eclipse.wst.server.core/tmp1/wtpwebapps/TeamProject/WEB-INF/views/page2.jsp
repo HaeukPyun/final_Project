@@ -67,28 +67,28 @@ hr {
 }
 
 #t1 {
-	width: 700px;
-	height: 800px;
+	width: 100%;
+	height: 40%;
 }
 
 #t2 {
-	width: 700px;
-	height: 600px;
+	width: 100%;
+	height: 20%;
 }
 
 #t3 {
-	width: 700px;
-	height: 400px;
+	width: 100%;
+	height: 20%;
 }
 
 #photo_1, #photo_3 {
-	width: 350px;
-	height: 200px;
+	width: 100%;
+	height: 50%;
 }
 
 #photo_2 {
-	width: 170px;
-	height: 100px;
+	width: 100%;
+	height: 50%;
 }
 
 b {
