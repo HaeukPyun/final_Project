@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
-<title>camper.page2</title>
+<title>camper.page4reser</title>
 <script src="http://code.jquery.com/jquery.js"></script>
 <meta charset="utf-8">
 <meta name="viewport"
