@@ -924,3 +924,17 @@
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:21:45 +0900] "GET /myapp/images/person_1.jpg HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:21:45 +0900] "GET /myapp/resources/images/person_3.jpg HTTP/1.1" 200 35096
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:21:45 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+127.0.0.1 - - [26/Aug/2020:17:32:56 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:32:57 +0900] "GET /myapp/ HTTP/1.1" 200 37240
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:32:57 +0900] "GET /myapp/resources/images/sub-nav-186x40.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:32:57 +0900] "GET /myapp/resources/images/sub-nav2-186x40.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:32:57 +0900] "GET /myapp/images/person_1.jpg HTTP/1.1" 404 721
+127.0.0.1 - - [26/Aug/2020:17:34:56 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /myapp/ HTTP/1.1" 200 37239
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /myapp/resources/css/magnific-popup.css HTTP/1.1" 200 7300
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /myapp/resources/css/animate.css HTTP/1.1" 200 8192
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /myapp/resources/images/sub-nav-186x40.png HTTP/1.1" 200 3564
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /myapp/resources/images/work-1.jpg HTTP/1.1" 200 8192
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /myapp/images/person_1.jpg HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /myapp/resources/images/person_1.jpg HTTP/1.1" 200 8192
+0:0:0:0:0:0:0:1 - - [26/Aug/2020:17:34:57 +0900] "GET /favicon.ico HTTP/1.1" 404 818
