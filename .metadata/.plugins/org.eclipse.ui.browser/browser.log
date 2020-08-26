@@ -12,3 +12,18 @@
 8월 26, 2020 11:55:06.433 
 8월 26, 2020 11:55:06.437 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 8월 26, 2020 11:55:06.440 
+8월 26, 2020 12:13:01.499 
+8월 26, 2020 12:13:01.508 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8월 26, 2020 12:13:01.511 
+8월 26, 2020 12:13:01.526 
+8월 26, 2020 12:13:01.529 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8월 26, 2020 12:13:01.534 
+8월 26, 2020 12:20:37.989 
+8월 26, 2020 12:20:37.993 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8월 26, 2020 12:20:37.997 
+8월 26, 2020 12:22:46.488 
+8월 26, 2020 12:22:46.497 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8월 26, 2020 12:22:46.502 
+8월 26, 2020 12:22:46.513 
+8월 26, 2020 12:22:46.517 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8월 26, 2020 12:22:46.521 
