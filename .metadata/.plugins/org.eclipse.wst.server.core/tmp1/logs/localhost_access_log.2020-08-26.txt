@@ -871,8 +871,11 @@
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:16:22:47 +0900] "GET /myapp/resources/images/person_1.jpg HTTP/1.1" 200 36090
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:16:22:47 +0900] "GET /myapp/resources/images/person_2.jpg HTTP/1.1" 200 47939
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:16:22:47 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+<<<<<<< Updated upstream
 127.0.0.1 - - [26/Aug/2020:16:27:12 +0900] "GET / HTTP/1.1" 404 807
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:16:27:13 +0900] "GET /myapp/ HTTP/1.1" 200 35872
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:16:27:13 +0900] "GET /myapp/resources/images/sub-nav-186x40.png HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:16:27:13 +0900] "GET /myapp/resources/images/sub-nav2-186x40.png HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [26/Aug/2020:16:27:13 +0900] "GET /myapp/images/person_1.jpg HTTP/1.1" 404 721
+=======
+>>>>>>> Stashed changes

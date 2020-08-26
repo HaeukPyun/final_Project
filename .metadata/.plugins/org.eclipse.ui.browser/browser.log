@@ -49,9 +49,24 @@
 8월 26, 2020 13:04:56.345 
 8월 26, 2020 13:04:56.352 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 8월 26, 2020 13:04:56.359 
+<<<<<<< Updated upstream
 8월 26, 2020 16:27:45.991 
 8월 26, 2020 16:27:45.999 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 8월 26, 2020 16:27:46.04 
 8월 26, 2020 16:27:46.38 
 8월 26, 2020 16:27:46.43 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 8월 26, 2020 16:27:46.47 
+=======
+8월 26, 2020 13:06:44.180 
+8월 26, 2020 13:06:44.192 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8월 26, 2020 13:06:44.196 
+8월 26, 2020 13:06:44.219 
+8월 26, 2020 13:06:44.226 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8월 26, 2020 13:06:44.230 
+8월 26, 2020 16:22:36.980 
+8월 26, 2020 16:22:36.991 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+8월 26, 2020 16:22:36.995 
+8월 26, 2020 16:22:37.40 
+8월 26, 2020 16:22:37.45 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+8월 26, 2020 16:22:37.50 
+>>>>>>> Stashed changes
