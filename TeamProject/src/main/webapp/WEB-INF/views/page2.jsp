@@ -261,7 +261,6 @@ b {
 		<hr>
 
 		<h3 id="pikinfo">캠핑장 전경</h3>
-		<h3>캠핑장 전경</h3>
 		<div id="details">
 			<div id="photo">
 				<div id="imgBox">
@@ -307,6 +306,7 @@ b {
 				$imgBox.css("left", -(idx * 700));
 			});
 		</script>
+		<hr>
 
 		<h3 id="timeNpay">주변관광지</h3>
 		<table id="t1">
