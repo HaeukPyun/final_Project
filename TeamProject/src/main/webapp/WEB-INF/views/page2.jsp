@@ -79,7 +79,7 @@ h1 {
 #nextBtn, #prevBtn {
 	width: 44px;
 	height: 44px;
-	background: url(/myapp/resources/images/button.png);
+	background: url(image/button.png);
 	text-indent: -1000px;
 	overflow: hidden;
 	cursor: pointer;
@@ -117,24 +117,67 @@ hr {
 }
 
 #t1 {
-    width: 700px;
-    height: 600px;
+	width: 700px;
+	height: 600px;
 }
+
 #photo_1 {
-    width: 170px;
-    height: 100px;
-}
-#t2{
-    width: 700px;
-    height: 400px;
-}
-#photo_2 {
-    width: 350px;
-    height: 200px;
+	width: 170px;
+	height: 100px;
 }
 
 b {
 	color: green;
+}
+
+#details2 {
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+#photo2 {
+	width: 693px;
+	height: 390px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#nextBtn2, #prevBtn2 {
+	width: 44px;
+	height: 44px;
+	background: url(image/button.png);
+	text-indent: -1000px;
+	overflow: hidden;
+	cursor: pointer;
+	border: none;
+	position: absolute;
+	top: 228px;
+}
+
+#prevBtn2 {
+	background-position: 0 -347px;
+	left: 0;
+}
+
+#prevBtn2:hover {
+	background-position: -61px -347px;
+}
+
+#nextBtn2 {
+	background-position: 0 -411px;
+	right: 0;
+}
+
+#nextBtn2:hover {
+	background-position: -61px -411px;
+}
+
+#imgBox2 {
+	position: relative;
+	width: 2800px;
+	transition: left 0.3s;
 }
 
 #floatMenu {
@@ -256,22 +299,21 @@ b {
 		<hr>
 
 		<h3 id="campinfo">캠핑장 배치도</h3>
-		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500"
-			height="400">
+		<img src="image/page2-1.png" alt="1" width="500" height="400">
 		<hr>
 
 		<h3 id="pikinfo">캠핑장 전경</h3>
 		<div id="details">
 			<div id="photo">
 				<div id="imgBox">
-					<img src="/myapp/resources/images/page2-2.png" alt="1"> <img
-						src="/myapp/resources/images/page2-3.png" alt="1"> <img
-						src="/myapp/resources/images/page2-4.png" alt="1"> <img
-						src="/myapp/resources/images/page2-5.png" alt="1"> <img
-						src="/myapp/resources/images/page2-6.png" alt="1"> <img
-						src="/myapp/resources/images/page2-7.png" alt="1"> <img
-						src="/myapp/resources/images/page2-8.png" alt="1"> <img
-						src="/myapp/resources/images/page2-9.png" alt="1">
+					<img src="image/page2-2.png" alt="1"> <img
+						src="image/page2-3.png" alt="1"> <img
+						src="image/page2-4.png" alt="1"> <img
+						src="image/page2-5.png" alt="1"> <img
+						src="image/page2-6.png" alt="1"> <img
+						src="image/page2-7.png" alt="1"> <img
+						src="image/page2-8.png" alt="1"> <img
+						src="image/page2-9.png" alt="1">
 				</div>
 			</div>
 			<div id="btnBox">
@@ -279,58 +321,31 @@ b {
 				<button id="nextBtn">다음사진보기</button>
 			</div>
 		</div>
-		<script>
-			var $imgBox = $("#imgBox")
-			idx = 0;
-
-			$("#nextBtn").click(function() {
-				if (idx == 7) {
-					$imgBox.css('transition', 'left 0s');
-					idx = 0;
-				} else {
-					$imgBox.css('transition', 'left .3s');
-					++idx;//idx를 1증가
-				}
-				var left = -(idx * 700);
-				$imgBox.css("left", left);
-			});//nextBtn click end
-			$("#prevBtn").click(function() {
-				//alert(idx);
-				if (idx == 0) {
-					$imgBox.css('transition', 'left 0s');
-					idx = 7;
-				} else {
-					$imgBox.css('transition', 'left .3s');
-					--idx;
-				}
-				$imgBox.css("left", -(idx * 700));
-			});
-		</script>
 		<hr>
 
 		<h3 id="timeNpay">주변관광지</h3>
 		<table id="t1">
 			<tr>
 				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-10.png"></td>
+					src="image/page2-10.png"></td>
 				<td><b>표충사(소요시간 5분)</b><br> 경상남도 기념물 제 17호 임진왜란 때 공을 세운
 					사면대사의 충혼을 기리기 위해 국가에서 명명한 절이다.</td>
 			</tr>
 			<tr>
 				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-11.png"></td>
+					src="image/page2-11.png"></td>
 				<td><b>밀양댐, 생태공원(소용시간 2분)</b><br> 2001년 11월에 완공되었다. 밀양시
 					단장면 고례리, 양산시 원동면 선리, 울주군 상군면 이천리에 걸쳐 뻗어 있다.</td>
 			</tr>
 			<tr>
 				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-12.png"></td>
+					src="image/page2-12.png"></td>
 				<td><b>호박소(소용시간 10분)</b><br> 백옥같은 화강암이 수십만 년동안 물에 씻겨 커다란
 					소를 이루어 그모양이 마치 절구의 호박같이 생겨다하여 이름붙여졌다.</td>
 			</tr>
 			<tr>
 				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-13.png"></td>
+					src="image/page2-13.png"></td>
 				<td><b>얼음골(소요시간 10분)</b><br> 천연기념물 제 224호 암석의 틈서리에는 3~4월부터
 					얼음이 맺히기 시작하여 7월말~8월초 에 가장많은 얼음이 생긴다. 가을로 접어들면 얼음이 녹기 시작하고, 날씨가
 					서늘해지면 얼음이 다 녹아 바위틈에서 따뜻한 공기가 나온다.</td>
@@ -339,21 +354,71 @@ b {
 		<hr>
 
 		<h3 id="tip">부대시설</h3>
-		<table id="t2">
-			<tr>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-14.png"></td>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-15.png"></td>
-			</tr>
-			<tr>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-16.png"></td>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-17.png"></td>
-			</tr>
-		</table>
+		<div id="details2">
+			<div id="photo2">
+				<div id="imgBox2">
+					<img src="image/page2-14.png" alt="3"> <img
+						src="image/page2-15.png" alt="3"> <img
+						src="image/page2-16.png" alt="3"> <img
+						src="image/page2-17.png" alt="3">
+				</div>
+			</div>
+			<div id="btnBox2">
+				<button id="prevBtn2">이전사진보기</button>
+				<button id="nextBtn2">다음사진보기</button>
+			</div>
+		</div>
 	</section>
+	<script>
+		idx = 0;
+		var $imgBox = $("#imgBox")
+		$("#nextBtn").click(function() {
+			if (idx == 7) {
+				$imgBox.css('transition', 'left 0s');
+				idx = 0;
+			} else {
+				$imgBox.css('transition', 'left .3s');
+				++idx;//idx를 1증가
+			}
+			var left = -(idx * 700);
+			$imgBox.css("left", left);
+		});//nextBtn click end
+		$("#prevBtn").click(function() {
+			//alert(idx);
+			if (idx == 0) {
+				$imgBox.css('transition', 'left 0s');
+				idx = 7;
+			} else {
+				$imgBox.css('transition', 'left .3s');
+				--idx;
+			}
+			$imgBox.css("left", -(idx * 701));
+		});
+
+		var $imgBox2 = $("#imgBox2")
+		$("#nextBtn2").click(function() {
+			if (idx == 3) {
+				$imgBox2.css('transition', 'left 0s');
+				idx = 0;
+			} else {
+				$imgBox2.css('transition', 'left .3s');
+				++idx;//idx를 1증가
+			}
+			var left = -(idx * 693);
+			$imgBox2.css("left", left);
+		});//nextBtn click end
+		$("#prevBtn2").click(function() {
+			//alert(idx);
+			if (idx == 0) {
+				$imgBox2.css('transition', 'left 0s');
+				idx = 3;
+			} else {
+				$imgBox2.css('transition', 'left .3s');
+				--idx;
+			}
+			$imgBox2.css("left", -(idx * 693));
+		});
+	</script>
 
 	<aside class="aside">
 		<ul id="floatMenu">
