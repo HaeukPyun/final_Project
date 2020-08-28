@@ -117,24 +117,67 @@ hr {
 }
 
 #t1 {
-    width: 700px;
-    height: 600px;
+	width: 700px;
+	height: 600px;
 }
+
 #photo_1 {
-    width: 170px;
-    height: 100px;
-}
-#t2{
-    width: 700px;
-    height: 400px;
-}
-#photo_2 {
-    width: 350px;
-    height: 200px;
+	width: 170px;
+	height: 100px;
 }
 
 b {
 	color: green;
+}
+
+#details2 {
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+#photo2 {
+	width: 693px;
+	height: 390px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#nextBtn2, #prevBtn2 {
+	width: 44px;
+	height: 44px;
+	background: url(/myapp/resources/images/button.png);
+	text-indent: -1000px;
+	overflow: hidden;
+	cursor: pointer;
+	border: none;
+	position: absolute;
+	top: 228px;
+}
+
+#prevBtn2 {
+	background-position: 0 -347px;
+	left: 0;
+}
+
+#prevBtn2:hover {
+	background-position: -61px -347px;
+}
+
+#nextBtn2 {
+	background-position: 0 -411px;
+	right: 0;
+}
+
+#nextBtn2:hover {
+	background-position: -61px -411px;
+}
+
+#imgBox2 {
+	position: relative;
+	width: 2800px;
+	transition: left 0.3s;
 }
 
 #floatMenu {
@@ -256,8 +299,7 @@ b {
 		<hr>
 
 		<h3 id="campinfo">캠핑장 배치도</h3>
-		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500"
-			height="400">
+		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500" height="400">
 		<hr>
 
 		<h3 id="pikinfo">캠핑장 전경</h3>
@@ -279,33 +321,6 @@ b {
 				<button id="nextBtn">다음사진보기</button>
 			</div>
 		</div>
-		<script>
-			var $imgBox = $("#imgBox")
-			idx = 0;
-
-			$("#nextBtn").click(function() {
-				if (idx == 7) {
-					$imgBox.css('transition', 'left 0s');
-					idx = 0;
-				} else {
-					$imgBox.css('transition', 'left .3s');
-					++idx;//idx를 1증가
-				}
-				var left = -(idx * 700);
-				$imgBox.css("left", left);
-			});//nextBtn click end
-			$("#prevBtn").click(function() {
-				//alert(idx);
-				if (idx == 0) {
-					$imgBox.css('transition', 'left 0s');
-					idx = 7;
-				} else {
-					$imgBox.css('transition', 'left .3s');
-					--idx;
-				}
-				$imgBox.css("left", -(idx * 700));
-			});
-		</script>
 		<hr>
 
 		<h3 id="timeNpay">주변관광지</h3>
@@ -339,21 +354,71 @@ b {
 		<hr>
 
 		<h3 id="tip">부대시설</h3>
-		<table id="t2">
-			<tr>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-14.png"></td>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-15.png"></td>
-			</tr>
-			<tr>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-16.png"></td>
-				<td><img id="photo_2"
-					src="/myapp/resources/images/page2-17.png"></td>
-			</tr>
-		</table>
+		<div id="details2">
+			<div id="photo2">
+				<div id="imgBox2">
+					<img src="/myapp/resources/images/page2-14.png" alt="3"> <img
+						src="/myapp/resources/images/page2-15.png" alt="3"> <img
+						src="/myapp/resources/images/page2-16.png" alt="3"> <img
+						src="/myapp/resources/images/page2-17.png" alt="3">
+				</div>
+			</div>
+			<div id="btnBox2">
+				<button id="prevBtn2">이전사진보기</button>
+				<button id="nextBtn2">다음사진보기</button>
+			</div>
+		</div>
 	</section>
+	<script>
+		idx = 0;
+		var $imgBox = $("#imgBox")
+		$("#nextBtn").click(function() {
+			if (idx == 7) {
+				$imgBox.css('transition', 'left 0s');
+				idx = 0;
+			} else {
+				$imgBox.css('transition', 'left .3s');
+				++idx;//idx를 1증가
+			}
+			var left = -(idx * 700);
+			$imgBox.css("left", left);
+		});//nextBtn click end
+		$("#prevBtn").click(function() {
+			//alert(idx);
+			if (idx == 0) {
+				$imgBox.css('transition', 'left 0s');
+				idx = 7;
+			} else {
+				$imgBox.css('transition', 'left .3s');
+				--idx;
+			}
+			$imgBox.css("left", -(idx * 701));
+		});
+
+		var $imgBox2 = $("#imgBox2")
+		$("#nextBtn2").click(function() {
+			if (idx == 3) {
+				$imgBox2.css('transition', 'left 0s');
+				idx = 0;
+			} else {
+				$imgBox2.css('transition', 'left .3s');
+				++idx;//idx를 1증가
+			}
+			var left = -(idx * 693);
+			$imgBox2.css("left", left);
+		});//nextBtn click end
+		$("#prevBtn2").click(function() {
+			//alert(idx);
+			if (idx == 0) {
+				$imgBox2.css('transition', 'left 0s');
+				idx = 3;
+			} else {
+				$imgBox2.css('transition', 'left .3s');
+				--idx;
+			}
+			$imgBox2.css("left", -(idx * 693));
+		});
+	</script>
 
 	<aside class="aside">
 		<ul id="floatMenu">
