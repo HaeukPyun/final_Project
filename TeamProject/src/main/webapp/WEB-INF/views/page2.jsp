@@ -268,7 +268,7 @@ b {
 	<!-- END nav -->
 
 	<section class="hero-wrap hero-wrap-2"
-		style="background-image: url('/myapp/resources/image/campmain.png');"
+		style="background-image: url('/myapp/resources/images/7.png');"
 		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
