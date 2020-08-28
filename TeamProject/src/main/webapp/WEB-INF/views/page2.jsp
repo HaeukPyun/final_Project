@@ -147,7 +147,7 @@ b {
 #nextBtn2, #prevBtn2 {
 	width: 44px;
 	height: 44px;
-	background: url(image/button.png);
+	background: url(/myapp/resources/images/button.png);
 	text-indent: -1000px;
 	overflow: hidden;
 	cursor: pointer;
@@ -299,7 +299,7 @@ b {
 		<hr>
 
 		<h3 id="campinfo">캠핑장 배치도</h3>
-		<img src="webapp/resources/images/page2-1.png" alt="1" width="500" height="400">
+		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500" height="400">
 		<hr>
 
 		<h3 id="pikinfo">캠핑장 전경</h3>
