@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
@@ -211,7 +212,7 @@ $(document).ready(function () {
 	</section>
 	<br>
 	<nav class="nav"> 
-<a href="page4reservation.jsp" target="_blank" >
+<a href="page4reservation" target="_blank" >
     <div class="circle1" >
              예약하기
         </div>
@@ -254,7 +255,7 @@ $(document).ready(function () {
            </tbody>
           </table>
   
-       <h1  id="pikinfo" > <a href="page4reservation.jsp"  target="_blank"> 예약   <span class="res1" font-size="12px" color=pink>(▷예약하러가기)</span> </a></h1>
+       <h1  id="pikinfo" > <a href="page4reservation"  target="_blank"> 예약   <span class="res1" font-size="12px" color=pink>(▷예약하러가기)</span> </a></h1>
        <ul>
             <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
             <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
@@ -262,7 +263,7 @@ $(document).ready(function () {
             <li> 예약자와 입실자가 동일 하여야 하며 입실자가 다른 경우는 사전에 연락하여 주시기 바랍니다.</li><br>
             <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
        </ul>
-            <h1 id="timeNpay" > <a href="page4pay.jsp">  결재 안내</a></h1>
+            <h1 id="timeNpay" >  결재 안내 </h1>
             
             
             <ul >

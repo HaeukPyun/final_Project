@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
@@ -63,32 +64,32 @@ h1 {
 }
 
 hr {
-	width: 100%;
+	width: 50%;
 }
 
 #t1 {
-	width: 100%;
-	height: 40%;
+	width: 700px;
+	height: 800px;
 }
 
 #t2 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 600px;
 }
 
 #t3 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 400px;
 }
 
 #photo_1, #photo_3 {
-	width: 100%;
-	height: 50%;
+	width: 350px;
+	height: 200px;
 }
 
 #photo_2 {
-	width: 100%;
-	height: 50%;
+	width: 170px;
+	height: 100px;
 }
 
 b {
@@ -100,43 +101,133 @@ b {
 	left: 1500px;
 	top: 700px;
 }
-ul.topmenu {
-
- border: 1px solid #FFBF00;
- padding: 0;
- overflow: hidden;
-  margin:0px;
-
- width: 100%;
+.back1{
+color:black;
 }
-.topmenu > li {
+.back1:hover{
+color:black;
+}
 
- border: 0px solid blue;
- width : 280px;
- height: 80px;
- text-align: center;
- line-height: 70px;
- list-style: none;
- float: left;
- margin:0px;
- padding:0px;
- font-size:30px;
+<!--btn group-->
+.btn-group0{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
 
- font-style:normal;
- font-weight:bold;
+.btn-group1 {
+    border: 0px solid red;
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+   
+}
+
+.btn-group2{
+    border: 0px solid green;
+    flex:1;
+    margin: 0px 30%;
+    width:30%;
+    box-sizing: border-box;
+    color:white;
+}
+
+.btn-group3{
+    border: 0px solid blue;
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+   color:white;
+}
+
+
+
+/* Style the tab */
+
+.tab {
+
+  overflow: hidden;
+
+  border: 1px solid #ccc;
+
+  background-color: #f1f1f1;
+
+  width:100%;
+  margin:0;
+padding:0;
+
+}
+
  
+
+/* Style the buttons inside the tab */
+
+.tab button {
+
+  background-color: inherit;
+
+  float: left;
+
+  border: none;
+
+  outline: none;
+
+  cursor: pointer;
+
+margin:0;
+padding:0;
+
+  transition: 0.3s;
+
+  font-size: 17px;
+
+  width:283px;
+
+  height:60px;
+
+  line-height:60px;
+
+}
+
  
- box-sizing: border-box;
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+
+  background-color: #FDC702;
+
 }
 
-.topmenu > li:hover {
- background-color: #F3F781;
- color:#4000FF;
- border-bottom: 2px solid #FFBF00;
+ 
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+
+  background-color: #FDC702;
+
 }
 
-<!-- form style -->
- html, body {
+ 
+
+/* Style the tab content */
+
+.tabcontent {
+
+   width:100%;
+
+  display: none;
+
+  padding: 6px 12px;
+
+  border: 1px solid #ccc;
+
+   border-top: none;
+  
+  }
+  <!--form양식-->
+  html, body {
     min-height: 100%;
     }
     body, div, form, input, select, textarea, label, p { 
@@ -148,7 +239,7 @@ ul.topmenu {
     color: #666;
     line-height: 22px;
     }
-     .form1{
+    h1 #pjh1 {
     position: absolute;
     margin: 0;
     font-size: 40px;
@@ -167,7 +258,7 @@ ul.topmenu {
     height: inherit;
     padding: 20px;
     }
-    form .form2{
+    form #form1{
     width: 100%;
     padding: 20px;
     border-radius: 6px;
@@ -177,8 +268,7 @@ ul.topmenu {
     .banner {
     position: relative;
     height: 300px;
-    width:1200px;      
-    background-image: url("/myapp/resources/images/banner1.png") ;  
+    background-image: url("/TeamProject/src/main/webapp/resources/images/banner1.jpg");  
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -187,7 +277,7 @@ ul.topmenu {
     }
     .banner::after {
     content: "";
-    background-color: rgba(0, 0, 0, 0.2); 
+    background-color: rgba(0, 0, 0, 0); 
     position: absolute;
     width: 100%;
     height: 100%;
@@ -307,7 +397,7 @@ ul.topmenu {
     border-radius: 5px; 
     background:  #669999;
     font-size: 16px;
-    color: #fff;
+    color: black;
     cursor: pointer;
     }
     button:hover {
@@ -323,59 +413,90 @@ ul.topmenu {
     width: calc(50% - 20px);
     }
     .name-item div input {
-    width:97%;
-    }
+    width:97%;}
     .name-item div label {
     display:block;
-    padding-bottom:5px;
+      padding-bottom:5px;
+     }
+    
+    <!--예약 현황 -->
+    #present1{
+    width:100%;
+    height:40%
+    }
+    #present2{
+    width:100%;
+    height:40%
+    }
+    <!--검색 -->
+    #search1{
+     width:100%;
+    height:90%
+    }
+    <!--리뷰 -->
+        #review1{
+     width:100%;
+    height:90%
     }
     
-    <!--form button 정렬-->
- .parent{
-    width: 90%;
-    margin: 10px auto;
-    display: flex;
-}
-.flex-container{
-display: flex;
-
-}
-.flex-container >div{
-margin: 20px;
- padding:20px;
-
-}
-
-
 </style>
-<script="js/jquery.js"></script>
-<script type="text/javascript">
-$(function () {
-	$(".sub").click(function () {
-		$(".form2").submit();
-	});
-	$(".cp0").click(function () {
-		$(".form2").show();
-	})
-	
-	$(".cp1").click(function () {
-		$(".form2").remove();
-	})
-})
-	
+<script>
+	$(document).ready(function() {
 
-  
+		// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
+		var floatPosition = parseInt($("#floatMenu").css('top'));
+		// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
+
+		$(window).scroll(function() {
+			// 현재 스크롤 위치를 가져온다.
+			var scrollTop = $(window).scrollTop();
+			var newPosition = scrollTop + floatPosition + "px";
+
+			/* 애니메이션 없이 바로 따라감
+			 $("#floatMenu").css('top', newPosition);
+			 */
+
+			$("#floatMenu").stop().animate({
+				"top" : newPosition
+			}, 500);
+
+		}).scroll();
+
+	});
+
+	$("#floatMenu").stop().animate({
+		"top" : newPosition
+	}, {
+		'duration' : 500,
+		'easing' : 'easeInOutCubic',
+		'complete' : function() {
+			console.log('이동 완료하였습니다.');
+		}
+	});
 	
 	
-	
-	
-	
+	function openCity(evt, cityName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
 </script>
 <body>
 	<div class="container pt-5">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="index.html">Home<span>builder.</span></a>
+				<a class="navbar-brand" href="index.html">Cam<span>per</span></a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
@@ -408,7 +529,8 @@ $(function () {
 					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
 					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
+					<li class="nav-item"><a href="page4" class="nav-link">예약 및
+							대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
@@ -426,41 +548,41 @@ $(function () {
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs mb-2">
 						<span class="mr-2"><a href="index.html">메인 <i
-								class="ion-ios-arrow-forward"></i></a></span> <span>소개 <i
+								class="ion-ios-arrow-forward"></i></a></span> <span>둘러보기 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
-					<h1 class="mb-0 bread">소개</h1>
+					<h1 class="mb-0 bread">둘러보기</h1>
 				</div>
 			</div>
 		</div>
 	</section>
 	<br>
 
-	<nav class="nav">
-	    <p>nav</p>
- 
-	
-	</nav>
+	<nav class="nav">nav</nav>
 
 	<section class="section">
-		<h1>예약 페이지</h1>
-		
-           <ul class="topmenu">
-           <li class="cp0" >예약</li>
-           <li class="cp1">예약현황</li>
-           <li class="cp3">검색</li>
-           <li class="cp4">리뷰</li>
-            </ul>
-		<hr>
+		<div class="tab">
 
-	
+  <button class="tablinks" onclick="openCity(event, 'reserve1')" id="defaultOpen">예약</button>
 
-		<h3 id="reservation1">예약</h3>
-		<!-- form -->
+  <button class="tablinks" onclick="openCity(event, 'reserve2')">예약현황</button>
+
+  <button class="tablinks" onclick="openCity(event, 'reserve3')">검색</button>
+
+    <button class="tablinks" onclick="openCity(event, 'reserve4')">리뷰</button>
+
+</div>
+
+<div id="reserve1" class="tabcontent">
+
+
+
+ 
+<!-- form -->
 <div class="testbox">
-    <form action="/" class="form2">
+    <form action="/" id="form1">
       <div class="banner">
-        <h1 class="form1">예약 정보 입력</h1>
+        <h1 id="pjh1">예약 정보 입력</h1>
       </div>
       <div class="colums">
         <div class="item">
@@ -558,31 +680,75 @@ $(function () {
       <h2>Terms and Conditions</h2>
       <input type="checkbox" name="checkbox1">
       <label>You consent to receive communications from us electronically. We will communicate with you by e-mail or phone. You agree that all agreements, notices, disclosures and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.</label>
-       <div class="flex-container">
-       <div class="btn-block">
-        <button type="button"  class="first" href="/page4.jsp">뒤로가기</button>
+      <div class="btn-group0">
+        <button class="btn-group1" type="button" style="width:120px; height:100px; font-size:20px"><a class="back1" style="color:white" href="page4.jsp"> 뒤로가기</a></button>
+    
+        <button class="btn-group2" type="submit" style="width:120px; height:100px; font-size:20px" href="/">제출</button>
+     
+        <button class="btn-group3" type="reset"style="width:120px; height:100px; font-size:20px"  href="/">리셋</button>
       </div>
-      
-      <div class="btn-block">
-        <button type="submit" href="/" class="second">제출</button>
-      </div>
-        <div class="btn-block">
-        <button type="reset" class="third">다시쓰기</button>
-      </div>
-       </div>
     </form>
   </div>
-  <!-- form 종료 -->
-		<hr>
-      
-    
-	
-	</section>
+  <!-- form 끝 -->
 
+</div>
+
+ 
+
+<div id="reserve2" class="tabcontent">
+
+  <h3>예약현황</h3>
+
+ <div id="present1" >예약현황</div>
+   <div id="present2" >도움말</div>
+
+
+</div>
+
+ 
+
+<div id="reserve3" class="tabcontent">
+
+  <h3>검색</h3>
+
+  <div id="search1">현재 예약하신곳은 총 aaa캠피장 9월1일 부터 9월8일까지 7박 8일이며 총 금액은 560000원입니다</div>
+
+</div>
+
+ 
+
+<div id="reserve4" class="tabcontent">
+
+  <h3>리뷰</h3>
+
+  <div id="review1"> 이 캠핑장에서 추천도 는 최상입니다..</div>
+
+</div>
+
+	</section>
 
 	<aside class="aside">
 		<ul id="floatMenu">
-		
+			<li><a href="#info"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핑장 소개</strong>
+					</div></a></li>
+			<li><a href="#campinfo"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핑장 배치도</strong>
+					</div></a></li>
+			<li><a href="#pikinfo"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핀장 전경</strong>
+					</div></a></li>
+			<li><a href="#timeNpay"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>주변관광지</strong>
+					</div></a></li>
+			<li><a href="#tip"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>부대시설</strong>
+					</div></a></li>
 		</ul>
 	</aside>
 
