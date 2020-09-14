@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 07/02/2019 07:51
+  	Creation date: 28/08/2020 05:14
   	*/
 
 @font-face {
@@ -30,11 +30,30 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-bee:before { content: "\f100"; }
-.flaticon-hook:before { content: "\f101"; }
-.flaticon-skyline:before { content: "\f102"; }
-.flaticon-home:before { content: "\f103"; }
-.flaticon-stairs:before { content: "\f104"; }
-.flaticon-engineer:before { content: "\f105"; }
-.flaticon-engineer-1:before { content: "\f106"; }
-.flaticon-engineer-2:before { content: "\f107"; }
+.flaticon-icon6:before { content: "\f100"; }
+.flaticon-icon5:before { content: "\f101"; }
+.flaticon-bonfire:before { content: "\f102"; }
+.flaticon-tent:before { content: "\f103"; }
+.flaticon-camping:before { content: "\f104"; }
+.flaticon-camper-van:before { content: "\f105"; }
+.flaticon-bear:before { content: "\f106"; }
+.flaticon-camp:before { content: "\f107"; }
+.flaticon-loan:before { content: "\f108"; }
+.flaticon-house:before { content: "\f109"; }
+.flaticon-calendar:before { content: "\f10a"; }
+.flaticon-camping-1:before { content: "\f10b"; }
+.flaticon-chat:before { content: "\f10c"; }
+.flaticon-kangaroo:before { content: "\f10d"; }
+.flaticon-engineer:before { content: "\f10e"; }
+.flaticon-engineer-1:before { content: "\f10f"; }
+.flaticon-model:before { content: "\f110"; }
+.flaticon-worker:before { content: "\f111"; }
+.flaticon-engineers:before { content: "\f112"; }
+.flaticon-setting:before { content: "\f113"; }
+.flaticon-farming-and-gardening:before { content: "\f114"; }
+.flaticon-honeycombs:before { content: "\f115"; }
+.flaticon-:before { content: "\f116"; }
+.flaticon-icon-656386:before { content: "\f117"; }
+.flaticon-icon-594044:before { content: "\f118"; }
+.flaticon-icon-656384:before { content: "\f119"; }
+.flaticon-icon-1598235:before { content: "\f11a"; }
