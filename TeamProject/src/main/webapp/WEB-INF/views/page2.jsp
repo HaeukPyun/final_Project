@@ -6,68 +6,53 @@
 <title>camper.page2</title>
 <script src="http://code.jquery.com/jquery.js"></script>
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link
-	href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
-	rel="stylesheet">
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/myapp/resources/css/animate.css">
 <link rel="stylesheet" href="/myapp/resources/css/owl.carousel.min.css">
-<link rel="stylesheet"
-	href="/myapp/resources/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/myapp/resources/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="/myapp/resources/css/magnific-popup.css">
 <link rel="stylesheet" href="/myapp/resources/css/ionicons.min.css">
 <link rel="stylesheet" href="/myapp/resources/css/flaticon.css">
 <link rel="stylesheet" href="/myapp/resources/css/icomoon.css">
 <link rel="stylesheet" href="/myapp/resources/css/style.css">
 </head>
-
 <style>
 h1 {
 	color: #FFBF00;
 }
-
 .header {
 	width: 100%;
 	height: 15%;
 }
-
 .nav {
 	width: 20%;
 	height: 70%;
 	float: left;
 	color: white;
 }
-
 .section {
 	width: 60%;
 	height: 70%;
 	float: left;
 }
-
 .aside {
 	width: 20%;
 	height: 70%;
 	float: left;
 	color: white;
 }
-
 .footer {
 	width: 100%;
 	height: 15%;
 	clear: both;
 }
-
 #details {
 	width: 900px;
 	margin: auto;
 	position: relative;
 }
-
 #photo {
 	width: 700px;
 	height: 400px;
@@ -75,7 +60,6 @@ h1 {
 	position: relative;
 	overflow: hidden;
 }
-
 #nextBtn, #prevBtn {
 	width: 44px;
 	height: 44px;
@@ -87,55 +71,44 @@ h1 {
 	position: absolute;
 	top: 228px;
 }
-
 #prevBtn {
 	background-position: 0 -347px;
 	left: 0;
 }
-
 #prevBtn:hover {
 	background-position: -61px -347px;
 }
-
 #nextBtn {
 	background-position: 0 -411px;
 	right: 0;
 }
-
 #nextBtn:hover {
 	background-position: -61px -411px;
 }
-
 #imgBox {
 	position: relative;
 	width: 5700px;
 	transition: left 0.3s;
 }
-
 hr {
 	width: 50%;
 }
-
 #t1 {
 	width: 700px;
 	height: 600px;
 }
-
 #photo_1 {
 	width: 170px;
 	height: 100px;
 }
-
 b {
-	color: green;
+	color: #FFBF00;
 }
-
 #details2 {
 	width: 800px;
 	margin: auto;
 	position: relative;
 }
-
 #photo2 {
 	width: 693px;
 	height: 390px;
@@ -143,7 +116,6 @@ b {
 	position: relative;
 	overflow: hidden;
 }
-
 #nextBtn2, #prevBtn2 {
 	width: 44px;
 	height: 44px;
@@ -155,31 +127,25 @@ b {
 	position: absolute;
 	top: 228px;
 }
-
 #prevBtn2 {
 	background-position: 0 -347px;
 	left: 0;
 }
-
 #prevBtn2:hover {
 	background-position: -61px -347px;
 }
-
 #nextBtn2 {
 	background-position: 0 -411px;
 	right: 0;
 }
-
 #nextBtn2:hover {
 	background-position: -61px -411px;
 }
-
 #imgBox2 {
 	position: relative;
 	width: 2800px;
 	transition: left 0.3s;
 }
-
 #floatMenu {
 	position: absolute;
 	left: 1500px;
@@ -188,28 +154,21 @@ b {
 </style>
 <script>
 	$(document).ready(function() {
-
 		// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
 		var floatPosition = parseInt($("#floatMenu").css('top'));
 		// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
-
 		$(window).scroll(function() {
 			// 현재 스크롤 위치를 가져온다.
 			var scrollTop = $(window).scrollTop();
 			var newPosition = scrollTop + floatPosition + "px";
-
 			/* 애니메이션 없이 바로 따라감
 			 $("#floatMenu").css('top', newPosition);
 			 */
-
 			$("#floatMenu").stop().animate({
 				"top" : newPosition
 			}, 500);
-
 		}).scroll();
-
 	});
-
 	$("#floatMenu").stop().animate({
 		"top" : newPosition
 	}, {
@@ -233,14 +192,9 @@ b {
 			</div>
 		</div>
 	</div>
-	<nav
-		class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
-		id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-
-			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav"
-				aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fa fa-bars"></span> Menu
 			</button>
 			<form action="#" class="searchform order-lg-last">
@@ -257,8 +211,7 @@ b {
 					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
 					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page4" class="nav-link">예약 및
-							대여</a></li>
+					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
@@ -266,18 +219,13 @@ b {
 		</div>
 	</nav>
 	<!-- END nav -->
-
-	<section class="hero-wrap hero-wrap-2"
-		style="background-image: url('/myapp/resources/images/7.png');"
-		data-stellar-background-ratio="0.5">
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('/myapp/resources/images/7.png');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end">
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs mb-2">
-						<span class="mr-2"><a href="index.html">메인 <i
-								class="ion-ios-arrow-forward"></i></a></span> <span>둘러보기 <i
-							class="ion-ios-arrow-forward"></i></span>
+						<span class="mr-2"><a href="index.html">메인 <i class="ion-ios-arrow-forward"></i></a></span> <span>둘러보기 <i class="ion-ios-arrow-forward"></i></span>
 					</p>
 					<h1 class="mb-0 bread">둘러보기</h1>
 				</div>
@@ -285,35 +233,34 @@ b {
 		</div>
 	</section>
 	<br>
-
 	<nav class="nav">nav</nav>
-
 	<section class="section">
 		<h1>캠핑장 둘러보기</h1>
 		<h3 id="info">캠핑장 소개</h3>
 		<p>
-			밀양댐 오토캠핑장은 40여동의 텐트를 동시에 설치할 수 있으며 콘도형 민박이 2동 준비되어 있습니다.<br> 캠핑장
-			바로 앞에 펄쳐진 단장천에는 1급수에만 산다는 꺽지, 버들치, 어름치 등이 살고 수중보가 설치되어<br> 있어
-			남녀노소 누구나 안전하게 물놀이를 할 수 있으며 덤으로 낚시까지 가능한 곳입니다.
+			CAMPER는 다양한 연령대와 캠퍼들의 성향을 기반으로, 초급자 부터 상급자 까지 모두 즐길 수 있도록 여러 가지 방식으로 캠프장을 제공 합니다.<br>
+			제공하는 캠프장에는 화로, 바비큐 그릴을 기본으로 다양한 유틸리티 및 공용 욕실 및 세탁실과 같은 시설이 있으며 인근 레크리에이션 시설을 제공 합니다.
+			야영지 테마는 흙 바닥 부터 전기가있는 무난하게 즐길 수 있는 글램핑까지 다양함을 제공합니다.
+			CAMPER에서 관리 및 운영하는 이동수단 및 교통수단으로는 대형 레저용 차량 부터 바이크, 투어링 자전거, 보트, 카누까지 다양합니다.
+			캠핑뿐만 아니라 글랭핑, 피크닉, 주변 레저활동, 관광 등과 같은 다양한 형태로 자연속에서 즐길 수 있는 모든 것들을 누릴 수 있습니다.
+			CAMPER에서 이 모든 것을 경험할 수 있습니다.
 		</p>
 		<hr>
-
 		<h3 id="campinfo">캠핑장 배치도</h3>
 		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500" height="400">
 		<hr>
-
 		<h3 id="pikinfo">캠핑장 전경</h3>
 		<div id="details">
 			<div id="photo">
 				<div id="imgBox">
-					<img src="/myapp/resources/images/page2-2.png" alt="1"> <img
-						src="/myapp/resources/images/page2-3.png" alt="1"> <img
-						src="/myapp/resources/images/page2-4.png" alt="1"> <img
-						src="/myapp/resources/images/page2-5.png" alt="1"> <img
-						src="/myapp/resources/images/page2-6.png" alt="1"> <img
-						src="/myapp/resources/images/page2-7.png" alt="1"> <img
-						src="/myapp/resources/images/page2-8.png" alt="1"> <img
-						src="/myapp/resources/images/page2-9.png" alt="1">
+                    <img src="/myapp/resources/images/page2-2.png" alt="1">
+                    <img src="/myapp/resources/images/page2-3.png" alt="1">
+                    <img src="/myapp/resources/images/page2-4.png" alt="1">
+                    <img src="/myapp/resources/images/page2-5.png" alt="1">
+                    <img src="/myapp/resources/images/page2-6.png" alt="1">
+                    <img src="/myapp/resources/images/page2-7.png" alt="1">
+                    <img src="/myapp/resources/images/page2-8.png" alt="1">
+                    <img src="/myapp/resources/images/page2-9.png" alt="1">
 				</div>
 			</div>
 			<div id="btnBox">
@@ -322,45 +269,66 @@ b {
 			</div>
 		</div>
 		<hr>
-
 		<h3 id="timeNpay">주변관광지</h3>
 		<table id="t1">
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-10.png"></td>
-				<td><b>표충사(소요시간 5분)</b><br> 경상남도 기념물 제 17호 임진왜란 때 공을 세운
-					사면대사의 충혼을 기리기 위해 국가에서 명명한 절이다.</td>
+				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-18.png"></td>
+				<td>
+					<b>경복궁</b><br>
+					서울특별시 종로구에 있는 조선시대의 궁궐 중 하나이자 조선의 정궁, 법궁이다.
+					사적 1117호로 지정되어 있다. 태조가 조선을 건조하고 한양천도를 단행하면서
+					조선시대에 가장 먼저 지어진 궁궐이다.
+				</td>
 			</tr>
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-11.png"></td>
-				<td><b>밀양댐, 생태공원(소용시간 2분)</b><br> 2001년 11월에 완공되었다. 밀양시
-					단장면 고례리, 양산시 원동면 선리, 울주군 상군면 이천리에 걸쳐 뻗어 있다.</td>
+				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-19.png"></td>
+				<td>
+					<b>광화문</b><br>
+					경복궁의 남쪽에 있는 정문이다. 1395년에 세워졌으며, 2층 누각인 광화문 앞의
+					양쪽에는 한 쌍의 해치 조각상이 자리잡고 있다. 이 건물은 섬세한 수법과 웅대한
+					구조를 보여주고, 전체적으로 균형과 조화를 이루어 장려한 외관을 지닌 가장 뛰어난
+					궐문으로 평가되었다.
+				</td>
 			</tr>
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-12.png"></td>
-				<td><b>호박소(소용시간 10분)</b><br> 백옥같은 화강암이 수십만 년동안 물에 씻겨 커다란
-					소를 이루어 그모양이 마치 절구의 호박같이 생겨다하여 이름붙여졌다.</td>
+				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-20.png"></td>
+				<td>
+					<b>청계천</b><br>
+					서울특별시 내부에 있는 지방하천으로, 한강 수계에 속하며 중량천의 지류이다.
+					광복 후 급속도로 발전하는 서울의 교통문제로 1958년 복개가 시작되어 1961년 완공되었다.
+					2003년 7월부터 2005년 9월까지 고가도로를 철거하고 복개를 걷어내어 광화문 동아일보사로부터
+					성동구 신답철교에 이르기까지 5.8km의 구간이 복원되어 산책로와 녹지 등이 설치되었다.
+				</td>
 			</tr>
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1"
-					src="/myapp/resources/images/page2-13.png"></td>
-				<td><b>얼음골(소요시간 10분)</b><br> 천연기념물 제 224호 암석의 틈서리에는 3~4월부터
-					얼음이 맺히기 시작하여 7월말~8월초 에 가장많은 얼음이 생긴다. 가을로 접어들면 얼음이 녹기 시작하고, 날씨가
-					서늘해지면 얼음이 다 녹아 바위틈에서 따뜻한 공기가 나온다.</td>
+				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-21.png"></td>
+				<td>
+					<b>서울 명동성당</b><br>
+					한국에서 처음으로 지어진 대규모의 고딕 양식 천주교 성당이자, 최초의 본당이다. 1977년 11월
+					대한민국의 사적 제258호 지정되었다. 몇 차례의 보수공사를 거치며 원형을 많이 잃기도 했지만
+					이곳은 여전히 한국 천주교 대성당으로서의 격을 지켜가고 있다. 
+				</td>
+			</tr>
+			<tr>
+				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-22.png"></td>
+				<td>
+					<b>광명동굴</b><br>
+					일저강점기인 1912년부터 금, 은, 구리, 아연 등의 광물을 채광하던 광산지구였지만 1972년
+					폐광했다. 2011년에 광명시에서 매입하여 관광지로 조성되었다. 광명동굴의 내부는 웜홀광장,
+					동굴 예술의 전당, 동굴 아쿠아 월드, 황금 폭포, 동굴 식물원, 황금 궁전, 근대 역사관, 동굴
+					지하세계, 동굴 지하 호수, 판타지 웨타 갤러리, 와인동굴 등으로 구성되어 있다.
+				</td>
 			</tr>
 		</table>
 		<hr>
-
 		<h3 id="tip">부대시설</h3>
 		<div id="details2">
 			<div id="photo2">
 				<div id="imgBox2">
-					<img src="/myapp/resources/images/page2-14.png" alt="3"> <img
-						src="/myapp/resources/images/page2-15.png" alt="3"> <img
-						src="/myapp/resources/images/page2-16.png" alt="3"> <img
-						src="/myapp/resources/images/page2-17.png" alt="3">
+                    <img src="/myapp/resources/images/page2-14.png" alt="3">
+                    <img src="/myapp/resources/images/page2-15.png" alt="3">
+                    <img src="/myapp/resources/images/page2-16.png" alt="3">
+                    <img src="/myapp/resources/images/page2-17.png" alt="3">
 				</div>
 			</div>
 			<div id="btnBox2">
@@ -384,7 +352,6 @@ b {
 			$imgBox.css("left", left);
 		});//nextBtn click end
 		$("#prevBtn").click(function() {
-			//alert(idx);
 			if (idx == 0) {
 				$imgBox.css('transition', 'left 0s');
 				idx = 7;
@@ -394,7 +361,6 @@ b {
 			}
 			$imgBox.css("left", -(idx * 701));
 		});
-
 		var $imgBox2 = $("#imgBox2")
 		$("#nextBtn2").click(function() {
 			if (idx == 3) {
@@ -408,7 +374,6 @@ b {
 			$imgBox2.css("left", left);
 		});//nextBtn click end
 		$("#prevBtn2").click(function() {
-			//alert(idx);
 			if (idx == 0) {
 				$imgBox2.css('transition', 'left 0s');
 				idx = 3;
@@ -419,32 +384,35 @@ b {
 			$imgBox2.css("left", -(idx * 693));
 		});
 	</script>
-
 	<aside class="aside">
 		<ul id="floatMenu">
-			<li><a href="#info"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>캠핑장 소개</strong>
-					</div></a></li>
-			<li><a href="#campinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+			<li><a href="#info">
+                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+					<strong>캠핑장 소개</strong>
+                </div>
+            </a></li>
+			<li><a href="#campinfo">
+                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
 						<strong>캠핑장 배치도</strong>
-					</div></a></li>
-			<li><a href="#pikinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>캠핀장 전경</strong>
-					</div></a></li>
-			<li><a href="#timeNpay"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>주변관광지</strong>
-					</div></a></li>
-			<li><a href="#tip"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>부대시설</strong>
-					</div></a></li>
+                </div>
+            </a></li>
+			<li><a href="#pikinfo">
+                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+					<strong>캠핀장 전경</strong>
+                </div>
+            </a></li>
+			<li><a href="#timeNpay">
+                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+					<strong>주변관광지</strong>
+                </div>
+            </a></li>
+			<li><a href="#tip">
+                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+					<strong>부대시설</strong>
+                </div>
+            </a></li>
 		</ul>
 	</aside>
-
 	<footer class="footer">
 		<div class="container-fluid px-lg-5">
 			<div class="row">
@@ -455,15 +423,9 @@ b {
 							<p>A small river named Duden flows by their place and
 								supplies it with the necessary regelialia.</p>
 							<ul class="ftco-footer-social p-0">
-								<li class="ftco-animate"><a href="#" data-toggle="tooltip"
-									data-placement="top" title="Twitter"><span
-										class="ion-logo-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#" data-toggle="tooltip"
-									data-placement="top" title="Facebook"><span
-										class="ion-logo-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#" data-toggle="tooltip"
-									data-placement="top" title="Instagram"><span
-										class="ion-logo-instagram"></span></a></li>
+								<li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
+								<li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
 							</ul>
 						</div>
 						<div class="col-md-8">
@@ -474,11 +436,9 @@ b {
 											<h2 class="footer-heading">Services</h2>
 											<ul class="list-unstyled">
 												<li><a href="#" class="py-1 d-block">Construction</a></li>
-												<li><a href="#" class="py-1 d-block">House
-														Renovation</a></li>
+												<li><a href="#" class="py-1 d-block">House Renovation</a></li>
 												<li><a href="#" class="py-1 d-block">Painting</a></li>
-												<li><a href="#" class="py-1 d-block">Arhictecture
-														Design</a></li>
+												<li><a href="#" class="py-1 d-block">Arhictecture Design</a></li>
 											</ul>
 										</div>
 										<div class="col-md-4 mb-md-0 mb-4">
@@ -512,9 +472,9 @@ b {
 								<script>
 									document.write(new Date().getFullYear());
 								</script>
-								All rights reserved | This template is made with <i
-									class="ion-ios-heart" aria-hidden="true"></i> by <a
-									href="https://colorlib.com" target="_blank">Colorlib.com</a>
+                                All rights reserved | This template is made with 
+                                <i class="ion-ios-heart" aria-hidden="true"></i> by 
+                                <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
 								Link back to Colorlib can't be removed. Template is licensed
 								under CC BY 3.0.
 							</p>
@@ -534,8 +494,7 @@ b {
 							<input type="text" class="form-control" placeholder="Subject">
 						</div>
 						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="3" class="form-control"
-								placeholder="Message"></textarea>
+							<textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
 						</div>
 						<div class="form-group">
 							<button type="submit" class="form-control submit px-3">Send</button>
@@ -545,17 +504,13 @@ b {
 			</div>
 		</div>
 	</footer>
-
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen">
 		<svg class="circular" width="48px" height="48px">
-			<circle class="path-bg" cx="24" cy="24" r="22" fill="none"
-				stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none"
-				stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
-    </svg>
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+        </svg>
 	</div>
-
 	<script src="/myapp/resources/js/jquery.min.js"></script>
 	<script src="/myapp/resources/js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="/myapp/resources/js/popper.min.js"></script>
@@ -568,11 +523,8 @@ b {
 	<script src="/myapp/resources/js/jquery.magnific-popup.min.js"></script>
 	<script src="/myapp/resources/js/scrollax.min.js"></script>
 	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
-
-	<script type="text/javascript"
-		src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2f5541db0e580532285e4af1bdf6e020&libraries=services"></script>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2f5541db0e580532285e4af1bdf6e020&libraries=services"></script>
 	<script src="/myapp/resources/js/daum-map.js"></script>
 	<script src="/myapp/resources/js/main.js"></script>
-
 </body>
 </html>
