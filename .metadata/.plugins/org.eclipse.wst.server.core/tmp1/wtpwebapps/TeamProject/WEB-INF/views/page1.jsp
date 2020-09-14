@@ -2,20 +2,9 @@
 	pageEncoding="UTF-8"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.myteamproject.model.InfoDAO"%>
-<%@page import="com.myteamproject.model.InfoTO"%>
-<%-- <%
-	request.setCharacterEncoding("UTF-8");
-	Integer no = Integer.parseInt(request.getParameter("no"));
-	String title = request.getParameter("title");
-	String content = request.getParameter("content");
-	String writer = request.getParameter("writer");
-	String writedate = request.getParameter("writedate");
-	
-	InfoTO m = new InfoTO(no, title, content, writer, writedate);
-	InfoDAO memDAO = new InfoDAO();
-	memDAO.insertMember(m);
-	ArrayList<InfoTO> list = memDAO.showMember();
-%> --%>
+<%@page import="com.myteamproject.to.InfoTO"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
@@ -73,7 +62,7 @@ h1 {
 }
 
 hr {
-	/* width: 50%; */
+	 width: 50%; 
 }
 #floatMenu {
 position: absolute;
@@ -84,38 +73,41 @@ position: absolute;
 <script type="text/javascript"> 
 
 $(document).ready(function() {
-
-	// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
-	var floatPosition = parseInt($("#floatMenu").css('top'));
-	// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
-
-	$(window).scroll(function() {
-		// 현재 스크롤 위치를 가져온다.
-		var scrollTop = $(window).scrollTop();
-		var newPosition = scrollTop + floatPosition + "px";
-
-		/* 애니메이션 없이 바로 따라감
-		 $("#floatMenu").css('top', newPosition);
-		 */
-
-		$("#floatMenu").stop().animate({
-			"top" : newPosition
-		}, 500);
-
-	}).scroll();
-
-});
-
-$("#floatMenu").stop().animate({
-	"top" : newPosition
-}, {
-	'duration' : 500,
-	'easing' : 'easeInOutCubic',
-	'complete' : function() {
-		console.log('이동 완료하였습니다.');
-	}
-});
-   </script> 
+	 $("#btnDelete").click(function(){
+         if(confirm("삭제하시겠습니까?")){
+             document.form1.action = "${path}/myapp/page1_Delete";
+             document.form1.submit();
+         }
+     });
+     
+     $("#btnUpdete").click(function(){
+         //var title = document.form1.title.value; ==> name속성으로 처리할 경우
+         //var content = document.form1.content.value;
+         //var writer = document.form1.writer.value;
+         var title = $("#title").val();
+         var content = $("#content").val();
+         var writer = $("#writer").val();
+         if(title == ""){
+             alert("제목을 입력하세요");
+             document.form1.title.focus();
+             return;
+         }
+         if(content == ""){
+             alert("내용을 입력하세요");
+             document.form1.content.focus();
+             return;
+         }
+         if(writer == ""){
+             alert("이름을 입력하세요");
+             document.form1.writer.focus();
+             return;
+         }
+         document.form1.action="${path}/myapp/page1_Update"
+         // 폼에 입력한 데이터를 서버로 전송
+         document.form1.submit();
+     });
+ });
+</script>
 </head>
 <body>
 	<div class="container pt-5" id="upper">
@@ -190,14 +182,59 @@ $("#floatMenu").stop().animate({
 	<aside class="aside">aside	
 	<ul id="floatMenu">
 			<li><a href="#upper"><div style="color:black; text-align:center; width:186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>공지사항</strong></div></a></li>
-            <li><a href="#campinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>위치안내</strong></div></a></li>
-            <li><a href="#pikinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>피크닉 이용안내</strong></div></a></li>
-            <li><a href="#timeNpay"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>이용시간 및 요금안내</strong></div></a></li>
-            <li><a href="#tip"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>준수사항 및 팁</strong></div></a></li>
+            <li><a href="#section1"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>중요알림</strong></div></a></li>
+            <li><a href="#section2"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>위치안내</strong></div></a></li>
         </ul>
         </aside>
 	<section class="section">
-		<article id="campinfo">
+	<article id="section1">
+			<h1>중요알림</h1>
+			<hr align="left">
+			<h2>고객 숙지 사항</h2>
+			Camper를 찾아주시는 모든 고객님은 아래 공지된 <strong>중요 숙지사항을 반드시 확인</strong> 해주시기 바랍니다.<br>
+			캠프의 <strong>예약일정, 대여물품 가격, 캠핑 이용시간</strong> 관련 꼭 확인 하셔야 하는 내용 입니다.
+			<br>
+			<br>
+			<table border="1">
+				<thead>
+					<tr align="center">
+						<th>번호</th>
+						<th>제목</th>
+						<th>내용</th>
+						<th>작성자</th>
+						<th>작성일자</th>
+					</tr>
+				</thead>
+				<tbody>
+		<c:forEach var="item" items="${list}">
+		<tr>
+			<td align="center">${item.no}</td>
+			<td><a href="${path}/myapp/page1_view?no=${item.no}">${item.title}</a></td>
+			<td>${item.content}</td>
+			<td>${item.writer}</td>
+			<td><fmt:formatDate value="${item.writedate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
+		</tr>
+		</c:forEach>
+	</tbody>
+			</table>
+			<br>
+			<form style="display:inline-block;" action="<%=request.getContextPath() %>/board?action=search.do" method="POST">
+	<select name="searchOption">
+		<option value="title">제목</option>
+		<option value="writer">작성자</option>
+		<option value="writedate">날짜</option>
+	</select>
+	<input type="text" name="searchStr" size="15"> <input type="submit" value="검색">  
+</form>
+<form style="display:inline-block;" href="<%=request.getContextPath() %>/page1" method="POST">
+	<input type="submit" value="초기화">
+</form>
+<form style="display:inline-block;" action="<%=request.getContextPath() %>/page1_write" method="POST">
+	<input type="submit" value="글쓰기">
+</form>
+		</article>
+		<br>		
+ <article id="section2">
 			<h1>위치안내</h1>
 			<hr align="left">
 			<h2>찾아오시는 길</h2>
@@ -234,7 +271,7 @@ $("#floatMenu").stop().animate({
 			</td>
 			</tr>
 			</table>
-			<hr>
+			<hr align="left">
 			<table>
 			<tr>
 			<td><section
@@ -244,7 +281,7 @@ $("#floatMenu").stop().animate({
 			</td>
 			</tr>
 			</table>
-			<hr>
+			<hr align="left">
 			<table>
 			<tr>
 			<td><section
@@ -255,7 +292,7 @@ $("#floatMenu").stop().animate({
 			</td>
 			</tr>
 			</table>
-		</article>
+			</article>		
 	</section>
 
 	<footer class="footer">

@@ -67,28 +67,28 @@ hr {
 }
 
 #t1 {
-	width: 100%;
-	height: 40%;
+	width: 700px;
+	height: 800px;
 }
 
 #t2 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 600px;
 }
 
 #t3 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 400px;
 }
 
 #photo_1, #photo_3 {
-	width: 100%;
-	height: 50%;
+	width: 350px;
+	height: 200px;
 }
 
 #photo_2 {
-	width: 100%;
-	height: 50%;
+	width: 170px;
+	height: 100px;
 }
 
 b {
@@ -97,8 +97,8 @@ b {
 
 #floatMenu {
 	position: absolute;
-	left: 80%;
-	top: 75%;
+	left: 1500px;
+	top: 700px;
 }
 </style>
 <script>
@@ -139,7 +139,7 @@ b {
 	<div class="container pt-5">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="index.html">Home<span>builder.</span></a>
+				<a class="navbar-brand" href="index.html">Cam<span>per</span></a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
@@ -169,12 +169,13 @@ b {
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a href="home" class="nav-link">CAMPER</a></li>
-               <li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
-               <li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
-               <li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
-               <li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
-               <li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
-               <li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
+					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
+					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
+					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
+					<li class="nav-item"><a href="page4" class="nav-link">예약 및
+							대여</a></li>
+					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
+					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
 			</div>
 		</div>
@@ -190,10 +191,10 @@ b {
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs mb-2">
 						<span class="mr-2"><a href="index.html">메인 <i
-								class="ion-ios-arrow-forward"></i></a></span> <span>소개 <i
+								class="ion-ios-arrow-forward"></i></a></span> <span>둘러보기 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
-					<h1 class="mb-0 bread">소개</h1>
+					<h1 class="mb-0 bread">둘러보기</h1>
 				</div>
 			</div>
 		</div>
@@ -288,18 +289,28 @@ b {
 	</section>
 
 	<aside class="aside">
-	<ul id="floatMenu">
-		<li><a href="#info"><div
-					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핑장 소개</strong></div></a></li>
-		<li><a href="#campinfo"><div
-					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핑장 배치도</strong></div></a></li>
-		<li><a href="#pikinfo"><div
-					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핀장 전경</strong></div></a></li>
-		<li><a href="#timeNpay"><div
-					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>주변관광지</strong></div></a></li>
-		<li><a href="#tip"><div
-					style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>부대시설</strong></div></a></li>
-	</ul>
+		<ul id="floatMenu">
+			<li><a href="#info"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핑장 소개</strong>
+					</div></a></li>
+			<li><a href="#campinfo"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핑장 배치도</strong>
+					</div></a></li>
+			<li><a href="#pikinfo"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>캠핀장 전경</strong>
+					</div></a></li>
+			<li><a href="#timeNpay"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>주변관광지</strong>
+					</div></a></li>
+			<li><a href="#tip"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>부대시설</strong>
+					</div></a></li>
+		</ul>
 	</aside>
 
 	<footer class="footer">

@@ -174,11 +174,11 @@ $("#floatMenu").stop().animate({
 	<nav class="nav">nav</nav>
 	<aside class="aside">aside	
 	<ul id="floatMenu">
-			<li><a href="#upper"><div style="color:black; text-align:center; width:186px; height: 43px; background-image: url('/myapp/resources/images/ani.png')"><strong>이용안내</strong></div></a></li>
-            <li><a href="#campinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/ani.png')"><strong>캠핑장 이용안내</strong></div></a></li>
-            <li><a href="#pikinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/ani.png')"><strong>피크닉 이용안내</strong></div></a></li>
-            <li><a href="#timeNpay"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/ani.png')"><strong>이용시간 및 요금안내</strong></div></a></li>
-            <li><a href="#tip"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/ani.png')"><strong>준수사항 및 팁</strong></div></a></li>
+			<li><a href="#upper"><div style="color:black; text-align:center; width:186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>이용안내</strong></div></a></li>
+            <li><a href="#campinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>캠핑장 이용안내</strong></div></a></li>
+            <li><a href="#pikinfo"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>피크닉 이용안내</strong></div></a></li>
+            <li><a href="#timeNpay"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>이용시간 및 요금안내</strong></div></a></li>
+            <li><a href="#tip"><div style="color:black; text-align:center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')"><strong>준수사항 및 팁</strong></div></a></li>
         </ul>
         </aside>
 	<section class="section">

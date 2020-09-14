@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 
 public class InfoTO implements Serializable{
-	private int num;
+	private int no;
 	private String title;
 	private String content;
 	private String writer;
@@ -12,20 +12,20 @@ public class InfoTO implements Serializable{
 	
 	public InfoTO() {}
 
-	public InfoTO(int num, String title, String content, String writer, String writedate) {
-		this.num = num;
+	public InfoTO(int no, String title, String content, String writer, String writedate) {
+		this.no = no;
 		this.title = title;
 		this.content = content;
 		this.writer = writer;
 		this.writedate = writedate;
 	}
 
-	public int getNum() {
-		return num;
+	public int getno() {
+		return no;
 	}
 
-	public void setNum(int num) {
-		this.num = num;
+	public void setno(int no) {
+		this.no = no;
 	}
 
 	public String getTitle() {
@@ -62,13 +62,13 @@ public class InfoTO implements Serializable{
 
 	@Override
 	public String toString() {
-		return "InfoTO [num=" + num + ", title=" + title + ", content=" + content + ", writer=" + writer
+		return "InfoTO [no=" + no + ", title=" + title + ", content=" + content + ", writer=" + writer
 				+ ", writedate=" + writedate + "]";
 	}
 	
 	@Override
 	public int hashCode() {
-		return num;
+		return no;
 	}
 
 
@@ -76,7 +76,7 @@ public class InfoTO implements Serializable{
 	public boolean equals(Object obj) {
 		if(obj instanceof InfoTO){
 			InfoTO dto = (InfoTO)obj;
-			if(num == dto.getNum()){
+			if(no == dto.getno()){
 				return true;
 			}
 		}
