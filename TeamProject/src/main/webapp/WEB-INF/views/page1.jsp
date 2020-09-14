@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.myteamproject.model.InfoDAO"%>
-<%@page import="com.myteamproject.model.InfoTO"%>
+<%@page import="com.myteamproject.modelR.InfoDAO"%>
+<%@page import="com.myteamproject.modelR.InfoTO"%>
 <%-- <%
 	request.setCharacterEncoding("UTF-8");
 	Integer no = Integer.parseInt(request.getParameter("no"));

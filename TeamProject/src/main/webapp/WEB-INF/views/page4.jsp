@@ -86,10 +86,11 @@ border-radius:75px;
 text-align:center;
 margin:0 auto;
 font-size:32px;
+font-weight:bold;
 vertical-align:middle;
 line-height:150px;
-color:ghostwhite;
-font-style: italic;
+color:#FBFDFD ;
+font-style: normal;
 }
 
 .res1{
@@ -214,7 +215,7 @@ $(document).ready(function () {
 	<nav class="nav"> 
 <a href="page4reservation" target="_blank" >
     <div class="circle1" >
-             예약하기
+             예약
         </div>
 
 </a>
@@ -242,41 +243,42 @@ $(document).ready(function () {
           <table>
            <tbody> 
             <tr>
-             <td><img src="/myapp/resources/images/date1.png"  width="100px" height="100px"> <p>원하는 날짜에 <br>예약이<br> 가능한 지 확인</p></td>
+             <td><img src="/myapp/resources/images/reservation1.png"  width="100px" height="100px"> <p><span style="color:#00D717; font-weight:bold;" >예약 </span>버튼 클릭 </td>
              <td><img src="/myapp/resources/images/arrow.png"  width="50px" height="50px"></td>
-             <td><img src="/myapp/resources/images/location1.png"  width="100px" height="100px"> <p>원하는 시설<br> 및 테크 선택</p></td>
+             <td><img src="/myapp/resources/images/date1.png"  width="100px" height="100px"> <p><span style="color:#088AD8 ; font-weight:bold;" >예약</span>정보입력</p></td>
              <td><img src=/myapp/resources/images/arrow.png  width="50px" height="50px"> </td>
-             <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p>예약정보 입력 </p></td>
+             <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p><span style="color:crimson; font-weight:bold;" >결제</span>신청 </p></td>
              <td><img src=/myapp/resources/images/arrow.png width="50px" height="50px"> </td>
              
-             <td><img src="/myapp/resources/images/reservation2.png"  width="100px" height="100px"> <p>예약 신청<br> 및 결재 확인</p></td>
+             <td><img src="/myapp/resources/images/reservation2.png"  width="100px" height="100px"> <p><span style="color:#088AD8 ; font-weight:bold;" >예약</span>  및 <span style="color:crimson; font-weight:bold;" >결제</span> 확인</p></td>
            
             </tr>
            </tbody>
           </table>
   
-       <h1  id="pikinfo" > <a href="page4reservation"  target="_blank"> 예약   <span class="res1" font-size="12px" color=pink>(▷예약하러가기)</span> </a></h1>
+       <h1  id="pikinfo" > <a href="page4reservation"  target="_blank"> 예약   <span class="res1" style="font-size:20px ; color:#00D717">(▷예약하러가기)</span> </a></h1>
        <ul>
             <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
             <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
                                  많은 사람들이 사용하는만큼<br>신중히 신청하셔서 다른 사용자들에게 피해를 주는 일이 없도록 해주세요.</li><br>
             <li> 예약자와 입실자가 동일 하여야 하며 입실자가 다른 경우는 사전에 연락하여 주시기 바랍니다.</li><br>
             <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
+
        </ul>
             <h1 id="timeNpay" >  결재 안내 </h1>
             
             
             <ul >
                 
-      
+                 <li>예약페이지 에서 예약 신청을 한후 결재가 가능합니다.</li><br>
                  <li>결재수단으로는 신용카드 및 가상계좌 결재가 가능합니다.</li><br>
-                <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
-               
-                    <p> (단, 사용일이 3일 이내인 경우 예약당일 자정까지 사용료를 결제해야 합니다.)</p>
+                 <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.</li>
+                 
+                        <p> (단, 사용일이 3일 이내인 경우 예약당일 자정까지 사용료를 결제해야 합니다.)</p>
               <div >
-                <ul id="k2"> <strong>무통장 입금 계좌 번호</strong>
-                
-                    <li>농협 :211-111-11-111111</li>
+                <ul id="k2"> <strong style="color:#088AD8 ; font-weight:bold;">무통장 입금 계좌 번호</strong>
+              
+                    <li>NH농협 :211-111-11-111111</li>
                     <li>예금주:2조 캠핑장 사이트</li>
                     
                 </ul>
@@ -293,7 +295,8 @@ $(document).ready(function () {
                        <li> 이용시에는 시설물들에 파손에 이용자에게 책임이 있을때 이용자에게 부담이 되니 유의하여 주시길 바랍니다. </li></br>
                  <li>캠프장 내에서전기 샤용은 불가능하며, 화장실등 시설물 전기를 무단으로 사용한 경우에는 변상금 부과 및 퇴장조치를 실시합니다</li></br>
                      <li> 추암오토캠핑장 관리사무소(033-111-1111)에서 자세한 안내를 받으실 수 있습니다.</li><br>
-                   <li>캠핑장은 23:30분이후 공원등(화장실제외)이 일괄소등이 됩니다.</li><br>  
+                      <li>캠핑장은 23:30분이후 공원등(화장실제외)이 일괄소등이 됩니다.</li><br>  
+                      <li>애완동물을 같이 입실이 불가하오니 양해해 주시기 바랍니다.</li>
                </ul>
                
                
@@ -304,8 +307,8 @@ $(document).ready(function () {
                    <li>취소시에는 당일 선택한 날짜에서 1주전까지만 온전한 취소와 환불이 가능합니다.</li><br>
                    <li> 당일 선책한 날짜에서 (7일 ~4일)이내에  취소시 70%환불,(3일~1일) 이내에 취소시 50%환불가능</li><br>
                    <li> 선택한 날짜당일에는 취소가 불가능 합니다.</li><br>
-                   <li> 추암오토캠핑장 관리사무소(033-111-1111)에서 자세한 안내를 받으실 수 있습니다.</li><br>
-                   <li>예약 신청후 결제수단으로는 신용카드및 가상계좌 결재가 가능합니다.</li><br>
+                   <li> KOSMO 캠핑장 관리사무소(033-111-1111)에서 자세한 안내를 받으실 수 있습니다.</li><br>
+                   <li>예약 신청후 결제수단으로는 신용카드 및 가상계좌 결재가 가능합니다.</li><br>
                    <li>천재지변으로 인하여 시설운영이 불가할 경우 안전사고 예방을 위해서 시설관리자 가 일괄취소 할 수가 있습니다.</li><br>           
                </ul>
             
