@@ -169,7 +169,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-stairs"></span>
+							<span class="flaticon-calendar"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 						
@@ -182,7 +182,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-camper-van"></span>
+							<span class="flaticon-camping"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">피크닉</h3>
@@ -194,7 +194,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-camper-van"></span>
+							<span class="flaticon-tent"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">글램핑</h3>
@@ -206,7 +206,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-icon6"></span>
+							<span class="flaticon-loan"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">아나바다</h3>
@@ -257,7 +257,7 @@
 					class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
 					<div class="py-3 d-flex">
 						<div class="icon">
-							<span class="flaticon-engineer"></span>
+							<span class="flaticon-camper-van"></span>
 						</div>
 						<div class="text">
 							<h3>Expert &amp; Professional</h3>
@@ -271,7 +271,7 @@
 					class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
 					<div class="py-3 d-flex">
 						<div class="icon">
-							<span class="flaticon-worker"></span>
+							<span class="flaticon-bonfire"></span>
 						</div>
 						<div class="text">
 							<h3>High Quality Work</h3>

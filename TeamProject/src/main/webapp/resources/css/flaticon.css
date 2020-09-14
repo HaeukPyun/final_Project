@@ -36,11 +36,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-bee:before { content: "\f100"; }
-.flaticon-hook:before { content: "\f101"; }
-.flaticon-skyline:before { content: "\f102"; }
-.flaticon-home:before { content: "\f103"; }
-.flaticon-stairs:before { content: "\f104"; }
-.flaticon-engineer:before { content: "\f105"; }
-.flaticon-engineer-1:before { content: "\f106"; }
-.flaticon-engineer-2:before { content: "\f107"; }
+.flaticon-bee:before { content: "\f117"; }
+.flaticon-calendar:before { content: "\f10a"; }
+.flaticon-camping:before { content: "\f104"; }
+.flaticon-tent:before { content: "\f103"; }
+.flaticon-loan:before { content: "\f108"; }
+.flaticon-chat:before { content: "\f10c"; }
+.flaticon-camping-1:before { content: "\f10b"; }
+.flaticon-icon5:before { content: "\f101"; }
+.flaticon-camper-van:before { content: "\f105"; }
+.flaticon-bonfire:before { content: "\f102"; }
+.flaticon-engineers:before { content: "\f112"; }
