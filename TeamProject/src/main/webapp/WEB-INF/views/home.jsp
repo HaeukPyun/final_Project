@@ -157,7 +157,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">													
-							<span class="flaticon-bee"></span>		
+							<span class="flaticon-icon-656386"></span>		
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">둘러보기</h3>							
