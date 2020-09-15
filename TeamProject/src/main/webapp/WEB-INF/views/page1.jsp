@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.myteamproject.model.InfoDAO"%>
-<%@page import="com.myteamproject.to.InfoTO"%>
+<%@page import="com.myteamproject.model.InfoTO"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
