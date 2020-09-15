@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
@@ -108,10 +107,10 @@ color:black;
 color:black;
 }
 
-<!--btn group-->
+<!--  form 의 submit btn group-->
 .btn-group0{
-    width: 90%;
-    margin: 10px auto;
+    width: 100%;
+    margin: 30px auto;
     display: flex;
 }
 
@@ -131,6 +130,16 @@ color:black;
     box-sizing: border-box;
     color:white;
 }
+
+.btn-group2-1{
+    border: 0px solid green;
+    flex:1;
+    margin: 0px;
+    width:30%;
+    box-sizing: border-box;
+    color:white;
+}
+
 
 .btn-group3{
     border: 0px solid blue;
@@ -548,10 +557,10 @@ padding:0;
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs mb-2">
 						<span class="mr-2"><a href="index.html">메인 <i
-								class="ion-ios-arrow-forward"></i></a></span> <span>둘러보기 <i
+								class="ion-ios-arrow-forward"></i></a></span> <span>예약하기 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
-					<h1 class="mb-0 bread">둘러보기</h1>
+					<h1 class="mb-0 bread">예약</h1>
 				</div>
 			</div>
 		</div>
@@ -563,13 +572,13 @@ padding:0;
 	<section class="section">
 		<div class="tab">
 
-  <button class="tablinks" onclick="openCity(event, 'reserve1')" id="defaultOpen">예약</button>
+  <button class="tablinks" onclick="openCity(event, 'reserve1')" id="defaultOpen" >예약</button>
 
-  <button class="tablinks" onclick="openCity(event, 'reserve2')">예약현황</button>
+  <button class="tablinks" onclick="openCity(event, 'reserve2')" id="d2">예약현황</button>
 
-  <button class="tablinks" onclick="openCity(event, 'reserve3')">검색</button>
+  <button class="tablinks" onclick="openCity(event, 'reserve3')" id="d3">검색</button>
 
-    <button class="tablinks" onclick="openCity(event, 'reserve4')">리뷰</button>
+    <button class="tablinks" onclick="openCity(event, 'reserve4')" id="d4">리뷰</button>
 
 </div>
 
@@ -594,32 +603,74 @@ padding:0;
           <input id="phone" type="text" name="phone" required/>
         </div>
         <div class="item">
-          <label for="address1">주소<span>*</span></label>
-          <input id="address" type="text"   name="address" required/>
+          <label for="address1">이메일(신청인)<span>*</span></label>
+          <input id="address" type="text"   name="email" required/>
         </div>
         <div class="item">
-          <label for="address2">이메일(신청인)<span>*</span></label>
-          <input id="eamil" type="email"   name="email" required/>
-        </div>
-          <div class="item">
           <p> 시작일</p>
-          <input type="date"  />
+          <input type="date" name="startdate" />
           <i class="fas fa-calendar-alt"></i>
         </div>
-          <div class="item">
+            <div class="item">
           <p>종료일</p>
-          <input type="date">
+          <input type="date" name="enddate">
             <i class="fas fa-calendar-alt"></i>
-        
-        </div>
+          </div>
+          
+          
+             
         <div class="item">
           <label for="notes">SpecialRequests</label>
-            <textarea id="notes" name="notes" type="text" rows="2" maxlength="300"> </textarea>
+            <textarea id="notes" name="notes" type="text" rows="5" maxlength="500"> </textarea>
       
         </div>
-        <div class="item">
           
+        <div class="question">
+       <br>
+        <label> 관심주제(선택) </label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_13" name="subject"/>
+            <label for="radio_13" class="radio"><span>캠핑</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_14" name="subject"/>
+            <label for="radio_14" class="radio"><span>플램핑</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_15" name="subject"/>
+            <label for="radio_15" class="radio"><span>피크닉</span></label>
+          </div>
+           <div>
+            <input  type="radio" value="none" id="radio_16" name="subject"/>
+            <label for="radio_16" class="radio"><span>레저활동</span></label>
+          </div>
+           <div>
+            <input  type="radio" value="none" id="radio_17" name="subject"/>
+            <label for="radio_17" class="radio"><span>관람</span></label>
+          </div>
         </div>
+      </div>
+        
+       <div class="question">
+       <br>
+        <label>시설선택 </label>
+        <div class="question-answer" >
+          <div>
+            <input type="radio" value="none" id="radio_10" name="product"/>
+            <label for="radio_10" class="radio"><span>시설A</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_11" name="product"/>
+            <label for="radio_11" class="radio"><span>시설B</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_12" name="product"/>
+            <label for="radio_12" class="radio"><span>시설C</span></label>
+          </div>
+        </div>
+      </div>
+        
         <div class="item">
        
         </div>
@@ -635,29 +686,38 @@ padding:0;
         <div class="question-answer">
              <label for="counts">인원수</label>
         <select name="counts" id="counts">
-             <option value="1">1인</option>
-             <option value="2">2인 </option>
-             <option value="3">3인이상 </option>
+             <option value="1" name="mcount">1인</option>
+             <option value="2" name="mcount">2인 </option>
+             <option value="3" name="mcount">3인이상 </option>
+        </select>
+        </div>
+      </div>
+      
+      <div class="question">
+    
+        <div class="question-answer">
+             <label for="mem">성별</label>
+        <select name="mem" id="mem">
+             <option value="1" name="gender">male</option>
+             <option value="2" name="gender">female</option>
+        
         </select>
         </div>
       </div>
       
       
-      <div class="question">
-        <label>맴버쉽 종류</label>
-        <div class="question-answer">
+      <div class="question"  display="hide">
+        <label>회원</label>
+        <div class="question-answer" >
           <div>
-            <input type="radio" value="none" id="radio_1" name="type"/>
-            <label for="radio_1" class="radio"><span>Standard</span></label>
+            <input type="radio" value="none" id="radio_1" name="mtype"/>
+              <label for="radio_1" class="radio" name="mtype"><span>비회원</span></label>
           </div>
           <div>
-            <input  type="radio" value="none" id="radio_2" name="type"/>
-            <label for="radio_2" class="radio"><span>Premium</span></label>
+            <input  type="radio" value="none" id="radio_2" name="mtype"/>
+            <label for="radio_2" class="radio" name="mtype"/><span>회원</span></label>
           </div>
-          <div>
-            <input  type="radio" value="none" id="radio_3" name="type"/>
-            <label for="radio_3" class="radio"><span>Ultimate</span></label>
-          </div>
+      
         </div>
       </div>
       <div class="question">
@@ -665,15 +725,15 @@ padding:0;
         <div class="question-answer">
           <div>
             <input type="radio" value="none" id="radio_4" name="contact"/>
-            <label for="radio_4" class="radio"><span>Phone</span></label>
+            <label for="radio_4" class="radio"  name="contact"><span>Phone</span></label>
           </div>
           <div>
             <input  type="radio" value="none" id="radio_5" name="contact"/>
-            <label for="radio_5" class="radio"><span>Email</span></label>
+            <label for="radio_5" class="radio"  name="contact"><span>Email</span></label>
           </div>
           <div>
             <input  type="radio" value="none" id="radio_6" name="contact"/>
-            <label for="radio_6" class="radio"><span>Any</span></label>
+            <label for="radio_6" class="radio"  name="contact"><span>Any</span></label>
           </div>
         </div>
       </div>
@@ -681,12 +741,14 @@ padding:0;
       <input type="checkbox" name="checkbox1">
       <label>You consent to receive communications from us electronically. We will communicate with you by e-mail or phone. You agree that all agreements, notices, disclosures and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.</label>
       <div class="btn-group0">
-        <button class="btn-group1" type="button" style="width:120px; height:100px; font-size:20px"><a class="back1" style="color:white" href="page4.jsp"> 뒤로가기</a></button>
-    
-        <button class="btn-group2" type="submit" style="width:120px; height:100px; font-size:20px" href="/">제출</button>
-     
+        <button class="btn-group1" type="button" style="width:120px; height:100px; font-size:20px"><a class="back1" style="color:white" href="page4"> 뒤로가기</a></button>
+        <input class="btn-group2" type="submit" style="width:120px; height:100px; background-color:#669999; font-size:20px" href="/">
+      
         <button class="btn-group3" type="reset"style="width:120px; height:100px; font-size:20px"  href="/">리셋</button>
       </div>
+        <input class="submit" type="submit"  style="width:120px; height:100px; font-size:20px" href="/" value="결제">
+    
+   
     </form>
   </div>
   <!-- form 끝 -->
@@ -697,11 +759,16 @@ padding:0;
 
 <div id="reserve2" class="tabcontent">
 
-  <h3>예약현황</h3>
+  <h1>예약현황</h1>
+  
+ <div id="present1" >예약현황
 
- <div id="present1" >예약현황</div>
+  <img  src="/myapp/resources/images/banner1.png" width="100%" height="200px">
+ </div>
+ 
+
    <div id="present2" >도움말</div>
-
+ <img  src="/myapp/resources/images/bg_1.jpg" width="100%" height="200px">
 
 </div>
 
@@ -709,9 +776,9 @@ padding:0;
 
 <div id="reserve3" class="tabcontent">
 
-  <h3>검색</h3>
+  <h1>검색</h1>
 
-  <div id="search1">현재 예약하신곳은 총 aaa캠피장 9월1일 부터 9월8일까지 7박 8일이며 총 금액은 560000원입니다</div>
+  <div id="search1">현재 예약하신곳은 총 aaa캠핑장 9월1일 부터 9월8일까지 7박 8일이며 총 금액은 560000원입니다</div>
 
 </div>
 
@@ -719,7 +786,7 @@ padding:0;
 
 <div id="reserve4" class="tabcontent">
 
-  <h3>리뷰</h3>
+  <h1>리뷰</h1>
 
   <div id="review1"> 이 캠핑장에서 추천도 는 최상입니다..</div>
 
@@ -729,26 +796,23 @@ padding:0;
 
 	<aside class="aside">
 		<ul id="floatMenu">
-			<li><a href="#info"><div
+			<li><a href="#reserve1"><div
 						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>캠핑장 소개</strong>
+						<strong>예약</strong>
 					</div></a></li>
-			<li><a href="#campinfo"><div
+			<li><a href="#reserve2"><div
 						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>캠핑장 배치도</strong>
+						<strong>예약현황 </strong>
 					</div></a></li>
-			<li><a href="#pikinfo"><div
+			<li><a href="#reserve3"><div
 						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>캠핀장 전경</strong>
+						<strong>검색</strong>
 					</div></a></li>
-			<li><a href="#timeNpay"><div
+			<li><a href="#reserve4"><div
 						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>주변관광지</strong>
+						<strong>리뷰</strong>
 					</div></a></li>
-			<li><a href="#tip"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>부대시설</strong>
-					</div></a></li>
+			
 		</ul>
 	</aside>
 

@@ -242,11 +242,11 @@ $(document).ready(function () {
           <table>
            <tbody> 
             <tr>
-             <td><img src="/myapp/resources/images/date1.png"  width="100px" height="100px"> <p>원하는 날짜에 <br>예약이<br> 가능한 지 확인</p></td>
+             <td><img src="/myapp/resources/images/date1.png"  width="100px" height="100px"> <p>예약버튼 클릭</p></td>
              <td><img src="/myapp/resources/images/arrow.png"  width="50px" height="50px"></td>
-             <td><img src="/myapp/resources/images/location1.png"  width="100px" height="100px"> <p>원하는 시설<br> 및 테크 선택</p></td>
+             <td><img src="/myapp/resources/images/location1.png"  width="100px" height="100px"> <p>예약 정보입력</p></td>
              <td><img src=/myapp/resources/images/arrow.png  width="50px" height="50px"> </td>
-             <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p>예약정보 입력 </p></td>
+             <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p>결재정보 입력 </p></td>
              <td><img src=/myapp/resources/images/arrow.png width="50px" height="50px"> </td>
              
              <td><img src="/myapp/resources/images/reservation2.png"  width="100px" height="100px"> <p>예약 신청<br> 및 결재 확인</p></td>

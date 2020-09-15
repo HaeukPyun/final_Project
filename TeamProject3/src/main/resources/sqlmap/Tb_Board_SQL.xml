@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 맵핑될 DAO 인터페이스의 Full name 을 줍니다. -->
+<mapper namespace="com.myteamproject.model.InfoDAO">
+
+	<!-- id 속성은 DAO 의 메소드와 같아야 한다. 여기의 boardVO 는 mybatis-confg.xml 에 Alias 되어 있습니다. -->
+	<select id="listboard" resultType="InfoTO"> 
+	SELECT NO
+	     , TITLE
+	     , CONTENT
+	     , WRITER
+	     , WRITEDATE 
+	  FROM INFO
+	 ORDER BY NO DESC
+	</select>
+	
+	<insert id="insertboard">
+	<!-- <selectKey resultType="int" keyProperty="no" order="BEFORE">
+        SELECT NVL(MAX(no),0)+1 FROM INFO
+    </selectKey>   -->
+	INSERT INTO INFO (
+	  NO, TITLE, CONTENT, WRITER, WRITEDATE
+	 ) VALUES (
+	   (SELECT NVL(MAX(no)+1, 1)FROM INFO), #{title}, #{content}, #{writer}, SYSDATE
+	 )
+	</insert>
+	
+	<select id="viewboard" parameterType="int" resultType="InfoTO">
+	SELECT NO
+	     , TITLE
+	     , CONTENT
+	     , WRITER
+	     , WRITEDATE 
+	  FROM INFO
+	 WHERE NO = #{no}
+	</select>
+	
+	<update id="updateboard">
+	UPDATE INFO SET
+	TITLE = #{title},
+	CONTENT = #{content},
+	WRITER = #{writer},
+	WHERE NO = #{no}
+	</update>
+	
+	<delete id="deleteboard">
+	DELETE FROM INFO
+	WHERE NO = #{no}
+	</delete>
+	
+</mapper>

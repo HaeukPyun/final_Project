@@ -194,8 +194,8 @@
 				<div
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-hook"></span>
+						<div class="icon d-flex justify-content-center align-items-center">													
+							<span class="flaticon-hook"></span>						
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">둘러보기</h3>
@@ -210,6 +210,7 @@
 							<span class="flaticon-skyline"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
+						
 							<h3 class="heading">예약 시스템</h3>
 							<p>원하는 날짜에, 원하는 시간에, 원하는 장소를 알려주세요</p>
 						</div>
@@ -449,51 +450,45 @@
 					<div class="row no-gutters">
 						<div class="col-md-4 ftco-animate">
 							<div class="work img d-flex align-items-end"
-								style="background-image: url(${path }/resources/images/work-1.jpg);">
-								<a href="images/work-1.jpg"
+								style="background-image: url(${path }/resources/images/homeImg1-1.jpg)">
+								<a href="resources/images/homeImg1-1.jpg"
 									class="icon image-popup d-flex justify-content-center align-items-center">
 									<span class="icon-expand"></span>
 								</a>
 								<div class="desc w-100 px-4">
 									<div class="text w-100 mb-3">
 										<span>Camping</span>
-										<h2>
-											<a href="work-single.html">College Health Profession</a>
-										</h2>
+										<h2>장비를 챙겨 원하는 곳에서 즐기세요</h2>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 ftco-animate">
 							<div class="work img d-flex align-items-end"
-								style="background-image: url(${path }/resources/images/work-2.jpg);">
-								<a href="images/work-2.jpg"
+								style="background-image: url(${path }/resources/images/homeImg1-2.jpg)">
+								<a href="resources/images/homeImg1-2.jpg"
+									class="icon image-popup d-flex justify-content-center align-items-center">
+									<span class="icon-expand"></span>
+								</a>
+								<div class="desc w-100 px-4">
+									<div class="text w-100 mb-3">
+										<span>Camping</span>
+										<h2>모두와 함께 하세요</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 ftco-animate">
+							<div class="work img d-flex align-items-end"
+								style="background-image: url(${path }/resources/images/homeImg2-1.jpg)">
+								<a href="resources/images/homeImg2-1.jpg"
 									class="icon image-popup d-flex justify-content-center align-items-center">
 									<span class="icon-expand"></span>
 								</a>
 								<div class="desc w-100 px-4">
 									<div class="text w-100 mb-3">
 										<span>Glamping</span>
-										<h2>
-											<a href="work-single.html">College Health Profession</a>
-										</h2>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 ftco-animate">
-							<div class="work img d-flex align-items-end"
-								style="background-image: url(${path }/resources/images/work-3.jpg);">
-								<a href="images/work-3.jpg"
-									class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-								<div class="desc w-100 px-4">
-									<div class="text w-100 mb-3">
-										<span>Building</span>
-										<h2>
-											<a href="work-single.html">College Health Profession</a>
-										</h2>
+										<h2>준비된 공간에서 부담없이 즐기세요</h2>
 									</div>
 								</div>
 							</div>
@@ -501,51 +496,45 @@
 
 						<div class="col-md-4 ftco-animate">
 							<div class="work img d-flex align-items-end"
-								style="background-image: url(${path }/resources/images/work-4.jpg);">
-								<a href="images/work-4.jpg"
+								style="background-image: url(${path }/resources/images/homeImg3-1.jpg)">
+								<a href="resources/images/homeImg3-1.jpg"
 									class="icon image-popup d-flex justify-content-center align-items-center">
 									<span class="icon-expand"></span>
 								</a>
 								<div class="desc w-100 px-4">
 									<div class="text w-100 mb-3">
-										<span>Building</span>
-										<h2>
-											<a href="work-single.html">College Health Profession</a>
-										</h2>
+										<span>Glamping</span>
+										<h2>나만의 장소 나만의 공간을 위해</h2>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 ftco-animate">
 							<div class="work img d-flex align-items-end"
-								style="background-image: url(${path }/resources/images/work-5.jpg);">
-								<a href="images/work-5.jpg"
+								style="background-image: url(${path }/resources/images/homeImg6.jpg)">
+								<a href="resources/images/homeImg6.jpg"
 									class="icon image-popup d-flex justify-content-center align-items-center">
 									<span class="icon-expand"></span>
 								</a>
 								<div class="desc w-100 px-4">
 									<div class="text w-100 mb-3">
-										<span>Building</span>
-										<h2>
-											<a href="work-single.html">College Health Profession</a>
-										</h2>
+										<span>Camping</span>
+										<h2>잊지못할 맛을 경험하세요</h2>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 ftco-animate">
 							<div class="work img d-flex align-items-end"
-								style="background-image: url(${path }/resources/images/work-6.jpg);">
-								<a href="images/work-6.jpg"
+								style="background-image: url(${path }/resources/images/homeImg2.jpg)">
+								<a href="resources/images/homeImg2.jpg"
 									class="icon image-popup d-flex justify-content-center align-items-center">
 									<span class="icon-expand"></span>
 								</a>
 								<div class="desc w-100 px-4">
 									<div class="text w-100 mb-3">
-										<span>Building</span>
-										<h2>
-											<a href="work-single.html">College Health Profession</a>
-										</h2>
+										<span>Glamping</span>
+										<h2>캠핑, 그 와일드 함을 넘어서</h2>
 									</div>
 								</div>
 							</div>
@@ -560,7 +549,7 @@
 					<div class="row justify-content-center mb-5">
 						<div
 							class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-							<span class="subheading">Testimonial</span>
+							<span class="subheading">CAMPER</span>
 							<h2 class="mb-4">Happy Clients</h2>
 						</div>
 					</div>
@@ -574,15 +563,13 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">Far far away, behind the word mountains,
-												far from the countries Vokalia and Consonantia, there live
-												the blind texts.</p>
+											<p class="mb-4">프로필</p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
-													style="background-image: url(${path }/resources/images/person_1.jpg)"></div>
+													style="background-image: url(${path }/resources/images/member7.jpg)"></div>
 												<div class="pl-3">
-													<p class="name">Roger Scott</p>
-													<span class="position">Marketing Manager</span>
+													<p class="name">해욱</p>
+													<span class="position">편</span>
 												</div>
 											</div>
 										</div>
@@ -595,15 +582,13 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">Far far away, behind the word mountains,
-												far from the countries Vokalia and Consonantia, there live
-												the blind texts.</p>
+											<p class="mb-4">프로필1</p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
-													style="background-image: url(${path }/resources/images/person_2.jpg)"></div>
+													style="background-image: url(${path }/resources/images/member1.jpg)"></div>
 												<div class="pl-3">
-													<p class="name">Roger Scott</p>
-													<span class="position">Marketing Manager</span>
+													<p class="name">정호</p>
+													<span class="position">박</span>
 												</div>
 											</div>
 										</div>
@@ -616,15 +601,13 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">Far far away, behind the word mountains,
-												far from the countries Vokalia and Consonantia, there live
-												the blind texts.</p>
+											<p class="mb-4">프로필2</p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
-													style="background-image: url(${path }/resources/images/person_3.jpg)"></div>
+													style="background-image: url(${path }/resources/images/member2.jpg)"></div>
 												<div class="pl-3">
-													<p class="name">Roger Scott</p>
-													<span class="position">Marketing Manager</span>
+													<p class="name">재일</p>
+													<span class="position">이</span>
 												</div>
 											</div>
 										</div>
@@ -637,15 +620,13 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">Far far away, behind the word mountains,
-												far from the countries Vokalia and Consonantia, there live
-												the blind texts.</p>
+											<p class="mb-4">프로필3</p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
-													style="background-image: url(images/person_1.jpg)"></div>
+													style="background-image: url(${path }/resources/images/member3-1.jpg)"></div>
 												<div class="pl-3">
-													<p class="name">Roger Scott</p>
-													<span class="position">Marketing Manager</span>
+													<p class="name">한나</p>
+													<span class="position">김</span>
 												</div>
 											</div>
 										</div>
@@ -658,15 +639,51 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">Far far away, behind the word mountains,
-												far from the countries Vokalia and Consonantia, there live
-												the blind texts.</p>
+											<p class="mb-4">프로필4</p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
-													style="background-image: url(${path }/resources/images/person_2.jpg)"></div>
+													style="background-image: url(${path }/resources/images/member4.jpg)"></div>
 												<div class="pl-3">
-													<p class="name">Roger Scott</p>
-													<span class="position">Marketing Manager</span>
+													<p class="name">명용</p>
+													<span class="position">최</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-wrap py-4">
+										<div
+											class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-quote-left"></span>
+										</div>
+										<div class="text">
+											<p class="mb-4">프로필5</p>
+											<div class="d-flex align-items-center">
+												<div class="user-img"
+													style="background-image: url(${path }/resources/images/member5.jpg)"></div>
+												<div class="pl-3">
+													<p class="name">태규</p>
+													<span class="position">김</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-wrap py-4">
+										<div
+											class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-quote-left"></span>
+										</div>
+										<div class="text">
+											<p class="mb-4">프로필6</p>
+											<div class="d-flex align-items-center">
+												<div class="user-img"
+													style="background-image: url(${path }/resources/images/member6.jpg)"></div>
+												<div class="pl-3">
+													<p class="name">헌우</p>
+													<span class="position">하</span>
 												</div>
 											</div>
 										</div>
@@ -682,15 +699,90 @@
 				<div class="container">
 					<div class="row justify-content-center mb-5 pb-3">
 						<div class="col-md-7 heading-section text-center ftco-animate">
-							<span class="subheading">Our Blog</span>
-							<h2>Recent Blog</h2>
+							<span class="subheading">CAMPER</span>
+							<h2>바로가기</h2>
 						</div>
 					</div>
 					<div class="row d-flex">
 						<div class="col-md-4 d-flex ftco-animate">
 							<div class="blog-entry align-self-stretch">
 								<a href="blog-single.html" class="block-20 rounded"
-									style="background-image: url('${path }/resources/images/image_1.jpg');">
+									style="background-image: url(${path }/resources/images/image_1.jpg);">
+								</a>
+								<div class="text mt-3 text-center">
+									<div class="meta mb-2">
+										<div>
+											<a href="#">January 30, 2020</a>
+										</div>
+										<div>
+											<a href="#">Admin</a>
+										</div>
+										<div>
+											<a href="#" class="meta-chat"><span class="icon-chat"></span>
+												3</a>
+										</div>
+									</div>
+									<h3 class="heading">
+										<a href="#">Even the all-powerful Pointing has no control
+											about the blind texts</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 d-flex ftco-animate">
+							<div class="blog-entry align-self-stretch">
+								<a href="blog-single.html" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_2.jpg');">
+								</a>
+								<div class="text mt-3 text-center">
+									<div class="meta mb-2">
+										<div>
+											<a href="#">January 30, 2020</a>
+										</div>
+										<div>
+											<a href="#">Admin</a>
+										</div>
+										<div>
+											<a href="#" class="meta-chat"><span class="icon-chat"></span>
+												3</a>
+										</div>
+									</div>
+									<h3 class="heading">
+										<a href="#">Even the all-powerful Pointing has no control
+											about the blind texts</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 d-flex ftco-animate">
+							<div class="blog-entry align-self-stretch">
+								<a href="blog-single.html" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_2.jpg');">
+								</a>
+								<div class="text mt-3 text-center">
+									<div class="meta mb-2">
+										<div>
+											<a href="#">January 30, 2020</a>
+										</div>
+										<div>
+											<a href="#">Admin</a>
+										</div>
+										<div>
+											<a href="#" class="meta-chat"><span class="icon-chat"></span>
+												3</a>
+										</div>
+									</div>
+									<h3 class="heading">
+										<a href="#">Even the all-powerful Pointing has no control
+											about the blind texts</a>
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 d-flex ftco-animate">
+							<div class="blog-entry align-self-stretch">
+								<a href="blog-single.html" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_2.jpg');">
 								</a>
 								<div class="text mt-3 text-center">
 									<div class="meta mb-2">

@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="먼저"/>
+		<item key="selection" value="script"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="script"/>
+			<item value="list"/>
+			<item value="mapper"/>
+			<item value="jstl"/>
+			<item value="num"/>
 			<item value="먼저"/>
 			<item value="이용안내"/>
 			<item value="face"/>
@@ -18,13 +23,9 @@
 			<item value="텐트"/>
 			<item value="캠프 단체"/>
 			<item value="hero-wrap hero-wrap-2"/>
-			<item value="width"/>
-			<item value="search"/>
-			<item value="Home"/>
-			<item value="HOME"/>
-			<item value=".jpg"/>
 		</list>
 		<list key="replacehistory">
+			<item value="no"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
