@@ -903,19 +903,19 @@
 						</div>
 						<div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
 							<h2 class="footer-heading">메일문의</h2>
-							<form action="#" class="contact-form">
+							<form action="sendMail" method="post" class="contact-form">
 <!-- 								<div class="form-group"> -->
 <!-- 									<input type="text" class="form-control" placeholder="Your Name" id="emailName"> -->
 <!-- 								</div> -->
 								<div class="form-group">
-									<input type="email" class="form-control" id="emailEmail"
+									<input type="email" class="form-control" id="emailEmail" name="emailEmail"
 										placeholder="Your Email">
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" id="emailSubject" placeholder="Subject">
+									<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Subject">
 								</div>
 								<div class="form-group">
-									<textarea name="" id="emailMessage" cols=100% rows=10% class="form-control"
+									<textarea name="emailMessage" id="emailMessage" cols=100% rows=10% class="form-control"
 										placeholder="Message"></textarea>
 								</div>
 								<div class="form-group">
