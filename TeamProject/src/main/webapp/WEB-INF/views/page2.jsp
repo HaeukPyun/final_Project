@@ -48,53 +48,11 @@ h1 {
 	height: 15%;
 	clear: both;
 }
-#details {
-	width: 900px;
-	margin: auto;
-	position: relative;
-}
-#photo {
-	width: 700px;
-	height: 400px;
-	margin: auto;
-	position: relative;
-	overflow: hidden;
-}
-#nextBtn, #prevBtn {
-	width: 44px;
-	height: 44px;
-	background: url(/myapp/resources/images/button.png);
-	text-indent: -1000px;
-	overflow: hidden;
-	cursor: pointer;
-	border: none;
-	position: absolute;
-	top: 228px;
-}
-#prevBtn {
-	background-position: 0 -347px;
-	left: 0;
-}
-#prevBtn:hover {
-	background-position: -61px -347px;
-}
-#nextBtn {
-	background-position: 0 -411px;
-	right: 0;
-}
-#nextBtn:hover {
-	background-position: -61px -411px;
-}
-#imgBox {
-	position: relative;
-	width: 5700px;
-	transition: left 0.3s;
-}
 hr {
 	width: 50%;
 }
 #t1 {
-	width: 700px;
+	width: 1000px;
 	height: 600px;
 }
 #photo_1 {
@@ -104,47 +62,72 @@ hr {
 b {
 	color: #FFBF00;
 }
+#details {
+	width:800px;
+	margin:auto;
+	position: relative;
+}
+#photo {
+	width:600px;
+	height:300px;
+	margin:auto;
+	position: relative;
+	overflow: hidden;
+}
+#img{
+	width: 600px;
+	height: 300px;
+}
+#imgBox {
+	position: relative;
+	width: 4900px;
+	transition: left 0.3s;
+}
 #details2 {
-	width: 800px;
-	margin: auto;
+	width:800px;
+	margin:auto;
 	position: relative;
 }
-#photo2 {
-	width: 693px;
-	height: 390px;
-	margin: auto;
+#photo2{
+	width:600px;
+	height:300px;
+	margin:auto;
 	position: relative;
 	overflow: hidden;
 }
-#nextBtn2, #prevBtn2 {
-	width: 44px;
-	height: 44px;
-	background: url(/myapp/resources/images/button.png);
-	text-indent: -1000px;
-	overflow: hidden;
-	cursor: pointer;
-	border: none;
-	position: absolute;
-	top: 228px;
-}
-#prevBtn2 {
-	background-position: 0 -347px;
-	left: 0;
-}
-#prevBtn2:hover {
-	background-position: -61px -347px;
-}
-#nextBtn2 {
-	background-position: 0 -411px;
-	right: 0;
-}
-#nextBtn2:hover {
-	background-position: -61px -411px;
+#img2{
+	width: 600px;
+	height: 300px;
 }
 #imgBox2 {
 	position: relative;
-	width: 2800px;
+	width: 2500px;
 	transition: left 0.3s;
+}
+#nextBtn, #prevBtn, #nextBtn2,#prevBtn2 {
+	width:44px;
+	height:44px;
+	background:url(/myapp/resources/images/button.png);
+	text-indent: -1000px;
+	overflow: hidden;
+	cursor: pointer;
+	border:none;
+	position: absolute;
+	top:128px;
+}
+#prevBtn, #prevBtn2 {
+	background-position: 0 -347px;
+	left:0;
+}
+#prevBtn:hover, #prevBtn2:hover {
+	background-position: -61px -347px;
+}
+#nextBtn, #nextBtn2 {
+	background-position:0 -411px;
+	right:0;
+}
+#nextBtn:hover, #nextBtn2:hover {
+	background-position: -61px -411px;
 }
 #floatMenu {
 	position: absolute;
@@ -247,20 +230,20 @@ b {
 		</p>
 		<hr>
 		<h3 id="campinfo">캠핑장 배치도</h3>
-		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500" height="400">
+		<img src="/myapp/resources/images/page2-1.png" width="500" height="400">
 		<hr>
 		<h3 id="pikinfo">캠핑장 전경</h3>
 		<div id="details">
 			<div id="photo">
 				<div id="imgBox">
-                    <img src="/myapp/resources/images/page2-2.png" alt="1">
-                    <img src="/myapp/resources/images/page2-3.png" alt="1">
-                    <img src="/myapp/resources/images/page2-4.png" alt="1">
-                    <img src="/myapp/resources/images/page2-5.png" alt="1">
-                    <img src="/myapp/resources/images/page2-6.png" alt="1">
-                    <img src="/myapp/resources/images/page2-7.png" alt="1">
-                    <img src="/myapp/resources/images/page2-8.png" alt="1">
-                    <img src="/myapp/resources/images/page2-9.png" alt="1">
+					<img id="img" src="/myapp/resources/images/page2-2.png">
+					<img id="img" src="/myapp/resources/images/page2-3.png">
+					<img id="img" src="/myapp/resources/images/page2-4.png">
+					<img id="img" src="/myapp/resources/images/page2-5.png">
+					<img id="img" src="/myapp/resources/images/page2-6.png">
+					<img id="img" src="/myapp/resources/images/page2-7.png">
+					<img id="img" src="/myapp/resources/images/page2-8.png">
+					<img id="img" src="/myapp/resources/images/page2-9.png">
 				</div>
 			</div>
 			<div id="btnBox">
@@ -272,7 +255,7 @@ b {
 		<h3 id="timeNpay">주변관광지</h3>
 		<table id="t1">
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-18.png"></td>
+				<td width="170px" height="150px"><a href="http://www.royalpalace.go.kr/" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-18.png"></a></td>
 				<td>
 					<b>경복궁</b><br>
 					서울특별시 종로구에 있는 조선시대의 궁궐 중 하나이자 조선의 정궁, 법궁이다.
@@ -281,17 +264,17 @@ b {
 				</td>
 			</tr>
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-19.png"></td>
+				<td width="170px" height="150px"><a href="https://gwanghwamun.seoul.go.kr/main.do" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-19.png"></a></td>
 				<td>
-					<b>광화문</b><br>
-					경복궁의 남쪽에 있는 정문이다. 1395년에 세워졌으며, 2층 누각인 광화문 앞의
-					양쪽에는 한 쌍의 해치 조각상이 자리잡고 있다. 이 건물은 섬세한 수법과 웅대한
-					구조를 보여주고, 전체적으로 균형과 조화를 이루어 장려한 외관을 지닌 가장 뛰어난
-					궐문으로 평가되었다.
+					<b>광화문 광장</b><br>
+					창의와 실용의 정신으로 문화강국을 이루자는 뜻으로 세종대왕 동상이 세워졌고 세종이야기 등 상절시장이
+					마련 되어 있다. 세종문화회관과 이순신장군동상 사이의 시민들이 참여하는 광장 중앙에는 미술, 조형미술
+					등 다양한 전시공간으로 이용되고 해치마당에는 이용객을 위한 아리수 샘터, 안내소, 기념품점 등 편의시설과
+					전시장, 엘리베이터, 만남과 약속의 장소 등 문화갤러리 등이 있다.
 				</td>
 			</tr>
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-20.png"></td>
+				<td width="170px" height="150px"><a href="https://www.sisul.or.kr/open_content/cheonggye/" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-20.png"></a></td>
 				<td>
 					<b>청계천</b><br>
 					서울특별시 내부에 있는 지방하천으로, 한강 수계에 속하며 중량천의 지류이다.
@@ -301,7 +284,7 @@ b {
 				</td>
 			</tr>
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-21.png"></td>
+				<td width="170px" height="150px"><a href="http://www.mdsd.or.kr/" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-21.png"></a></td>
 				<td>
 					<b>서울 명동성당</b><br>
 					한국에서 처음으로 지어진 대규모의 고딕 양식 천주교 성당이자, 최초의 본당이다. 1977년 11월
@@ -310,13 +293,13 @@ b {
 				</td>
 			</tr>
 			<tr>
-				<td width="170px" height="150px"><img id="photo_1" src="/myapp/resources/images/page2-22.png"></td>
+				<td width="170px" height="150px"><a href="http://www.gm.go.kr/cv/index.do" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-22.png"></a></td>
 				<td>
 					<b>광명동굴</b><br>
 					일저강점기인 1912년부터 금, 은, 구리, 아연 등의 광물을 채광하던 광산지구였지만 1972년
 					폐광했다. 2011년에 광명시에서 매입하여 관광지로 조성되었다. 광명동굴의 내부는 웜홀광장,
-					동굴 예술의 전당, 동굴 아쿠아 월드, 황금 폭포, 동굴 식물원, 황금 궁전, 근대 역사관, 동굴
-					지하세계, 동굴 지하 호수, 판타지 웨타 갤러리, 와인동굴 등으로 구성되어 있다.
+					동굴 예술의 전당, 동굴 아쿠아 월드, 동굴 식물원, 황금 궁전, 근대 역사관, 동굴지하세계, 동굴 지하 호수,
+					판타지 웨타 갤러리, 와인동굴 등으로 구성되어 있다.
 				</td>
 			</tr>
 		</table>
@@ -325,10 +308,10 @@ b {
 		<div id="details2">
 			<div id="photo2">
 				<div id="imgBox2">
-                    <img src="/myapp/resources/images/page2-14.png" alt="3">
-                    <img src="/myapp/resources/images/page2-15.png" alt="3">
-                    <img src="/myapp/resources/images/page2-16.png" alt="3">
-                    <img src="/myapp/resources/images/page2-17.png" alt="3">
+                    <img id="img2" src="/myapp/resources/images/page2-14.png">
+                	<img id="img2" src="/myapp/resources/images/page2-15.png">
+                	<img id="img2" src="/myapp/resources/images/page2-16.png">
+                	<img id="img2" src="/myapp/resources/images/page2-17.png">
 				</div>
 			</div>
 			<div id="btnBox2">
@@ -348,7 +331,7 @@ b {
 				$imgBox.css('transition', 'left .3s');
 				++idx;//idx를 1증가
 			}
-			var left = -(idx * 700);
+			var left = -(idx * 605);
 			$imgBox.css("left", left);
 		});//nextBtn click end
 		$("#prevBtn").click(function() {
@@ -359,7 +342,7 @@ b {
 				$imgBox.css('transition', 'left .3s');
 				--idx;
 			}
-			$imgBox.css("left", -(idx * 701));
+			$imgBox.css("left", -(idx * 605));
 		});
 		var $imgBox2 = $("#imgBox2")
 		$("#nextBtn2").click(function() {
@@ -368,11 +351,11 @@ b {
 				idx = 0;
 			} else {
 				$imgBox2.css('transition', 'left .3s');
-				++idx;//idx를 1증가
+				++idx;
 			}
-			var left = -(idx * 693);
+			var left = -(idx * 605);
 			$imgBox2.css("left", left);
-		});//nextBtn click end
+		});
 		$("#prevBtn2").click(function() {
 			if (idx == 0) {
 				$imgBox2.css('transition', 'left 0s');
@@ -381,7 +364,7 @@ b {
 				$imgBox2.css('transition', 'left .3s');
 				--idx;
 			}
-			$imgBox2.css("left", -(idx * 693));
+			$imgBox2.css("left", -(idx * 605));
 		});
 	</script>
 	<aside class="aside">
@@ -398,12 +381,12 @@ b {
             </a></li>
 			<li><a href="#pikinfo">
                 <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-					<strong>캠핀장 전경</strong>
+					<strong>캠핑장 전경</strong>
                 </div>
             </a></li>
 			<li><a href="#timeNpay">
                 <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-					<strong>주변관광지</strong>
+					<strong>관광지</strong>
                 </div>
             </a></li>
 			<li><a href="#tip">
