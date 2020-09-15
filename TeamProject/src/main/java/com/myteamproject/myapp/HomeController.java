@@ -125,10 +125,10 @@ public class HomeController {
 		logger.info("This is page4... The client locale is {}.", locale);
 		return "page4";
 	}	
-	@RequestMapping(value = "/page4reservation.jsp")
+	@RequestMapping(value = "/page4reservation")
 	public String page4reservation(Local locale, Model model){
 		logger.info("This is page4...reservation The client locale is {}.", locale);
-		return "page4reservation.jsp";
+		return "page4reservation";
 	}
 	
 	

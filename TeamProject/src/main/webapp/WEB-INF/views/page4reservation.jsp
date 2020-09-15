@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
-<title>camper.page4reser</title>
+<title>camper.page2</title>
 <script src="http://code.jquery.com/jquery.js"></script>
 <meta charset="utf-8">
 <meta name="viewport"
@@ -63,32 +63,32 @@ h1 {
 }
 
 hr {
-	width: 100%;
+	width: 50%;
 }
 
 #t1 {
-	width: 100%;
-	height: 40%;
+	width: 700px;
+	height: 800px;
 }
 
 #t2 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 600px;
 }
 
 #t3 {
-	width: 100%;
-	height: 20%;
+	width: 700px;
+	height: 400px;
 }
 
 #photo_1, #photo_3 {
-	width: 100%;
-	height: 50%;
+	width: 350px;
+	height: 200px;
 }
 
 #photo_2 {
-	width: 100%;
-	height: 50%;
+	width: 170px;
+	height: 100px;
 }
 
 b {
@@ -100,44 +100,356 @@ b {
 	left: 1500px;
 	top: 700px;
 }
-ul.topmenu {
-
- border: 1px solid #FFBF00;
- padding: 0;
- overflow: hidden;
-  margin:0px;
-
- width: 97%;
+.back1{
+color:black;
 }
-.topmenu > li {
+.back1:hover{
+color:black;
+}
 
- border: 0px solid blue;
- width : 220px;
- height: 45px;
- text-align: center;
- line-height: 45px;
- list-style: none;
- float: left;
- margin:0px;
- padding:0px;
+<!--  form 의 submit btn group-->
+.btn-group0{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.btn-group1 {
+    border: 0px solid red;
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+   
+}
+
+.btn-group2{
+    border: 0px solid green;
+    flex:1;
+    margin: 0px 30%;
+    width:30%;
+    box-sizing: border-box;
+    color:white;
+}
+
+.btn-group2-1{
+    border: 0px solid green;
+    flex:1;
+    margin: 0px;
+    width:30%;
+    box-sizing: border-box;
+    color:white;
+}
+
+
+.btn-group3{
+    border: 0px solid blue;
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+   color:white;
+}
+
+
+
+/* Style the tab */
+
+.tab {
+
+  overflow: hidden;
+
+  border: 1px solid #ccc;
+
+  background-color: #f1f1f1;
+
+  width:100%;
+  margin:0;
+padding:0;
+
+}
+
  
+
+/* Style the buttons inside the tab */
+
+.tab button {
+
+  background-color: inherit;
+
+  float: left;
+
+  border: none;
+
+  outline: none;
+
+  cursor: pointer;
+
+margin:0;
+padding:0;
+
+  transition: 0.3s;
+
+  font-size: 17px;
+
+  width:283px;
+
+  height:60px;
+
+  line-height:60px;
+
+}
+
  
- box-sizing: border-box;
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+
+  background-color: #FDC702;
+
 }
 
-.topmenu > li:hover {
- background-color: #F3F781;
- color:#4000FF;
- border-bottom: 2px solid #FFBF00;
+ 
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+
+  background-color: #FDC702;
+
 }
 
+ 
 
+/* Style the tab content */
 
+.tabcontent {
 
+   width:100%;
 
+  display: none;
 
+  padding: 6px 12px;
+
+  border: 1px solid #ccc;
+
+   border-top: none;
+  
+  }
+  <!--form양식-->
+  html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, select, textarea, label, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    }
+    h1 #pjh1 {
+    position: absolute;
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    z-index: 2;
+    line-height: 83px;
+    }
+    textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    }
+    form #form1{
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 8px  #669999; 
+    }
+    .banner {
+    position: relative;
+    height: 300px;
+    background-image: url("/TeamProject/src/main/webapp/resources/images/banner1.jpg");  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .banner::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+    input, select, textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    }
+    input[type="date"] {
+    padding: 4px 5px;
+    }
+    textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    }
+    .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+    color:  #669999;
+    }
+    .item input:hover, .item select:hover, .item textarea:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 3px 0  #669999;
+    color: #669999;
+    }
+    .item {
+    position: relative;
+    margin: 10px 0;
+    }
+    .item span {
+    color: red;
+    }
+    .week {
+    display:flex;
+    justfiy-content:space-between;
+    }
+    .colums {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+    }
+    .colums div {
+    width:48%;
+    }
+    input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    }
+    .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    font-size: 20px;
+    color:  #a3c2c2;
+    }
+    .item i {
+    right: 1%;
+    top: 30px;
+    z-index: 1;
+    }
+    input[type=radio], input[type=checkbox]  {
+    display: none;
+    }
+    label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+    }
+    .question span {
+    margin-left: 30px;
+    }
+    .question-answer label {
+    display: block;
+    }
+    label.radio:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    }
+    input[type=radio]:checked + label:before, label.radio:hover:before {
+    border: 2px solid  #669999;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 8px;
+    height: 4px;
+    border: 3px solid  #669999;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+    .flax {
+    display:flex;
+    justify-content:space-around;
+    }
+    .btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+    button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background:  #669999;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    }
+    button:hover {
+    background:  #a3c2c2;
+    }
+    @media (min-width: 568px) {
+    .name-item, .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .name-item input, .name-item div {
+    width: calc(50% - 20px);
+    }
+    .name-item div input {
+    width:97%;}
+    .name-item div label {
+    display:block;
+      padding-bottom:5px;
+     }
+    
+    <!--예약 현황 -->
+    #present1{
+    width:100%;
+    height:40%
+    }
+    #present2{
+    width:100%;
+    height:40%
+    }
+    <!--검색 -->
+    #search1{
+     width:100%;
+    height:90%
+    }
+    <!--리뷰 -->
+        #review1{
+     width:100%;
+    height:90%
+    }
+    
 </style>
-<script type="text/javascript">
+<script>
 	$(document).ready(function() {
 
 		// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
@@ -171,68 +483,29 @@ ul.topmenu {
 		}
 	});
 	
-	  
+	
+	function openCity(evt, cityName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
 
-    var today = new Date();//오늘 날짜//내 컴퓨터 로컬을 기준으로 today에 Date 객체를 넣어줌
-    var date = new Date();
-    function prevCalendar() {
-        today = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate());
-        buildCalendar();
-    }
-
-    function nextCalendar() {
-        today = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
-        buildCalendar();
-    }
-    function buildCalendar() {//현재 달 달력 만들기
-        var doMonth = new Date(today.getFullYear(), today.getMonth(), 1);
-        var lastDate = new Date(today.getFullYear(), today.getMonth() + 1, 0);
-        var tbCalendar = document.getElementById("calendar");
-        var tbCalendarYM = document.getElementById("tbCalendarYM");
-        tbCalendarYM.innerHTML = today.getFullYear() + "년 " + (today.getMonth() + 1) + "월";
-        tbCalendarYM.innerHTML = today.getFullYear() + "년" + (today.getMonth() + 1) + "월";
-        /*while은 이번달이 끝나면 다음달로 넘겨주는 역할*/
-        while (tbCalendar.rows.length > 2) {
-            tbCalendar.deleteRow(tbCalendar.rows.length - 1);
-        }
-        var row = null;
-        row = tbCalendar.insertRow();
-        //테이블에 새로운 열 삽입//즉, 초기화
-        var cnt = 0;
-        // 1일이 시작되는 칸을 맞추어 줌
-        for (i = 0; i < doMonth.getDay(); i++) {
-            cell = row.insertCell();
-            cnt = cnt + 1;
-        }
-        for (i = 1; i <= lastDate.getDate(); i++) {
-            cell = row.insertCell();
-            cell.innerHTML = i;
-            cnt = cnt + 1;
-            if (cnt % 7 == 1) {/*일요일 계산*/
-            }
-            if (cnt % 7 == 0) {/* 1주일이 7일 이므로 토요일 구하기*/
-                row = calendar.insertRow();
-            }
-            if (today.getFullYear() == date.getFullYear()
-                && today.getMonth() == date.getMonth()
-                && i == date.getDate()) {
-                //달력에 있는 년,달과 내 컴퓨터의 로컬 년,달이 같고, 일이 오늘의 일과 같으면
-                cell.bgColor = "yellow";//셀의 배경색을 노랑으로 
-            }
-        }
-
-    }
-	
-	
-	
-	
-	
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
 </script>
 <body>
 	<div class="container pt-5">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="index.html">Home<span>builder.</span></a>
+				<a class="navbar-brand" href="index.html">Cam<span>per</span></a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
@@ -284,94 +557,262 @@ ul.topmenu {
 				<div class="col-md-9 ftco-animate pb-5">
 					<p class="breadcrumbs mb-2">
 						<span class="mr-2"><a href="index.html">메인 <i
-								class="ion-ios-arrow-forward"></i></a></span> <span>소개 <i
+								class="ion-ios-arrow-forward"></i></a></span> <span>예약하기 <i
 							class="ion-ios-arrow-forward"></i></span>
 					</p>
-					<h1 class="mb-0 bread">소개</h1>
+					<h1 class="mb-0 bread">예약</h1>
 				</div>
 			</div>
 		</div>
 	</section>
 	<br>
 
-	<nav class="nav">
-	    <p></p>
-  
-    <table id="calendar" border="2" align="center" style="border-color: navy;">
-          <tr><td colspan="7"> 예약 및 신청</td> </tr> 
-        <tr>
-            <td> <label onclick="prevCalendar()" />이전달</td>
-            <td align="center" id="tbCalendarYM" colspan="5">yyyy년 m월</td>
-            <td> <label onclick="nextCalendar()" />다음달 </td>
-
-        </tr>
-        <tr>
-            <td id="sunday">일</td>
-            <td>월</td>
-            <td>화</td>
-            <td>수</td>
-            <td>목</td>
-            <td>금</td>
-            <td id="saturday">토</td>
-        </tr>
-    </table>
-    
-    <script type="text/javascript" language='text/javascript'>
-        buildCalendar();
-
-    </script>
-	
-	</nav>
+	<nav class="nav">nav</nav>
 
 	<section class="section">
-		<h1>예약 페이지</h1>
-		
-           <ul class="topmenu">
-           <li>예약</li>
-           <li>예약현황</li>
-           <li>리뷰</li>
-           <li>소식(게시판?)</li>
-           <li>기타(설정)</li>
-            </ul>
-		<hr>
+		<div class="tab">
 
-	
+  <button class="tablinks" onclick="openCity(event, 'reserve1')" id="defaultOpen" >예약</button>
 
-		<h3 id="pikinfo">예약</h3>
-		<table id="t1" border="1px solid orange">
-			<tr>
-				<td width="350"><img ></td>
-				<td width="350"><img ></td>
-				<td width="350"><img ></td>
-			</tr>
-			<tr>
-				<td><img ></td>
-				<td><img ></td>
-					<td><img ></td>
-			</tr>
-			<tr>
-				<td><img ></td>
-				<td><img ></td>	
-					<td><img ></td>
-			</tr>
-			<tr>
-				<td><img ></td>
-				<td><img ></td>
-				<td><img ></td>
-			</tr>
-		</table>
-		<hr>
-          <h3>예약 현황</h3>
-	      <h3>리뷰</h3>
-          <h3>소식(게시판)</h3>
-          <h3>기타(설정)</h3>
-	
+  <button class="tablinks" onclick="openCity(event, 'reserve2')" id="d2">예약현황</button>
+
+  <button class="tablinks" onclick="openCity(event, 'reserve3')" id="d3">검색</button>
+
+    <button class="tablinks" onclick="openCity(event, 'reserve4')" id="d4">리뷰</button>
+
+</div>
+
+<div id="reserve1" class="tabcontent">
+
+
+
+ 
+<!-- form -->
+<div class="testbox">
+    <form action="/" id="form1">
+      <div class="banner">
+        <h1 id="pjh1">예약 정보 입력</h1>
+      </div>
+      <div class="colums">
+        <div class="item">
+          <label for="fname"> 이름(신청인)<span>*</span></label>
+          <input id="fname" type="text" name="name" required/>
+        </div>
+        <div class="item">
+          <label for="lname"> 전화번호(신청인)<span>*</span></label>
+          <input id="phone" type="text" name="phone" required/>
+        </div>
+        <div class="item">
+          <label for="address1">이메일(신청인)<span>*</span></label>
+          <input id="address" type="text"   name="email" required/>
+        </div>
+        <div class="item">
+          <p> 시작일</p>
+          <input type="date" name="startdate" />
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+            <div class="item">
+          <p>종료일</p>
+          <input type="date" name="enddate">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          
+          
+             
+        <div class="item">
+          <label for="notes">SpecialRequests</label>
+            <textarea id="notes" name="notes" type="text" rows="5" maxlength="500"> </textarea>
+      
+        </div>
+          
+        <div class="question">
+       <br>
+        <label> 관심주제(선택) </label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_13" name="subject"/>
+            <label for="radio_13" class="radio"><span>캠핑</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_14" name="subject"/>
+            <label for="radio_14" class="radio"><span>플램핑</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_15" name="subject"/>
+            <label for="radio_15" class="radio"><span>피크닉</span></label>
+          </div>
+           <div>
+            <input  type="radio" value="none" id="radio_16" name="subject"/>
+            <label for="radio_16" class="radio"><span>레저활동</span></label>
+          </div>
+           <div>
+            <input  type="radio" value="none" id="radio_17" name="subject"/>
+            <label for="radio_17" class="radio"><span>관람</span></label>
+          </div>
+        </div>
+      </div>
+        
+       <div class="question">
+       <br>
+        <label>시설선택 </label>
+        <div class="question-answer" >
+          <div>
+            <input type="radio" value="none" id="radio_10" name="product"/>
+            <label for="radio_10" class="radio"><span>시설A</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_11" name="product"/>
+            <label for="radio_11" class="radio"><span>시설B</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_12" name="product"/>
+            <label for="radio_12" class="radio"><span>시설C</span></label>
+          </div>
+        </div>
+      </div>
+        
+        <div class="item">
+       
+        </div>
+        <div class="item">
+         
+        </div>
+        <div class="item">
+        
+        </div>
+      </div>
+         <div class="question">
+    
+        <div class="question-answer">
+             <label for="counts">인원수</label>
+        <select name="counts" id="counts">
+             <option value="1" name="mcount">1인</option>
+             <option value="2" name="mcount">2인 </option>
+             <option value="3" name="mcount">3인이상 </option>
+        </select>
+        </div>
+      </div>
+      
+      <div class="question">
+    
+        <div class="question-answer">
+             <label for="mem">성별</label>
+        <select name="mem" id="mem">
+             <option value="1" name="gender">male</option>
+             <option value="2" name="gender">female</option>
+        
+        </select>
+        </div>
+      </div>
+      
+      
+      <div class="question"  display="hide">
+        <label>회원</label>
+        <div class="question-answer" >
+          <div>
+            <input type="radio" value="none" id="radio_1" name="mtype"/>
+              <label for="radio_1" class="radio" name="mtype"><span>비회원</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_2" name="mtype"/>
+            <label for="radio_2" class="radio" name="mtype"/><span>회원</span></label>
+          </div>
+      
+        </div>
+      </div>
+      <div class="question">
+        <label>접근(Preferred way to contact) </label>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_4" name="contact"/>
+            <label for="radio_4" class="radio"  name="contact"><span>Phone</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_5" name="contact"/>
+            <label for="radio_5" class="radio"  name="contact"><span>Email</span></label>
+          </div>
+          <div>
+            <input  type="radio" value="none" id="radio_6" name="contact"/>
+            <label for="radio_6" class="radio"  name="contact"><span>Any</span></label>
+          </div>
+        </div>
+      </div>
+      <h2>Terms and Conditions</h2>
+      <input type="checkbox" name="checkbox1">
+      <label>You consent to receive communications from us electronically. We will communicate with you by e-mail or phone. You agree that all agreements, notices, disclosures and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.</label>
+      <div class="btn-group0">
+        <button class="btn-group1" type="button" style="width:120px; height:100px; font-size:20px"><a class="back1" style="color:white" href="page4"> 뒤로가기</a></button>
+        <input class="btn-group2" type="submit" style="width:120px; height:100px; background-color:#669999; font-size:20px" href="/">
+      
+        <button class="btn-group3" type="reset"style="width:120px; height:100px; font-size:20px"  href="/">리셋</button>
+      </div>
+        <input class="submit" type="submit"  style="width:120px; height:100px; font-size:20px" href="/" value="결제">
+    
+   
+    </form>
+  </div>
+  <!-- form 끝 -->
+
+</div>
+
+ 
+
+<div id="reserve2" class="tabcontent">
+
+  <h1>예약현황</h1>
+  
+ <div id="present1" >예약현황
+
+  <img  src="/myapp/resources/images/banner1.png" width="100%" height="200px">
+ </div>
+ 
+
+   <div id="present2" >도움말</div>
+ <img  src="/myapp/resources/images/bg_1.jpg" width="100%" height="200px">
+
+</div>
+
+ 
+
+<div id="reserve3" class="tabcontent">
+
+  <h1>검색</h1>
+
+  <div id="search1">현재 예약하신곳은 총 aaa캠핑장 9월1일 부터 9월8일까지 7박 8일이며 총 금액은 560000원입니다</div>
+
+</div>
+
+ 
+
+<div id="reserve4" class="tabcontent">
+
+  <h1>리뷰</h1>
+
+  <div id="review1"> 이 캠핑장에서 추천도 는 최상입니다..</div>
+
+</div>
+
 	</section>
-
 
 	<aside class="aside">
 		<ul id="floatMenu">
-		
+			<li><a href="#reserve1"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>예약</strong>
+					</div></a></li>
+			<li><a href="#reserve2"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>예약현황 </strong>
+					</div></a></li>
+			<li><a href="#reserve3"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>검색</strong>
+					</div></a></li>
+			<li><a href="#reserve4"><div
+						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+						<strong>리뷰</strong>
+					</div></a></li>
+			
 		</ul>
 	</aside>
 

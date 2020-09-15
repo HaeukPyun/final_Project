@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
 <link rel="icon" type="image/png" href="http://example.com/myicon.png">
-<title>camper.page4</title>
+<title>camper.page3</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -211,7 +212,7 @@ $(document).ready(function () {
 	</section>
 	<br>
 	<nav class="nav"> 
-<a href="page4reservation.jsp" target="_blank" >
+<a href="page4reservation" target="_blank" >
     <div class="circle1" >
              예약하기
         </div>
@@ -234,22 +235,18 @@ $(document).ready(function () {
 	
 	</aside>
 	<section>
-<<<<<<< Updated upstream
 	 <div style="margin-left:25%;padding:1px 16px;height:100%;" id="m1">
-=======
-	 <div style="margin-left:25%;padding:1px 16px;height:100%;"  id="m1">
->>>>>>> Stashed changes
       	
        <h1 id="campinfo" ><a href="page4.jsp" >이용방법 안내 </a></h1> 
 	
           <table>
            <tbody> 
             <tr>
-             <td><img src="/myapp/resources/images/date1.png"  width="100px" height="100px"> <p>원하는 날짜에 <br>예약이<br> 가능한 지 확인</p></td>
+             <td><img src="/myapp/resources/images/date1.png"  width="100px" height="100px"> <p>예약버튼 클릭</p></td>
              <td><img src="/myapp/resources/images/arrow.png"  width="50px" height="50px"></td>
-             <td><img src="/myapp/resources/images/location1.png"  width="100px" height="100px"> <p>원하는 시설<br> 및 테크 선택</p></td>
+             <td><img src="/myapp/resources/images/location1.png"  width="100px" height="100px"> <p>예약 정보입력</p></td>
              <td><img src=/myapp/resources/images/arrow.png  width="50px" height="50px"> </td>
-             <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p>예약정보 입력 </p></td>
+             <td><img src="/myapp/resources/images/pay2.png"  width="100px" height="100px"> <p>결재정보 입력 </p></td>
              <td><img src=/myapp/resources/images/arrow.png width="50px" height="50px"> </td>
              
              <td><img src="/myapp/resources/images/reservation2.png"  width="100px" height="100px"> <p>예약 신청<br> 및 결재 확인</p></td>
@@ -258,7 +255,7 @@ $(document).ready(function () {
            </tbody>
           </table>
   
-       <h1  id="pikinfo" > <a href="page4reservation.jsp"  target="_blank"> 예약   <span class="res1" font-size="12px" color=pink>(▷예약하러가기)</span> </a></h1>
+       <h1  id="pikinfo" > <a href="page4reservation"  target="_blank"> 예약   <span class="res1" font-size="12px" color=pink>(▷예약하러가기)</span> </a></h1>
        <ul>
             <li>예약은 오늘날짜 하루뒤부터 60일(오후 2시부터 가능)까지 예약하실 수 있으며, 9박 10일까지 가능합니다.</li><br>
             <li> 예약 후 일정 및 시설변경은 불가능하며, 반드시 예약취소 후 재예약만이 가능합니다.
@@ -266,8 +263,7 @@ $(document).ready(function () {
             <li> 예약자와 입실자가 동일 하여야 하며 입실자가 다른 경우는 사전에 연락하여 주시기 바랍니다.</li><br>
             <li> 입실시에 관리자가 신분증 제시를  요청 할 수 있습니다.</li>
        </ul>
-<<<<<<< Updated upstream
-            <h1 id="timeNpay" > <a href="page4pay.jsp">  결재 안내</a></h1>
+            <h1 id="timeNpay" >  결재 안내 </h1>
             
             
             <ul >
@@ -275,16 +271,10 @@ $(document).ready(function () {
       
                  <li>결재수단으로는 신용카드 및 가상계좌 결재가 가능합니다.</li><br>
                 <li> 예약일 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
-=======
-            <h1 id="timeNpay" > <a href="page4-3.jsp">  결재 안내</a></h1>
-           
-            <ul >
-                <li> 예약일을 포함하여 3일(자정)이내 결제(무통장입금, 카드결제)하시지 않으면 예약이 자동취소됩니다.     </li>
->>>>>>> Stashed changes
                
                     <p> (단, 사용일이 3일 이내인 경우 예약당일 자정까지 사용료를 결제해야 합니다.)</p>
               <div >
-                    <ul id="k2"> <strong>무통장 입금 계좌 번호</strong>
+                <ul id="k2"> <strong>무통장 입금 계좌 번호</strong>
                 
                     <li>농협 :211-111-11-111111</li>
                     <li>예금주:2조 캠핑장 사이트</li>
