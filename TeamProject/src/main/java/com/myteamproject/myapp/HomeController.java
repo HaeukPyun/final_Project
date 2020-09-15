@@ -75,23 +75,14 @@ public class HomeController {
 		return "page5";
 	}
 	
-	
 
 	
-	
-	
-	
-	
-	@RequestMapping(value = "/page7")
-	public String page7(Local locale, Model model){
-		logger.info("This is page7... The client locale is {}.", locale);
-		return "page7";
+	@RequestMapping(value = "/sendMail")
+	public String sendMail(Local locale, Model model){
+		logger.info("This is sendMail... The client locale is {}.", locale);
+		return "sendMail";
 	}
-	@RequestMapping(value = "/page7_2")
-	public String page7_2(Local locale, Model model){
-		logger.info("This is page7... The client locale is {}.", locale);
-		return "page7_2";
-	}
+
 	
 	
 	
