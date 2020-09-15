@@ -9,23 +9,19 @@
 <title>CAMPER</title>
 <script src="http://code.jquery.com/jquery.js"></script>
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet"
-	href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap">
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <link rel="stylesheet" href="${path }/resources/css/animate.css">
-<link rel="stylesheet"
-	href="${path }/resources/css/owl.carousel.min.css">
-<link rel="stylesheet"
-	href="${path }/resources/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="${path }/resources/css/owl.carousel.min.css">
+<link rel="stylesheet" href="${path }/resources/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="${path }/resources/css/magnific-popup.css">
 <link rel="stylesheet" href="${path }/resources/css/ionicons.min.css">
-<link rel="stylesheet" href="${path }/resources/css/flaticon.css">
+<link rel="stylesheet" href="${path }/resources/css/flaticon.css" />
 <link rel="stylesheet" href="${path }/resources/css/icomoon.css">
 <link rel="stylesheet" href="${path }/resources/css/style.css">
-
 <style type="text/css">
 #floatMenu {
 	position: absolute;
@@ -49,43 +45,11 @@
 #subheading-camper, #tab-pane-home2 {
 	color: teal;
 }
+
 </style>
 </head>
 
-
-
 <body>
-	<div>
-		<ul id="floatMenu">
-			<li><a href="#upper"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav-186x40.png')">이용안내</div></a></li>
-			<<<<<<< Updated upstream
-			<li><a href="#campinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">캠핑장
-						이용안내</div></a></li>
-			<li><a href="#pikinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">피크닉
-						이용안내</div></a></li>
-			<li><a href="#timeNpay"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">이용시간
-						및 요금안내</div></a></li>
-			<li><a href="#tip"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">준수사항
-						및 팁</div></a></li> =======
-			<li><a href="#campinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">캠핑장
-						이용안내</div></a></li>
-			<li><a href="#pikinfo"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">피크닉
-						이용안내</div></a></li>
-			<li><a href="#timeNpay"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">이용시간
-						및 요금안내</div></a></li>
-			<li><a href="#tip"><div
-						style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sub-nav2-186x40.png')">준수사항
-						및 팁</div></a></li> >>>>>>> Stashed changes
-		</ul>
-	</div>
 	<div class="container pt-5" id="upper">
 		<div class="row justify-content-between">
 			<div class="col">
@@ -124,8 +88,7 @@
 					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
 					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
-					<li class="nav-item"><a href="page4" class="nav-link">예약 및
-							대여</a></li>
+					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
 					<li class="nav-item"><a href="page99" class="nav-link">관리자</a></li>
 				</ul>
@@ -146,7 +109,7 @@
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
 								<h2>We're here to help you</h2>
-								<h1 class="mb-3">집안처럼 편안한 캠핑!</h1>
+								<h1 class="mb-3">전문적인 캠핑 시설을 누려보세요</h1>
 							</div>
 						</div>
 					</div>
@@ -178,7 +141,7 @@
 						<div class="col-md-12 ftco-animate">
 							<div class="text w-100 text-center">
 								<h2>We Build Your Comfortable Camping</h2>
-								<h1 class="mb-3">전문적인 캠핑 시설을 누려보세요</h1>
+								<h1 class="mb-3">집안처럼 편안한 캠핑!</h1>
 							</div>
 						</div>
 					</div>
@@ -187,7 +150,6 @@
 		</div>
 	</div>
 	<!-- 	// bgImg slide Info -->
-
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container">
 			<div class="row">
@@ -195,10 +157,10 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">													
-							<span class="flaticon-hook"></span>						
+							<span class="flaticon-icon-656386"></span>		
 						</div>
 						<div class="media-body p-2 mt-3">
-							<h3 class="heading">둘러보기</h3>
+							<h3 class="heading">둘러보기</h3>							
 							<p>이곳에선 여러분이 원하는 모든 캠핑에 관한 정보들 접할 수 있습니다</p>
 						</div>
 					</div>
@@ -207,7 +169,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-skyline"></span>
+							<span class="flaticon-calendar"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 						
@@ -220,7 +182,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-stairs"></span>
+							<span class="flaticon-camping"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">피크닉</h3>
@@ -232,7 +194,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-home"></span>
+							<span class="flaticon-tent"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">글램핑</h3>
@@ -244,7 +206,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-home"></span>
+							<span class="flaticon-loan"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">아나바다</h3>
@@ -256,7 +218,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-home"></span>
+							<span class="flaticon-chat"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">Q&AMP;A</h3>
@@ -268,7 +230,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-home"></span>
+							<span class="flaticon-camping-1"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">전국 캠핑장</h3>
@@ -280,7 +242,7 @@
 					class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
 					<div class="media block-6 d-block text-center pt-md-4">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-home"></span>
+							<span class="flaticon-icon5"></span>
 						</div>
 						<div class="media-body p-2 mt-3">
 							<h3 class="heading">리뷰 시스템</h3>
@@ -295,7 +257,7 @@
 					class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
 					<div class="py-3 d-flex">
 						<div class="icon">
-							<span class="flaticon-engineer"></span>
+							<span class="flaticon-camper-van"></span>
 						</div>
 						<div class="text">
 							<h3>Expert &amp; Professional</h3>
@@ -309,7 +271,7 @@
 					class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
 					<div class="py-3 d-flex">
 						<div class="icon">
-							<span class="flaticon-engineer-1"></span>
+							<span class="flaticon-bonfire"></span>
 						</div>
 						<div class="text">
 							<h3>High Quality Work</h3>
@@ -323,7 +285,7 @@
 					class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
 					<div class="py-3 d-flex">
 						<div class="icon">
-							<span class="flaticon-engineer-2"></span>
+							<span class="flaticon-engineers"></span>
 						</div>
 						<div class="text">
 							<h3>24/7 Help Support</h3>
@@ -344,8 +306,7 @@
 			<div class="row d-flex no-gutters">
 				<div class="row justify-content-start py-5">
 					<div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-4">
-						<span class="subheading">Welcome to Home <span
-							id="subheading-camper">CAMPER</span></span>
+						<span class="subheading" id="memCareer">Welcome to Home <span id="subheading-camper">CAMPER</span></span>
 						<h2 class="mb-4">CAMPER는 최상의 캠핑 활동을 제공합니다</h2>
 						<p>캠핑의 출발을 이곳에서 시작하십시오</p>
 						<div class="tabulation-2 mt-4">
@@ -397,7 +358,7 @@
 							class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 							<div class="block-18 d-flex">
 								<div class="text d-flex align-items-center">
-									<strong class="number" data-number="50">0</strong>
+									<strong class="number" data-number="34">0</strong>
 								</div>
 								<div class="text-2">
 									<span>오랜 경험과<br>문화가 함께한 시간
@@ -549,8 +510,8 @@
 					<div class="row justify-content-center mb-5">
 						<div
 							class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-							<span class="subheading">CAMPER</span>
-							<h2 class="mb-4">Happy Clients</h2>
+							<span class="subheading" id="memStaff">CAMPER</span>
+							<h2 class="mb-4">Happy Staff</h2>
 						</div>
 					</div>
 					<div class="row ftco-animate">
@@ -563,7 +524,8 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">프로필</p>
+											<p class="mb-4">연락처</p>
+											<p class="mb-4">010-1123-1999 <br /> pyunhu@camper.com <br /></p>																								
 											<div class="d-flex align-items-center">
 												<div class="user-img"
 													style="background-image: url(${path }/resources/images/member7.jpg)"></div>
@@ -582,7 +544,8 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">프로필1</p>
+											<p class="mb-4">연락처</p>
+											<p class="mb-4">010-1123-4114 parkjh@camper.com</p>		
 											<div class="d-flex align-items-center">
 												<div class="user-img"
 													style="background-image: url(${path }/resources/images/member1.jpg)"></div>
@@ -601,7 +564,8 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">프로필2</p>
+											<p class="mb-4">연락처</p>
+											<p class="mb-4">010-1123-5777 <br /> leeji@camper.com <br /></p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
 													style="background-image: url(${path }/resources/images/member2.jpg)"></div>
@@ -620,7 +584,8 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">프로필3</p>
+											<p class="mb-4">연락처</p>
+											<p class="mb-4">010-1123-5151 <br /> kimhn@camper.com <br /></p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
 													style="background-image: url(${path }/resources/images/member3-1.jpg)"></div>
@@ -639,7 +604,8 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">프로필4</p>
+											<p class="mb-4">연락처</p>
+											<p class="mb-4">010-1123-6178 <br /> choimy@camper.com <br /></p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
 													style="background-image: url(${path }/resources/images/member4.jpg)"></div>
@@ -658,7 +624,8 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">프로필5</p>
+											<p class="mb-4">연락처</p>
+											<p class="mb-4">010-1123-8088 <br /> kimtk@camper.com <br /></p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
 													style="background-image: url(${path }/resources/images/member5.jpg)"></div>
@@ -677,7 +644,8 @@
 											<span class="fa fa-quote-left"></span>
 										</div>
 										<div class="text">
-											<p class="mb-4">프로필6</p>
+											<p class="mb-4">연락처</p>
+											<p class="mb-4">010-1123-2438 <br /> Hahw@camper.com <br /></p>
 											<div class="d-flex align-items-center">
 												<div class="user-img"
 													style="background-image: url(${path }/resources/images/member6.jpg)"></div>
@@ -699,157 +667,132 @@
 				<div class="container">
 					<div class="row justify-content-center mb-5 pb-3">
 						<div class="col-md-7 heading-section text-center ftco-animate">
-							<span class="subheading">CAMPER</span>
+							<span class="subheading" id="shortcut">CAMPER</span>
 							<h2>바로가기</h2>
 						</div>
 					</div>
 					<div class="row d-flex">
 						<div class="col-md-4 d-flex ftco-animate">
 							<div class="blog-entry align-self-stretch">
-								<a href="blog-single.html" class="block-20 rounded"
-									style="background-image: url(${path }/resources/images/image_1.jpg);">
+								<a href="home" class="block-20 rounded"
+									style="background-image: url(${path }/resources/images/image_1.png);">
 								</a>
 								<div class="text mt-3 text-center">
 									<div class="meta mb-2">
 										<div>
-											<a href="#">January 30, 2020</a>
-										</div>
+											<a href="#shortcut">CAMPER</a>
+										</div>										
 										<div>
-											<a href="#">Admin</a>
-										</div>
-										<div>
-											<a href="#" class="meta-chat"><span class="icon-chat"></span>
-												3</a>
+											<a href="home" class="meta-chat"><span class="icon-chat">처음으로</span></a>
 										</div>
 									</div>
 									<h3 class="heading">
-										<a href="#">Even the all-powerful Pointing has no control
-											about the blind texts</a>
+										<a href="home">CAMPER에 오신것을 환영합니다.</a>
 									</h3>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 d-flex ftco-animate">
 							<div class="blog-entry align-self-stretch">
-								<a href="blog-single.html" class="block-20 rounded"
-									style="background-image: url('${path }/resources/images/image_2.jpg');">
+								<a href="page1" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_2.png');">
 								</a>
 								<div class="text mt-3 text-center">
 									<div class="meta mb-2">
 										<div>
-											<a href="#">January 30, 2020</a>
-										</div>
+											<a href="#shortcut">CAMPER</a>
+										</div>										
 										<div>
-											<a href="#">Admin</a>
-										</div>
-										<div>
-											<a href="#" class="meta-chat"><span class="icon-chat"></span>
-												3</a>
+											<a href="page1" class="meta-chat"><span class="icon-chat"></span>
+												공지사항</a>
 										</div>
 									</div>
 									<h3 class="heading">
-										<a href="#">Even the all-powerful Pointing has no control
-											about the blind texts</a>
+										<a href="page1">공지사항에서 중요한 정보를 확인해 주세요</a>
 									</h3>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 d-flex ftco-animate">
 							<div class="blog-entry align-self-stretch">
-								<a href="blog-single.html" class="block-20 rounded"
-									style="background-image: url('${path }/resources/images/image_2.jpg');">
+								<a href="page2" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_3.png');">
 								</a>
 								<div class="text mt-3 text-center">
 									<div class="meta mb-2">
 										<div>
-											<a href="#">January 30, 2020</a>
-										</div>
+											<a href="#shortcut">CAMPER</a>
+										</div>										
 										<div>
-											<a href="#">Admin</a>
-										</div>
-										<div>
-											<a href="#" class="meta-chat"><span class="icon-chat"></span>
-												3</a>
+											<a href="page2" class="meta-chat"><span class="icon-chat"></span>
+												둘러보기</a>
 										</div>
 									</div>
 									<h3 class="heading">
-										<a href="#">Even the all-powerful Pointing has no control
-											about the blind texts</a>
+										<a href="page2">환상적인 이 곳을 한번 둘러보세요</a>
 									</h3>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 d-flex ftco-animate">
 							<div class="blog-entry align-self-stretch">
-								<a href="blog-single.html" class="block-20 rounded"
-									style="background-image: url('${path }/resources/images/image_2.jpg');">
+								<a href="page3" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_4.png');">
 								</a>
 								<div class="text mt-3 text-center">
 									<div class="meta mb-2">
 										<div>
-											<a href="#">January 30, 2020</a>
+											<a href="#shortcut">CAMPER</a>
 										</div>
 										<div>
-											<a href="#">Admin</a>
-										</div>
-										<div>
-											<a href="#" class="meta-chat"><span class="icon-chat"></span>
-												3</a>
+											<a href="page3" class="meta-chat"><span class="icon-chat"></span>
+												이용안내</a>
 										</div>
 									</div>
 									<h3 class="heading">
-										<a href="#">Even the all-powerful Pointing has no control
-											about the blind texts</a>
+										<a href="page3">이용사항이 궁금하시다면 여기로 오세요</a>
 									</h3>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 d-flex ftco-animate">
 							<div class="blog-entry align-self-stretch">
-								<a href="blog-single.html" class="block-20 rounded"
-									style="background-image: url('${path }/resources/images/image_2.jpg');">
+								<a href="page4" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_5.png');">
 								</a>
 								<div class="text mt-3 text-center">
 									<div class="meta mb-2">
 										<div>
-											<a href="#">January 30, 2020</a>
+											<a href="#shortcut">CAMPER</a>
 										</div>
 										<div>
-											<a href="#">Admin</a>
-										</div>
-										<div>
-											<a href="#" class="meta-chat"><span class="icon-chat"></span>
-												3</a>
+											<a href="page4" class="meta-chat"><span class="icon-chat"></span>
+												예약 및 대여</a>
 										</div>
 									</div>
 									<h3 class="heading">
-										<a href="#">Even the all-powerful Pointing has no control
-											about the blind texts</a>
+										<a href="page4">원하시는 날짜와 장소를 예약해 주세요</a>
 									</h3>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 d-flex ftco-animate">
 							<div class="blog-entry align-self-stretch">
-								<a href="blog-single.html" class="block-20 rounded"
-									style="background-image: url('${path }/resources/images/image_3.jpg');">
+								<a href="page5" class="block-20 rounded"
+									style="background-image: url('${path }/resources/images/image_6.png');">
 								</a>
 								<div class="text mt-3 text-center">
 									<div class="meta mb-2">
 										<div>
-											<a href="#">January 30, 2020</a>
+											<a href="#shortcut">CAMPER</a>
 										</div>
 										<div>
-											<a href="#">Admin</a>
-										</div>
-										<div>
-											<a href="#" class="meta-chat"><span class="icon-chat"></span>
-												3</a>
+											<a href="page5" class="meta-chat"><span class="icon-chat"></span>
+												커뮤니티</a>
 										</div>
 									</div>
 									<h3 class="heading">
-										<a href="#">Even the all-powerful Pointing has no control
-											about the blind texts</a>
+										<a href="page5">필요한 정보와 아이템을 얻어 가세요</a>
 									</h3>
 								</div>
 							</div>
@@ -868,15 +811,13 @@
 									<div class="col-lg-8 py-4">
 										<div class="row">
 											<div class="col-md-6 d-flex align-items-center">
-												<h2 class="mb-0" style="color: white; font-size: 24px;">Subcribe
-													to our Newsletter</h2>
+												<h2 class="mb-0" style="font-size: 23px;">좀 더 편하고 빠르게 CAMPER의 소식을 접해 보세요</h2>
 											</div>
 											<div class="col-md-6 d-flex align-items-center">
-												<form action="#" class="subscribe-form">
+												<form action="#" class="subscribe-form"><span style="color:green"><b>구독하기</b></span>
 													<div class="form-group d-flex">
 														<input type="text" class="form-control"
-															placeholder="Enter email address"> <input
-															type="submit" value="Subscribe" class="submit px-3">
+															placeholder="Enter email address"><input type="submit" value="Subscribe" class="submit px-3">
 													</div>
 												</form>
 											</div>
@@ -895,19 +836,24 @@
 						<div class="col-md-9 py-5">
 							<div class="row">
 								<div class="col-md-4 mb-md-0 mb-4">
-									<h2 class="footer-heading">About us</h2>
-									<p>A small river named Duden flows by their place and
-										supplies it with the necessary regelialia.</p>
+									<h2 class="footer-heading">CAMPER's SNS</h2>
+									<p><span style="color:white;">CAMPER</span> 란,<br />캠핑 + 사람 으로써 캠핑하는 사람들을 뜻합니다 <br /></p>																			
+<!-- 										<li><a href="#memCarrer" class="py-1 d-block">경력</a></li>											 -->
 									<ul class="ftco-footer-social p-0">
-										<li class="ftco-animate"><a href="#"
-											data-toggle="tooltip" data-placement="top" title="Twitter"><span
-												class="ion-logo-twitter"></span></a></li>
-										<li class="ftco-animate"><a href="#"
-											data-toggle="tooltip" data-placement="top" title="Facebook"><span
-												class="ion-logo-facebook"></span></a></li>
-										<li class="ftco-animate"><a href="#"
+										<li class="ftco-animate"><a href="https://www.youtube.com/channel/UCyIXq8G_7cphtzh3EB1zTCg/featured"
+											data-toggle="tooltip" data-placement="top" title="Youtube"><span
+												class="ion-logo-youtube"></span></a></li>
+										<li class="ftco-animate"><a href="https://www.pinterest.co.kr/f2project/pins/"
+											data-toggle="tooltip" data-placement="top" title="Pinterest"><span
+												class="ion-logo-pinterest"></span></a></li>
+										<li class="ftco-animate"><a href="https://www.instagram.com/teamProjectCamper/"
 											data-toggle="tooltip" data-placement="top" title="Instagram"><span
 												class="ion-logo-instagram"></span></a></li>
+										<li class="ftco-animate"><a href="https://twitter.com/camper74625398"
+											data-toggle="tooltip" data-placement="top" title="Twitter"><span
+												class="ion-logo-twitter"></span></a></li>
+										<li class="ftco-animate"><a href="#memStaff">Member</a></li><br />
+										<li class="ftco-animate"><a href="#memCareer">Career</a></li>																					
 									</ul>
 								</div>
 								<div class="col-md-8">
@@ -917,30 +863,20 @@
 												<div class="col-md-4 mb-md-0 mb-4">
 													<h2 class="footer-heading">Services</h2>
 													<ul class="list-unstyled">
-														<li><a href="#" class="py-1 d-block">Construction</a></li>
-														<li><a href="#" class="py-1 d-block">House
-																Renovation</a></li>
-														<li><a href="#" class="py-1 d-block">Painting</a></li>
-														<li><a href="#" class="py-1 d-block">Arhictecture
-																Design</a></li>
-													</ul>
-												</div>
-												<div class="col-md-4 mb-md-0 mb-4">
-													<h2 class="footer-heading">About</h2>
-													<ul class="list-unstyled">
-														<li><a href="#" class="py-1 d-block">Staff</a></li>
-														<li><a href="#" class="py-1 d-block">Team</a></li>
-														<li><a href="#" class="py-1 d-block">Careers</a></li>
-														<li><a href="#" class="py-1 d-block">Blog</a></li>
+														<li><a href="#" class="py-1 d-block">공지사항</a></li>
+														<li><a href="#" class="py-1 d-block">둘러보기</a></li>
+														<li><a href="#" class="py-1 d-block">이용안내</a></li>
+														<li><a href="#" class="py-1 d-block">예약 &amp; 대여</a></li>
+														<li><a href="#" class="py-1 d-block">커뮤니티</a></li>
 													</ul>
 												</div>
 												<div class="col-md-4 mb-md-0 mb-4">
 													<h2 class="footer-heading">Resources</h2>
 													<ul class="list-unstyled">
-														<li><a href="#" class="py-1 d-block">Security</a></li>
-														<li><a href="#" class="py-1 d-block">Global</a></li>
-														<li><a href="#" class="py-1 d-block">Charts</a></li>
-														<li><a href="#" class="py-1 d-block">Privacy</a></li>
+														<a href="https://www.youtube.com/channel/UCyIXq8G_7cphtzh3EB1zTCg/featured" target="_blank"> youtube/camper</a><br />										
+										  				<a href="https://www.pinterest.co.kr/f2project/pins" target="_blank"> &origof; pinterest/camper</a><br />									
+										  				<a href="https://www.instagram.com/teamProjectCamper" target="_blank"> &origof; instagram/camper</a><br />									
+										  				<a href="https://twitter.com/camper74625398" target="_blank"> &origof; twitter/camper</a><br />
 													</ul>
 												</div>
 											</div>
@@ -950,40 +886,40 @@
 							</div>
 							<div class="row mt-md-5">
 								<div class="col-md-12">
-									<p class="copyright">
-										<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-										Copyright &copy;
+									<p class="copyright">										
+										SINCE &Delta;
 										<script>
 											document.write(new Date()
-													.getFullYear());
+													.getFullYear()-33);
 										</script>
-										All rights reserved | This template is made with <i
-											class="ion-ios-heart" aria-hidden="true"></i> by <a
-											href="https://colorlib.com" target="_blank">Colorlib.com</a>
-										<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+										<span style="color:white">CAMPER</span>는 언제나 열려 있습니다 <i class="ion-ios-heart" aria-hidden="true"></i><br />
+										  <li>(153-759) 서울시 금천구 가산동 426-5 월드메르디앙 2차</li>								
+										  <li>&phone; 02-2025-8523</li>								
+										  <li>&bowtie; CAMPER@camper.or.kr</li>								
+										  <li>&copy; 한국소프트웨어인재개발원</li>								
 									</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
-							<h2 class="footer-heading">Request A Quote</h2>
-							<form action="#" class="contact-form">
+							<h2 class="footer-heading">메일문의</h2>
+							<form action="sendMail" method="post" class="contact-form">
+<!-- 								<div class="form-group"> -->
+<!-- 									<input type="text" class="form-control" placeholder="Your Name" id="emailName"> -->
+<!-- 								</div> -->
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Name">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control"
+									<input type="email" class="form-control" id="emailEmail" name="emailEmail"
 										placeholder="Your Email">
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Subject">
+									<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Subject">
 								</div>
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="3" class="form-control"
+									<textarea name="emailMessage" id="emailMessage" cols=100% rows=10% class="form-control"
 										placeholder="Message"></textarea>
 								</div>
 								<div class="form-group">
-									<button type="submit" class="form-control submit px-3">Send</button>
+									<button type="submit" class="form-control submit px-3">보내기</button>
 								</div>
 							</form>
 						</div>
@@ -1002,41 +938,8 @@
 			<circle class="path" cx="24" cy="24" r="22" fill="none"
 						stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg>
 			</div>
-
-			<script type="text/javascript">
-				$(document).ready(function() {
-
-					// 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
-					var floatPosition = parseInt($("#floatMenu").css('top'));
-					// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
-
-					$(window).scroll(function() {
-						// 현재 스크롤 위치를 가져온다.
-						var scrollTop = $(window).scrollTop();
-						var newPosition = scrollTop + floatPosition + "px";
-
-						/* 애니메이션 없이 바로 따라감
-						 $("#floatMenu").css('top', newPosition);
-						 */
-
-						$("#floatMenu").stop().animate({
-							"top" : newPosition
-						}, 500);
-
-					}).scroll();
-
-				});
-
-				$("#floatMenu").stop().animate({
-					"top" : newPosition
-				}, {
-					'duration' : 500,
-					'easing' : 'easeInOutCubic',
-					'complete' : function() {
-						console.log('이동 완료하였습니다.');
-					}
-				});
-			</script>
+			
+			
 
 			<script src="${path }/resources/js/jquery.min.js"></script>
 			<script src="${path }/resources/js/jquery-migrate-3.0.1.min.js"></script>
@@ -1049,8 +952,7 @@
 			<script src="${path }/resources/js/owl.carousel.min.js"></script>
 			<script src="${path }/resources/js/jquery.magnific-popup.min.js"></script>
 			<script src="${path }/resources/js/scrollax.min.js"></script>
-			<script
-				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 			<script src="${path }/resources/js/google-map.js"></script>
 			<script src="${path }/resources/js/main.js"></script>
 </body>
