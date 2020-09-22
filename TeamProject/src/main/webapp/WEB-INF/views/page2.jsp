@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set var="path" value="${pageContext.request.contextPath }"></c:set>
 <!DOCTYPE html>
 <html lang="en">
 <head profile="http://www.w3.org/2005/10/profile">
@@ -48,13 +50,6 @@ h1 {
 	height: 15%;
 	clear: both;
 }
-hr {
-	width: 50%;
-}
-#t1 {
-	width: 1000px;
-	height: 600px;
-}
 #photo_1 {
 	width: 170px;
 	height: 100px;
@@ -63,18 +58,18 @@ b {
 	color: #FFBF00;
 }
 #details {
-	width:800px;
-	margin:auto;
+	width: 800px;
+	margin: auto;
 	position: relative;
 }
 #photo {
-	width:600px;
-	height:300px;
-	margin:auto;
+	width: 600px;
+	height: 300px;
+	margin: auto;
 	position: relative;
 	overflow: hidden;
 }
-#img{
+#img {
 	width: 600px;
 	height: 300px;
 }
@@ -83,51 +78,33 @@ b {
 	width: 4900px;
 	transition: left 0.3s;
 }
-#details2 {
-	width:800px;
-	margin:auto;
-	position: relative;
-}
-#photo2{
-	width:600px;
-	height:300px;
-	margin:auto;
-	position: relative;
-	overflow: hidden;
-}
-#img2{
-	width: 600px;
-	height: 300px;
-}
-#imgBox2 {
-	position: relative;
-	width: 2500px;
-	transition: left 0.3s;
-}
-#nextBtn, #prevBtn, #nextBtn2,#prevBtn2 {
-	width:44px;
-	height:44px;
-	background:url(/myapp/resources/images/button.png);
+#nextBtn, #prevBtn {
+	width: 44px;
+	height: 44px;
+	background: url(/myapp/resources/images/button.png);
 	text-indent: -1000px;
 	overflow: hidden;
 	cursor: pointer;
-	border:none;
+	border: none;
 	position: absolute;
-	top:128px;
+	top: 128px;
 }
-#prevBtn, #prevBtn2 {
+#prevBtn {
 	background-position: 0 -347px;
-	left:0;
+	left: 0;
 }
-#prevBtn:hover, #prevBtn2:hover {
+#prevBtn:hover {
 	background-position: -61px -347px;
 }
-#nextBtn, #nextBtn2 {
-	background-position:0 -411px;
-	right:0;
+#nextBtn {
+	background-position: 0 -411px;
+	right: 0;
 }
-#nextBtn:hover, #nextBtn2:hover {
+#nextBtn:hover {
 	background-position: -61px -411px;
+}
+hr {
+	width: 50%;
 }
 #floatMenu {
 	position: absolute;
@@ -152,6 +129,7 @@ b {
 			}, 500);
 		}).scroll();
 	});
+
 	$("#floatMenu").stop().animate({
 		"top" : newPosition
 	}, {
@@ -202,7 +180,8 @@ b {
 		</div>
 	</nav>
 	<!-- END nav -->
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('/myapp/resources/images/7.png');" data-stellar-background-ratio="0.5">
+
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('/myapp/resources/images/campmain.PNG');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end">
@@ -216,7 +195,9 @@ b {
 		</div>
 	</section>
 	<br>
+
 	<nav class="nav">nav</nav>
+
 	<section class="section">
 		<h1>캠핑장 둘러보기</h1>
 		<h3 id="info">캠핑장 소개</h3>
@@ -229,9 +210,11 @@ b {
 			CAMPER에서 이 모든 것을 경험할 수 있습니다.
 		</p>
 		<hr>
+
 		<h3 id="campinfo">캠핑장 배치도</h3>
-		<img src="/myapp/resources/images/page2-1.png" width="500" height="400">
+		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500" height="400">
 		<hr>
+
 		<h3 id="pikinfo">캠핑장 전경</h3>
 		<div id="details">
 			<div id="photo">
@@ -252,7 +235,8 @@ b {
 			</div>
 		</div>
 		<hr>
-		<h3 id="timeNpay">주변관광지</h3>
+
+		<h3 id="timeNpay">관광지</h3>
 		<table id="t1">
 			<tr>
 				<td width="170px" height="150px"><a href="http://www.royalpalace.go.kr/" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-18.png"></a></td>
@@ -267,20 +251,21 @@ b {
 				<td width="170px" height="150px"><a href="https://gwanghwamun.seoul.go.kr/main.do" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-19.png"></a></td>
 				<td>
 					<b>광화문 광장</b><br>
-					창의와 실용의 정신으로 문화강국을 이루자는 뜻으로 세종대왕 동상이 세워졌고 세종이야기 등 상절시장이
-					마련 되어 있다. 세종문화회관과 이순신장군동상 사이의 시민들이 참여하는 광장 중앙에는 미술, 조형미술
-					등 다양한 전시공간으로 이용되고 해치마당에는 이용객을 위한 아리수 샘터, 안내소, 기념품점 등 편의시설과
-					전시장, 엘리베이터, 만남과 약속의 장소 등 문화갤러리 등이 있다.
+					창의와 실용의 정신으로 문화강국을 이루자는 뜻으로 세종대왕 동상이 세워졌고 세종이야기 등
+					상절시장이 마련 되어 있다. 세종문화회관과 이순신장군동상 사이의 시민들이 참여하는 광장
+					중앙에는 미술, 조형미술 등 다양한 전시공간으로 이용되고 해치마당에는 이용객을 위한 아리수
+					샘터, 안내소, 기념품점 등 편의시설과 전시장, 엘리베이터, 만남과 약속의 장소 등 문화갤러리
+					등이 있다.
 				</td>
 			</tr>
 			<tr>
 				<td width="170px" height="150px"><a href="https://www.sisul.or.kr/open_content/cheonggye/" target="_blank"><img id="photo_1" src="/myapp/resources/images/page2-20.png"></a></td>
 				<td>
 					<b>청계천</b><br>
-					서울특별시 내부에 있는 지방하천으로, 한강 수계에 속하며 중량천의 지류이다.
-					광복 후 급속도로 발전하는 서울의 교통문제로 1958년 복개가 시작되어 1961년 완공되었다.
-					2003년 7월부터 2005년 9월까지 고가도로를 철거하고 복개를 걷어내어 광화문 동아일보사로부터
-					성동구 신답철교에 이르기까지 5.8km의 구간이 복원되어 산책로와 녹지 등이 설치되었다.
+					서울특별시 내부에 있는 지방하천으로, 한강 수계에 속하며 중량천의 지류이다. 광복 후 급속도로
+					발전하는 서울의 교통문제로 1958년 복개가 시작되어 1961년 완공되었다. 2003년 7월부터 2005년
+					9월까지 고가도로를 철거하고 복개를 걷어내어 광화문 동아일보사로부터 성동구 신답철교에
+					이르기까지 5.8km의 구간이 복원되어 산책로와 녹지 등이 설치되었다.
 				</td>
 			</tr>
 			<tr>
@@ -298,28 +283,105 @@ b {
 					<b>광명동굴</b><br>
 					일저강점기인 1912년부터 금, 은, 구리, 아연 등의 광물을 채광하던 광산지구였지만 1972년
 					폐광했다. 2011년에 광명시에서 매입하여 관광지로 조성되었다. 광명동굴의 내부는 웜홀광장,
-					동굴 예술의 전당, 동굴 아쿠아 월드, 동굴 식물원, 황금 궁전, 근대 역사관, 동굴지하세계, 동굴 지하 호수,
-					판타지 웨타 갤러리, 와인동굴 등으로 구성되어 있다.
+					동굴 예술의 전당, 동굴 아쿠아 월드, 동굴 식물원, 황금 궁전, 근대 역사관, 동굴지하세계,
+					동굴 지하 호수, 판타지 웨타 갤러리, 와인동굴 등으로 구성되어 있다.
 				</td>
 			</tr>
 		</table>
 		<hr>
-		<h3 id="tip">부대시설</h3>
-		<div id="details2">
-			<div id="photo2">
-				<div id="imgBox2">
-                    <img id="img2" src="/myapp/resources/images/page2-14.png">
-                	<img id="img2" src="/myapp/resources/images/page2-15.png">
-                	<img id="img2" src="/myapp/resources/images/page2-16.png">
-                	<img id="img2" src="/myapp/resources/images/page2-17.png">
+		<%-- <c:set var="path" value="${pageContext.request.contextPath }"></c:set> --%>
+		<h3 id="tip">편의시설</h3>
+		<!-- 		<table id="t3"> -->
+		<!-- 			<tr> -->
+		<!-- 				<td><img id="photo_3" src="/myapp/resources/images/page2-14.png"></td> -->
+		<!-- 				<td><img id="photo_3" src="/myapp/resources/images/page2-15.png"></td> -->
+		<!-- 			</tr> -->
+		<!-- 			<tr> -->
+		<!-- 				<td><img id="photo_3" src="/myapp/resources/images/page2-16.png"></td> -->
+		<!-- 				<td><img id="photo_3" src="/myapp/resources/images/page2-17.png"></td> -->
+		<!-- 			</tr> -->
+		<!-- 		</table> -->
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container-fluid px-md-0">
+				<div class="row no-gutters">
+					<div class="col-md-4 ftco-animate">
+						<div class="work img d-flex align-items-end" style="background-image: url(${path }/resources/images/store1.jpg)">
+							<a href="resources/images/store1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+								<span class="icon-expand"></span>
+							</a>
+							<div class="desc w-100 px-4">
+								<div class="text w-100 mb-3">
+									<span>편의점</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="work img d-flex align-items-end" style="background-image: url(${path }/resources/images/store2.jpg)">
+							<a href="resources/images/store2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+								<span class="icon-expand"></span>
+							</a>
+							<div class="desc w-100 px-4">
+								<div class="text w-100 mb-3">
+									<span>식수대</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="work img d-flex align-items-end" style="background-image: url(${path }/resources/images/store3.jpg)">
+							<a href="resources/images/store3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+								<span class="icon-expand"></span>
+							</a>
+							<div class="desc w-100 px-4">
+								<div class="text w-100 mb-3">
+									<span>개수대</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 ftco-animate">
+						<div class="work img d-flex align-items-end" style="background-image: url(${path }/resources/images/store4.jpg)">
+							<a href="resources/images/store4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+								<span class="icon-expand"></span>
+							</a>
+							<div class="desc w-100 px-4">
+								<div class="text w-100 mb-3">
+									<span>화장실</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="work img d-flex align-items-end" style="background-image: url(${path }/resources/images/store5.jpg)">
+							<a href="resources/images/store5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+								<span class="icon-expand"></span>
+							</a>
+							<div class="desc w-100 px-4">
+								<div class="text w-100 mb-3">
+									<span>샤워실</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="work img d-flex align-items-end" style="background-image: url(${path }/resources/images/store6.jpg)">
+							<a href="resources/images/store6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+								<span class="icon-expand"></span>
+							</a>
+							<div class="desc w-100 px-4">
+								<div class="text w-100 mb-3">
+									<span>주차장</span>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div id="btnBox2">
-				<button id="prevBtn2">이전사진보기</button>
-				<button id="nextBtn2">다음사진보기</button>
-			</div>
-		</div>
+		</section>
 	</section>
+
 	<script>
 		idx = 0;
 		var $imgBox = $("#imgBox")
@@ -344,58 +406,28 @@ b {
 			}
 			$imgBox.css("left", -(idx * 605));
 		});
-		var $imgBox2 = $("#imgBox2")
-		$("#nextBtn2").click(function() {
-			if (idx == 3) {
-				$imgBox2.css('transition', 'left 0s');
-				idx = 0;
-			} else {
-				$imgBox2.css('transition', 'left .3s');
-				++idx;
-			}
-			var left = -(idx * 605);
-			$imgBox2.css("left", left);
-		});
-		$("#prevBtn2").click(function() {
-			if (idx == 0) {
-				$imgBox2.css('transition', 'left 0s');
-				idx = 3;
-			} else {
-				$imgBox2.css('transition', 'left .3s');
-				--idx;
-			}
-			$imgBox2.css("left", -(idx * 605));
-		});
 	</script>
+
 	<aside class="aside">
 		<ul id="floatMenu">
-			<li><a href="#info">
-                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-					<strong>캠핑장 소개</strong>
-                </div>
-            </a></li>
-			<li><a href="#campinfo">
-                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-						<strong>캠핑장 배치도</strong>
-                </div>
-            </a></li>
-			<li><a href="#pikinfo">
-                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-					<strong>캠핑장 전경</strong>
-                </div>
-            </a></li>
-			<li><a href="#timeNpay">
-                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-					<strong>관광지</strong>
-                </div>
-            </a></li>
-			<li><a href="#tip">
-                <div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
-					<strong>부대시설</strong>
-                </div>
-            </a></li>
+			<li><a href="#info"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+				<strong>캠핑장 소개</strong>
+			</div></a></li>
+			<li><a href="#campinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+				<strong>캠핑장 배치도</strong>
+			</div></a></li>
+			<li><a href="#pikinfo"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+				<strong>캠핀장 전경</strong>
+			</div></a></li>
+			<li><a href="#timeNpay"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+				<strong>관광지</strong>
+			</div></a></li>
+			<li><a href="#tip"><div style="color: black; text-align: center; width: 186px; height: 43px; background-image: url('/myapp/resources/images/sidebutton.gif')">
+				<strong>편의시설</strong>
+			</div></a></li>
 		</ul>
 	</aside>
+
 	<footer class="footer">
 		<div class="container-fluid px-lg-5">
 			<div class="row">
@@ -455,9 +487,9 @@ b {
 								<script>
 									document.write(new Date().getFullYear());
 								</script>
-                                All rights reserved | This template is made with 
-                                <i class="ion-ios-heart" aria-hidden="true"></i> by 
-                                <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+								All rights reserved | This template is made with <i
+									class="ion-ios-heart" aria-hidden="true"></i> by <a
+									href="https://colorlib.com" target="_blank">Colorlib.com</a>
 								Link back to Colorlib can't be removed. Template is licensed
 								under CC BY 3.0.
 							</p>
@@ -487,13 +519,15 @@ b {
 			</div>
 		</div>
 	</footer>
+
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen">
 		<svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
-        </svg>
+    	</svg>
 	</div>
+
 	<script src="/myapp/resources/js/jquery.min.js"></script>
 	<script src="/myapp/resources/js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="/myapp/resources/js/popper.min.js"></script>
