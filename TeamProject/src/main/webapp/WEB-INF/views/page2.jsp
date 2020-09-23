@@ -144,7 +144,13 @@ hr {
 	<div class="container pt-5">
 		<div class="row justify-content-between">
 			<div class="col">
-				<a class="navbar-brand" href="index.html">Cam<span>per</span></a>
+				<a class="navbar-brand" href="index.html">
+					<table>
+						<tr>
+							<td><section style="width: 200px; height: 116px; background-image: url('/myapp/resources/images/head.png');"></td>
+						</tr>
+					</table>
+				</a>
 			</div>
 			<div class="col d-flex justify-content-end">
 				<div class="social-media">
@@ -153,24 +159,23 @@ hr {
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav
+		class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+		id="ftco-navbar">
 		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav"
+				aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fa fa-bars"></span> Menu
 			</button>
 			<form action="#" class="searchform order-lg-last">
-				<div class="form-group d-flex">
-					<input type="text" class="form-control pl-3" placeholder="검색">
-					<button type="submit" placeholder="" class="form-control search">
-						<span class="fa fa-search"></span>
-					</button>
-				</div>
+				<div class="form-group d-flex"></div>
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a href="home" class="nav-link">CAMPER</a></li>
+					<li class="nav-item"><a href="home" class="nav-link">CAMPER</a></li>
 					<li class="nav-item"><a href="page1" class="nav-link">공지사항</a></li>
-					<li class="nav-item"><a href="page2" class="nav-link">둘러보기</a></li>
+					<li class="nav-item active"><a href="page2" class="nav-link">둘러보기</a></li>
 					<li class="nav-item"><a href="page3" class="nav-link">이용안내</a></li>
 					<li class="nav-item"><a href="page4" class="nav-link">예약 및 대여</a></li>
 					<li class="nav-item"><a href="page5" class="nav-link">커뮤니티</a></li>
@@ -429,96 +434,97 @@ hr {
 	</aside>
 
 	<footer class="footer">
-		<div class="container-fluid px-lg-5">
-			<div class="row">
-				<div class="col-md-9 py-5">
+				<div class="container-fluid px-lg-5">
 					<div class="row">
-						<div class="col-md-4 mb-md-0 mb-4">
-							<h2 class="footer-heading">About us</h2>
-							<p>A small river named Duden flows by their place and
-								supplies it with the necessary regelialia.</p>
-							<ul class="ftco-footer-social p-0">
-								<li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
-							</ul>
-						</div>
-						<div class="col-md-8">
-							<div class="row justify-content-center">
-								<div class="col-md-12 col-lg-10">
-									<div class="row">
-										<div class="col-md-4 mb-md-0 mb-4">
-											<h2 class="footer-heading">Services</h2>
-											<ul class="list-unstyled">
-												<li><a href="#" class="py-1 d-block">Construction</a></li>
-												<li><a href="#" class="py-1 d-block">House Renovation</a></li>
-												<li><a href="#" class="py-1 d-block">Painting</a></li>
-												<li><a href="#" class="py-1 d-block">Arhictecture Design</a></li>
-											</ul>
-										</div>
-										<div class="col-md-4 mb-md-0 mb-4">
-											<h2 class="footer-heading">About</h2>
-											<ul class="list-unstyled">
-												<li><a href="#" class="py-1 d-block">Staff</a></li>
-												<li><a href="#" class="py-1 d-block">Team</a></li>
-												<li><a href="#" class="py-1 d-block">Careers</a></li>
-												<li><a href="#" class="py-1 d-block">Blog</a></li>
-											</ul>
-										</div>
-										<div class="col-md-4 mb-md-0 mb-4">
-											<h2 class="footer-heading">Resources</h2>
-											<ul class="list-unstyled">
-												<li><a href="#" class="py-1 d-block">Security</a></li>
-												<li><a href="#" class="py-1 d-block">Global</a></li>
-												<li><a href="#" class="py-1 d-block">Charts</a></li>
-												<li><a href="#" class="py-1 d-block">Privacy</a></li>
-											</ul>
+						<div class="col-md-9 py-5">
+							<div class="row">
+								<div class="col-md-4 mb-md-0 mb-4">
+									<h2 class="footer-heading">CAMPER's SNS</h2>
+									<p><span style="color:white;">CAMPER</span> 란,<br />캠핑 + 사람 으로써 캠핑하는 사람들을 뜻합니다 <br /></p>																			
+<!-- 										<li><a href="#memCarrer" class="py-1 d-block">경력</a></li>											 -->
+									<ul class="ftco-footer-social p-0">
+										<li class="ftco-animate"><a href="https://www.youtube.com/channel/UCyIXq8G_7cphtzh3EB1zTCg/featured"
+											data-toggle="tooltip" data-placement="top" title="Youtube"><span
+												class="ion-logo-youtube"></span></a></li>
+										<li class="ftco-animate"><a href="https://www.pinterest.co.kr/f2project/pins/"
+											data-toggle="tooltip" data-placement="top" title="Pinterest"><span
+												class="ion-logo-pinterest"></span></a></li>
+										<li class="ftco-animate"><a href="https://www.instagram.com/teamProjectCamper/"
+											data-toggle="tooltip" data-placement="top" title="Instagram"><span
+												class="ion-logo-instagram"></span></a></li>
+										<li class="ftco-animate"><a href="https://twitter.com/camper74625398"
+											data-toggle="tooltip" data-placement="top" title="Twitter"><span
+												class="ion-logo-twitter"></span></a></li>
+										<li class="ftco-animate"><a href="#memStaff">Member</a></li><br />
+										<li class="ftco-animate"><a href="#memCareer">Career</a></li>																					
+									</ul>
+								</div>
+								<div class="col-md-8">
+									<div class="row justify-content-center">
+										<div class="col-md-12 col-lg-10">
+											<div class="row">
+												<div class="col-md-4 mb-md-0 mb-4">
+													<h2 class="footer-heading">Services</h2>
+													<ul class="list-unstyled">
+														<li><a href="/myapp/page1" class="py-1 d-block">공지사항</a></li>
+														<li><a href="/myapp/page2" class="py-1 d-block">둘러보기</a></li>
+														<li><a href="/myapp/page3" class="py-1 d-block">이용안내</a></li>
+														<li><a href="/myapp/page4" class="py-1 d-block">예약 &amp; 대여</a></li>
+														<li><a href="/myapp/page5" class="py-1 d-block">커뮤니티</a></li>
+													</ul>
+												</div>
+												<div class="col-md-4 mb-md-0 mb-4">
+													<h2 class="footer-heading">Resources</h2>
+													<ul class="list-unstyled">
+														<a href="https://www.youtube.com/channel/UCyIXq8G_7cphtzh3EB1zTCg/featured" target="_blank"> &origof; youtube/camper</a><br />										
+										  				<a href="https://www.pinterest.co.kr/f2project/pins" target="_blank"> &origof; pinterest/camper</a><br />									
+										  				<a href="https://www.instagram.com/teamProjectCamper" target="_blank"> &origof; instagram/camper</a><br />									
+										  				<a href="https://twitter.com/camper74625398" target="_blank"> &origof; twitter/camper</a><br />
+													</ul>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
+                    <div class="row mt-md-5">
+                        <div class="col-md-12">
+                            <p class="copyright">
+                                SINCE &Delta;
+                                <script>
+                                    document
+                                        .write(new Date().getFullYear() - 33);
+                                </script>
+                                <span style="color: white">CAMPER</span>는 언제나 열려 있습니다 <i class="ion-ios-heart"
+                                    aria-hidden="true"></i><br />
+                                <li>(153-759) 서울시 금천구 가산동 426-5 월드메르디앙 2차</li>
+                                <li>&phone; 02-2025-8523</li>
+                                <li><span class="fa fa-envelope-open-o"> CAMPER@camper.or.kr</span></li>
+                                <li>&copy; 한국소프트웨어인재개발원</li>
+                            </p>
+                        </div>
+                    </div>
 						</div>
-					</div>
-					<div class="row mt-md-5">
-						<div class="col-md-12">
-							<p class="copyright">
-								Link back to Colorlib can't be removed. Template is licensed
-								under CC BY 3.0. Copyright &copy;
-								<script>
-									document.write(new Date().getFullYear());
-								</script>
-								All rights reserved | This template is made with <i
-									class="ion-ios-heart" aria-hidden="true"></i> by <a
-									href="https://colorlib.com" target="_blank">Colorlib.com</a>
-								Link back to Colorlib can't be removed. Template is licensed
-								under CC BY 3.0.
-							</p>
+						<div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
+							<h2 class="footer-heading">무엇이든 물어보세요!<br />Q&amp;A</h2>
+							<form action="sendMail" class="contact-form" name="contact-form" method="post">
+								<div class="form-group">
+									<input type="email" class="form-control" id="emailEmail" name="emailEmail" placeholder="Your Email">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Subject">
+								</div>
+								<div class="form-group">
+									<textarea name="emailMessage" id="emailMessage" cols=100% rows=10% class="form-control" name="emailMessage" placeholder="Message"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="form-control submit px-3">보내기</button>									
+								</div>								
+							</form>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
-					<h2 class="footer-heading">Request A Quote</h2>
-					<form action="#" class="contact-form">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Name">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Email">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Subject">
-						</div>
-						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
-						</div>
-						<div class="form-group">
-							<button type="submit" class="form-control submit px-3">Send</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</footer>
+			</footer>
 
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen">
