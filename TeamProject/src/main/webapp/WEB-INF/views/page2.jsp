@@ -217,7 +217,7 @@ hr {
 		<hr>
 
 		<h3 id="campinfo">캠핑장 배치도</h3>
-		<img src="/myapp/resources/images/page2-1.png" alt="1" width="500" height="400">
+		<img src="$/myapp/resources/images/page2-1.png" alt="1" width="500" height="400">
 		<hr>
 
 		<h3 id="pikinfo">캠핑장 전경</h3>
@@ -345,7 +345,6 @@ hr {
 							</div>
 						</div>
 					</div>
-
 					<div class="col-md-4 ftco-animate">
 						<div class="work img d-flex align-items-end" style="background-image: url(${path }/resources/images/store4.jpg)">
 							<a href="resources/images/store4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
@@ -492,8 +491,7 @@ hr {
                             <p class="copyright">
                                 SINCE &Delta;
                                 <script>
-                                    document
-                                        .write(new Date().getFullYear() - 33);
+                                    document.write(new Date().getFullYear() - 33);
                                 </script>
                                 <span style="color: white">CAMPER</span>는 언제나 열려 있습니다 <i class="ion-ios-heart"
                                     aria-hidden="true"></i><br />
